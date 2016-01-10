@@ -1,0 +1,21 @@
+INFO : ------------------------------------------
+INFO : Date =>2016-01-05 18:27:12
+INFO : Remote Address =>43.229.104.10
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updateTransactionMessageInfo.php
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-05 18:27:12
+INFO : Remote Address =>43.229.104.10
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updateTransactionMessageInfo.php
+INFO : Type of Request =>POST
+INFO : data for gcmAndroidRef***==>Android
+INFO : ****message inserted****
+INFO : inside push Android mobile numberAPA91bEbzPUx_kXMaTSjN2TCD_COKEb96c-cAKsn5MzdNTZpulelqfo-M0W3KGZxkt_yvRvliDxeWen-1Qd-9p8L7BZI4wN2xstN5Dy6LWOAg5P1QhuJiRfzrdN9qim4WR2ayQ5BPbCZ
+INFO : inside push Android mobile number before gcm
+INFO : ------------------------------------------
+INFO : Date =>2016-01-05 18:27:12
+INFO : Remote Address =>43.229.104.10
+Result+{"multicast_id":7391694004177826555,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1451998632207912%1927fc30f9fd7ecd"}]} 
+INFO : inside push Android mobile number after gcm
+INFO : result

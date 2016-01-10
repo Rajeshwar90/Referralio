@@ -1,0 +1,260 @@
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 10:55:10
+INFO : Remote Address =>106.206.142.137
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 10:55:10
+INFO : Remote Address =>106.206.142.137
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with7483279901pass11111passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '7483279901' AND BINARY Doctor_password = md5('11111') and type_value='hospital_user' and Doctor_unregistered='False' LIMIT 1=>row cnt=>0
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Failed","msg":"Login Failure"}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:44:18
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:44:18
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with9591961429pass11111passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '9591961429' AND BINARY Doctor_password = md5('11111') and type_value='hospital_user' and Doctor_unregistered='False' LIMIT 1=>row cnt=>1
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"130","Doctor_name":"Aditya","Doctor_dob":"","Doctor_email":"Adityabaliga47@gmail.com","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"","Doctor_mobile_number":"9591961429","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"5","license_number":"","visibility":"0","my_type":"","country_code":"","type_value":"hospital_user","Doctor_login_enc_key":"yii33rd7realj7tc","Doctor_unregistered":"False","reset_key":null}}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:44:19
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:44:19
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : Calling REGISTER_GCM for doctor
+INFO : login withyii33rd7realj7tclogin_id130mobile-OSAndroid
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message from GCM server"}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:44:19
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:44:19
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login withyii33rd7realj7tclogin_id130
+INFO : get clients queryselect doctor_name,temp1.* from doctor_stub ds inner join (SELECT mapping_hospital_user_id,mapping_id,patient_stub_id,sales_view_flag,rm.timestamp as time, Patient_thread_id, Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id FROM `referral_mapping_patient_stub` rm inner join patient_stub ps on rm.patient_stub_id=ps.Patient_thread_id  where rm.mapping_hospital_user_id='130' order by rm.timestamp DESC)as temp1 on ds.Doctor_serial_id=temp1.Reg_by_doc
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Success","msg":"Patients Not available"}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:47:30
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:47:30
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login withyii33rd7realj7tclogin_id130
+INFO : get clients queryselect doctor_name,temp1.* from doctor_stub ds inner join (SELECT mapping_hospital_user_id,mapping_id,patient_stub_id,sales_view_flag,rm.timestamp as time, Patient_thread_id, Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id FROM `referral_mapping_patient_stub` rm inner join patient_stub ps on rm.patient_stub_id=ps.Patient_thread_id  where rm.mapping_hospital_user_id='130' order by rm.timestamp DESC)as temp1 on ds.Doctor_serial_id=temp1.Reg_by_doc
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Client Patients available","Pat_list":[{"doctor_name":"Shashi","mapping_hospital_user_id":"130","mapping_id":"13","patient_stub_id":"238","sales_view_flag":"0","time":"2015-10-22 08:17:29","Patient_thread_id":"238","Patient_Name":"aditya test","Patient_Age":"15","Patient_Gender":"Male","Patient_Location":"Mangalore","Patient_mobile_number":"9591961429","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"2","Patient_defined_notes":"Note","doc_ref_id":"56"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:48:00
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:48:00
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withyii33rd7realj7tclogin_id130pat_thrd_id238doc_idtest130
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Failure","msg":"Message is empty and new conversation"}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:48:05
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:48:05
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withyii33rd7realj7tclogin_id130pat_thrd_id238doc_idtest130
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Failure","msg":"Message is empty and new conversation"}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:49:02
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:49:02
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withyii33rd7realj7tclogin_id130pat_thrd_id238doc_idtest130
+INFO : doc_id doc_id130
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message is present","msg_list":[{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:02"}],"PUSHresult":""}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:49:15
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:49:15
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withyii33rd7realj7tclogin_id130pat_thrd_id238doc_idtest130
+INFO : doc_id doc_id130
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message is present","msg_list":[{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:02"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:15"}],"PUSHresult":""}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:49:36
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:49:36
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withyii33rd7realj7tclogin_id130pat_thrd_id238doc_idtest130
+INFO : doc_id doc_id130
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message is present","msg_list":[{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:02"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:15"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:36"}],"PUSHresult":""}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:49:46
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:49:46
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withyii33rd7realj7tclogin_id130pat_thrd_id238doc_idtest130
+INFO : doc_id doc_id130
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message is present","msg_list":[{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:02"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:15"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:36"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:46"}],"PUSHresult":""}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:49:56
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:49:56
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withyii33rd7realj7tclogin_id130pat_thrd_id238doc_idtest130
+INFO : doc_id doc_id130
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message is present","msg_list":[{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:02"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:15"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:36"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:46"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:56"}],"PUSHresult":""}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:51:56
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:51:56
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withyii33rd7realj7tclogin_id130pat_thrd_id238doc_idtest130
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Failure","msg":"Message is empty","msg_list":[{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:02"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:15"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:36"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:46"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:56"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:53:21
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:53:21
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withyii33rd7realj7tclogin_id130pat_thrd_id238doc_idtest130
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Failure","msg":"Message is empty","msg_list":[{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:02"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:15"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:36"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:46"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:56"},{"message":"thx ","doc_id":"56","Doctor_name":"Shashi","timestamp":"2015-10-22 08:23:20"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:56:21
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 17:56:21
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withyii33rd7realj7tclogin_id130pat_thrd_id238doc_idtest130
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Failure","msg":"Message is empty","msg_list":[{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:02"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:15"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:36"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:46"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:56"},{"message":"thx ","doc_id":"56","Doctor_name":"Shashi","timestamp":"2015-10-22 08:23:20"},{"message":"surgery done  ","doc_id":"2","Doctor_name":"Raksha Pai","timestamp":"2015-10-22 08:26:20"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 18:00:20
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 18:00:20
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withyii33rd7realj7tclogin_id130pat_thrd_id238doc_idtest130
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Failure","msg":"Message is empty","msg_list":[{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:02"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:15"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:36"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:46"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:56"},{"message":"thx ","doc_id":"56","Doctor_name":"Shashi","timestamp":"2015-10-22 08:23:20"},{"message":"surgery done  ","doc_id":"2","Doctor_name":"Raksha Pai","timestamp":"2015-10-22 08:26:20"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 18:10:53
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 18:10:53
+INFO : Remote Address =>122.179.92.39
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login withyii33rd7realj7tclogin_id130
+INFO : get clients queryselect doctor_name,temp1.* from doctor_stub ds inner join (SELECT mapping_hospital_user_id,mapping_id,patient_stub_id,sales_view_flag,rm.timestamp as time, Patient_thread_id, Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id FROM `referral_mapping_patient_stub` rm inner join patient_stub ps on rm.patient_stub_id=ps.Patient_thread_id  where rm.mapping_hospital_user_id='130' order by rm.timestamp DESC)as temp1 on ds.Doctor_serial_id=temp1.Reg_by_doc
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Client Patients available","Pat_list":[{"doctor_name":"Shashi","mapping_hospital_user_id":"130","mapping_id":"13","patient_stub_id":"238","sales_view_flag":"1","time":"2015-10-22 08:17:29","Patient_thread_id":"238","Patient_Name":"aditya test","Patient_Age":"15","Patient_Gender":"Male","Patient_Location":"Mangalore","Patient_mobile_number":"9591961429","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"2","Patient_defined_notes":"Note","doc_ref_id":"56"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 23:44:19
+INFO : Remote Address =>106.51.134.188
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-22 23:44:19
+INFO : Remote Address =>106.51.134.188
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with7276698941passtest1passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '7276698941' AND BINARY Doctor_password = md5('test1') and type_value='hospital_user' and Doctor_unregistered='False' LIMIT 1=>row cnt=>0
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Failed","msg":"Login Failure"}

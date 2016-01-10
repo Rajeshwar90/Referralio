@@ -1,0 +1,30 @@
+/* CSS template */
+
+body {
+	margin:0;
+	padding:0;
+	background-color:#ccc;
+	color:#000;
+	font: 0.8em/2.0em Arial, "MS Trebuchet", sans-serif;
+	text-align:center;
+}
+label {
+	display:block;
+	padding-bottom:3px;
+}
+
+
+#container { 
+	background-color:#fff;
+	border:3px solid #eee;
+	margin:50px auto 0;
+	padding:20px;
+	width:480px;
+	text-align:left;
+}
+#uploadcontainer { 
+	padding:0;
+	padding:20px;
+	text-align:left;
+}
+

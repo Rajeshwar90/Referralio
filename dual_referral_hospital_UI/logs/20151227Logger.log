@@ -1,0 +1,23 @@
+INFO : ------------------------------------------
+INFO : Date =>2015-12-27 04:17:30
+INFO : Remote Address =>66.249.71.94
+INFO : ------------------------------------------
+INFO : Date =>2015-12-27 04:17:30
+INFO : Remote Address =>66.249.71.94
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updaterefdoc.php
+INFO : Type of Request =>GET
+INFO : before post
+INFO : received post
+INFO : ------------------------------------------
+INFO : Date =>2015-12-27 04:18:24
+INFO : Remote Address =>66.249.71.94
+INFO : ------------------------------------------
+INFO : Date =>2015-12-27 04:18:24
+INFO : Remote Address =>66.249.71.94
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_mobile_msg.php
+INFO : Type of Request =>GET
+INFO : doctor_req name
+INFO : refer in count0
+INFO : hospital name

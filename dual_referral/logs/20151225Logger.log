@@ -1,0 +1,439 @@
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 00:05:30
+INFO : Remote Address =>223.227.241.176
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 00:05:30
+INFO : Remote Address =>223.227.241.176
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with9783oodktxzm610ylogin_id302
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 00:21:37
+INFO : Remote Address =>223.227.241.176
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 00:21:37
+INFO : Remote Address =>223.227.241.176
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with9783oodktxzm610ylogin_id302
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 00:27:16
+INFO : Remote Address =>223.227.241.176
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 00:27:16
+INFO : Remote Address =>223.227.241.176
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with9783oodktxzm610ylogin_id302
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 04:17:44
+INFO : Remote Address =>223.227.241.176
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 04:17:44
+INFO : Remote Address =>223.227.241.176
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with9783oodktxzm610ylogin_id302
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 04:23:18
+INFO : Remote Address =>223.227.241.176
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 04:23:18
+INFO : Remote Address =>223.227.241.176
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with9783oodktxzm610ylogin_id302
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:02:19
+INFO : Remote Address =>1.39.61.244
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:02:19
+INFO : Remote Address =>1.39.61.244
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : Calling REFER_IN_RESPONSE_HOS for doctor
+INFO : login with8s1i6kdlpgkci1d4login_id312
+select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization, ds.Doctor_qualification, ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_yxp IN (SELECT refer_by_hos_id FROM `hospital_refer_in_doctor_stub` where doc_stub_id='312' )and ds.type_value='hospital' UNION select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization,ds.Doctor_qualification,ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_serial_id in(Select personal_list_doc_id from doctor_personal_list where doc_id='312') 
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Success","msg":"Hospitals not available"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:08:55
+INFO : Remote Address =>1.39.60.28
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:08:55
+INFO : Remote Address =>1.39.60.28
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : Calling REFER_IN_RESPONSE_HOS for doctor
+INFO : login with8s1i6kdlpgkci1d4login_id312
+select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization, ds.Doctor_qualification, ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_yxp IN (SELECT refer_by_hos_id FROM `hospital_refer_in_doctor_stub` where doc_stub_id='312' )and ds.type_value='hospital' UNION select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization,ds.Doctor_qualification,ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_serial_id in(Select personal_list_doc_id from doctor_personal_list where doc_id='312') 
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Success","msg":"Hospitals not available"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:08:57
+INFO : Remote Address =>1.39.60.28
+INFO : PHP Scritp Name =>/dual_referral/GET_BROADCAST_MSGS
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:08:57
+INFO : Remote Address =>1.39.60.28
+INFO : PHP Scritp Name =>/dual_referral/GET_BROADCAST_MSGS
+INFO : Type of Request =>POST
+INFO : Calling GET_BROADCAST_MSGS for doctor
+INFO : login with8s1i6kdlpgkci1d4login_id312hospital_id
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Messages available","Msg_list":[{"broadcast_id":"87","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-12-21 05:29:39"},{"broadcast_id":"86","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-12-20 08:34:32"},{"broadcast_id":"85","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-12-14 22:33:45"},{"broadcast_id":"84","message_title":"ReferraliO","message_content":"CME","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-12-04 00:58:13"},{"broadcast_id":"83","message_title":"ReferraliO","message_content":"CEOs message","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-11-26 06:51:49"},{"broadcast_id":"82","message_title":"ReferraliO","message_content":"CEOs message","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-11-26 04:56:00"},{"broadcast_id":"81","message_title":"ReferraliO","message_content":"TV9 talk today","doctor_id":"0","hospital_id_author":"12","hospital_name":"Dr. Ranjan Shetty, Cardiologist, Kasturba Hospital","read_flag":"read","datetime":"2015-11-25 06:22:50"},{"broadcast_id":"80","message_title":"ReferraliO","message_content":"Sandhya testing","doctor_id":"0","hospital_id_author":"13","hospital_name":"Dr. Pratap Kumar, MARC ","read_flag":"read","datetime":"2015-11-25 05:16:41"},{"broadcast_id":"79","message_title":"ReferraliO","message_content":"test","doctor_id":"0","hospital_id_author":"12","hospital_name":"Dr. Ranjan Shetty, Cardiologist, Kasturba Hospital","read_flag":"read","datetime":"2015-11-25 03:01:58"},{"broadcast_id":"78","message_title":"ReferraliO","message_content":"test","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-11-25 00:55:44"},{"broadcast_id":"77","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-11-22 10:26:27"},{"broadcast_id":"76","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-11-17 19:36:17"},{"broadcast_id":"75","message_title":"ReferraliO","message_content":"Cancer care added","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-11-17 00:44:44"},{"broadcast_id":"74","message_title":"ReferraliO","message_content":"test","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-11-16 23:18:40"},{"broadcast_id":"73","message_title":"ReferraliO","message_content":"Test","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-11-15 13:07:23"},{"broadcast_id":"72","message_title":"ReferraliO","message_content":"Test Push. Sorry for the inconvenience","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-11-14 11:26:22"},{"broadcast_id":"71","message_title":"ReferraliO","message_content":"Test for Push.Sorry for the inconvenience.","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-11-14 11:06:08"},{"broadcast_id":"70","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-11-13 12:23:51"},{"broadcast_id":"69","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-11-13 12:23:49"},{"broadcast_id":"68","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-11-07 22:33:27"},{"broadcast_id":"67","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-10-27 06:02:08"},{"broadcast_id":"66","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-10-25 13:31:26"},{"broadcast_id":"65","message_title":"ReferraliO","message_content":"Hello All\nThank you all of you\n\n","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-10-23 01:35:02"},{"broadcast_id":"64","message_title":"ReferraliO","message_content":"Hello All\nThanks for being referring Dr.","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-10-23 01:33:52"},{"broadcast_id":"63","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-10-20 08:51:19"},{"broadcast_id":"62","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-10-19 21:34:21"},{"broadcast_id":"61","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-10-17 03:55:12"},{"broadcast_id":"60","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-10-14 03:21:07"},{"broadcast_id":"59","message_title":"ReferraliO","message_content":"Thanks for registering in the app","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-10-12 02:41:47"},{"broadcast_id":"58","message_title":"ReferraliO","message_content":"Happy WHD","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-10-09 03:45:00"},{"broadcast_id":"57","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-10-09 01:13:04"},{"broadcast_id":"56","message_title":"ReferraliO","message_content":"New surgery done","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-10-07 06:33:13"},{"broadcast_id":"55","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-10-06 05:20:03"},{"broadcast_id":"54","message_title":"ReferraliO","message_content":"Thanks for being the hospital doctor","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-10-06 02:09:37"},{"broadcast_id":"53","message_title":"ReferraliO","message_content":"thx","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-10-06 01:31:31"},{"broadcast_id":"52","message_title":"ReferraliO","message_content":"test","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-10-05 22:50:51"},{"broadcast_id":"51","message_title":"ReferraliO","message_content":"Hi","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-10-05 06:58:55"},{"broadcast_id":"50","message_title":"ReferraliO","message_content":"hi","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-10-05 06:56:46"},{"broadcast_id":"49","message_title":"ReferraliO","message_content":"test","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-10-05 06:45:28"},{"broadcast_id":"48","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-10-04 15:10:52"},{"broadcast_id":"47","message_title":"ReferraliO","message_content":"Thanks for being hospital doctor","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-10-01 01:50:05"},{"broadcast_id":"46","message_title":"ReferraliO","message_content":"Thanks for being referring doctor.","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-10-01 01:49:53"},{"broadcast_id":"45","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-09-29 15:31:19"},{"broadcast_id":"44","message_title":"ReferraliO","message_content":"Thanks ","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-28 18:39:01"},{"broadcast_id":"43","message_title":"ReferraliO","message_content":"Thanks for being referring doctor","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-28 18:38:53"},{"broadcast_id":"42","message_title":"ReferraliO","message_content":"Thanks for being hospital doctors.","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-28 12:57:34"},{"broadcast_id":"41","message_title":"ReferraliO","message_content":"test","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-28 12:23:59"},{"broadcast_id":"40","message_title":"ReferraliO","message_content":"test","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-28 03:27:33"},{"broadcast_id":"39","message_title":"ReferraliO","message_content":"Thanks for being referring doctors.","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-28 02:58:29"},{"broadcast_id":"38","message_title":"ReferraliO","message_content":"Thanks for being referring doctors","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-28 02:57:55"},{"broadcast_id":"37","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-09-26 20:36:32"},{"broadcast_id":"36","message_title":"ReferraliO","message_content":"edtt","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-22 06:07:40"},{"broadcast_id":"35","message_title":"ReferraliO","message_content":"Thanks","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-22 06:06:31"},{"broadcast_id":"34","message_title":"ReferraliO","message_content":"Thanks for being the referring doctor","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-22 06:05:51"},{"broadcast_id":"33","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-09-21 01:38:04"},{"broadcast_id":"32","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-09-20 13:42:15"},{"broadcast_id":"31","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-09-19 14:15:59"},{"broadcast_id":"30","message_title":"ReferralIO","message_content":"Amyloid \u03b2, the peptide that forms amyloid plaques in the brains of people with Alzheimer\u2019s disease, may be transmissible through medical treatments such as blood products and surgical instruments, a small UK study published in Nature has shown.1\n\nResearchers working on iatrogenic Creutzfeldt-Jakob disease (iCJD) unexpectedly found four autopsy cases with moderate to severe deposition of amyloid \u03b2 in the grey matter of the brain typical of that seen in Alzheimer\u2019s disease. They also found the peptide in the blood vessel walls deposited in a way that was characteristic of cerebral amyloid angiopathy.\nCourtesy : bmj.com","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"read","datetime":"2015-09-14 03:33:41"},{"broadcast_id":"29","message_title":"ReferralIO","message_content":"Cold weather associated with higher risk of severe heart attack \nCold weather is associated with a higher risk of severe heart attack, according to research presented at ESC Congress by Dr Shuangbo Liu, adult cardiology resident at the University of Manitoba in Winnipeg, Canada. The six year study found that each 10\u00b0C drop in temperature was associated with a 7% increased risk of ST\u2013elevation myocardial infarction (STEMI), the most severe form of heart attack.\n\nCourtesy : http:\/\/www.mdlinx.com\n","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"read","datetime":"2015-09-12 03:06:11"},{"broadcast_id":"28","message_title":"ReferraliO","message_content":"Thanks for being the Hospital doctor","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-12 02:27:13"},{"broadcast_id":"27","message_title":"ReferraliO","message_content":"Thanks for being the referring doctor","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-12 02:27:01"},{"broadcast_id":"26","message_title":"ReferraliO","message_content":"Thanks for being a referring doctor.","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-11 04:04:57"},{"broadcast_id":"25","message_title":"ReferraliO","message_content":"Thanks Referring doctors","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-08 06:32:38"},{"broadcast_id":"24","message_title":"ReferraliO","message_content":"Pls share this link with all referring patients","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-07 06:58:25"},{"broadcast_id":"23","message_title":"ReferraliO","message_content":"New MRI has been introduced at Hospital","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-07 06:55:40"},{"broadcast_id":"22","message_title":"ReferraliO","message_content":"Thanks for referring patients to us.","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-07 02:07:27"},{"broadcast_id":"21","message_title":"ReferraliO","message_content":"New MRI has been introduced ","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-05 03:22:51"},{"broadcast_id":"20","message_title":"ReferraliO","message_content":"hi doc","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-05 01:25:36"},{"broadcast_id":"19","message_title":"ReferraliO","message_content":"There is a new MRI","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-05 01:22:04"},{"broadcast_id":"18","message_title":"ReferralIO","message_content":"Dear Surgeons, Now you can send all post surgery follow up instructions to the family doctor through referralio App. Here are the steps.\n1. Add the referring \/ Family doctor to your circle.\n2. Add the patient, mention instructions.\n3. This will automatically send a message to the family doctor.\n\nBest Regards, Referralio Team","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"read","datetime":"2015-09-02 06:56:28"},{"broadcast_id":"17","message_title":"ReferraliO","message_content":"test","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-02 05:27:24"},{"broadcast_id":"16","message_title":"ReferraliO","message_content":"Test Referralio","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-09-02 00:08:30"},{"broadcast_id":"8","message_title":"ReferralIO","message_content":"Referralio team would like to introduce and welcome senior Medical practitioners like Dr.Tom Devasia (Cardiology, Manipal), Dr.Rajesh Bhaktha (Fertility). Dr.Jyothsna (Dental, Bangalore), Dr. Mukhyaprana Prabhu (Medicine, Manipal), Dr.Naveen Ballal (Radiology, Udupi), Dr. Prakash Nayak (Opthalmology), Dr. Rajeev Agarwal (Fertility, Kolkata), Dr.Roshan Shetty (Cosmetics, Mangalore), Dr. Sachin (Opthalmology, Udupi), Dr. Shashikiran (Medicine, TMA Pai), Dr. Siva (Maxillofacial, Davangere)Now you can refer patients, network with the folks. Best Regards, Referralio Team.","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"read","datetime":"2015-08-31 01:31:14"},{"broadcast_id":"7","message_title":"ReferralIO","message_content":"Referralio team would like to introduce and welcome veteran Medical practitioners like Dr. Pratap (OBG, Manipal), Dr.Sundar (Nephro, Columbia Asia), Dr. Padmaraj Hegde (Uro, Manipal), Dr. Dinesh (Paediatrics, TMAPai). Now you can refer patients, network with the folks. Best Regards, Referralio Team.","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"read","datetime":"2015-08-31 01:22:54"},{"broadcast_id":"6","message_title":"ReferralIO","message_content":"Dear Doctors, follow the following steps to send Referrals.\n\n1. Goto \"Universal\" tab.\n2. Search and select the doctor and add the doctor to your circle. \n3. Such added doctors will appear in \"My Circle\".\n\nTo send a referral\n1. Goto \"My Circle\" and select the doctor to who you want to send the referral to.\n2. Press the \"+\" button on top right corner to add a patient.\n3. Enter Patient name, mobile number and mention the reason for referral.\n4. Press \"Refer Now\" button. \n\nWhen you receive a referral, you will get a push notification and also an SMS on your phone. \n1. In My Circle, press the icon on top right. \n\nIf the doctor to who you want to refer patients to, does not appear then follow following steps.\n1. Goto Universal, press on \"+\" icon which is on top.\n2. Enter the name, mobile number, patient name and mobile number and send request.\n\nIf you have any queries or need help call 1800 3000 5206 or 0091 9880130842 \n\n","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"read","datetime":"2015-08-28 03:07:53"},{"broadcast_id":"4","message_title":"ReferralIO","message_content":"Dear Doctors, Thanks for registering to receive and send referrals through Referralio. ","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"read","datetime":"2015-08-28 01:30:43"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:09:25
+INFO : Remote Address =>1.39.60.28
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:09:25
+INFO : Remote Address =>1.39.60.28
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : Calling REFER_IN_RESPONSE_HOS for doctor
+INFO : login with8s1i6kdlpgkci1d4login_id312
+select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization, ds.Doctor_qualification, ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_yxp IN (SELECT refer_by_hos_id FROM `hospital_refer_in_doctor_stub` where doc_stub_id='312' )and ds.type_value='hospital' UNION select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization,ds.Doctor_qualification,ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_serial_id in(Select personal_list_doc_id from doctor_personal_list where doc_id='312') 
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Success","msg":"Hospitals not available"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:09:28
+INFO : Remote Address =>1.39.60.28
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:09:28
+INFO : Remote Address =>1.39.60.28
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : Calling REFER_IN_RESPONSE_HOS for doctor
+INFO : login with8s1i6kdlpgkci1d4login_id312
+select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization, ds.Doctor_qualification, ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_yxp IN (SELECT refer_by_hos_id FROM `hospital_refer_in_doctor_stub` where doc_stub_id='312' )and ds.type_value='hospital' UNION select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization,ds.Doctor_qualification,ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_serial_id in(Select personal_list_doc_id from doctor_personal_list where doc_id='312') 
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Success","msg":"Hospitals not available"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:09:44
+INFO : Remote Address =>1.39.60.28
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:09:44
+INFO : Remote Address =>1.39.60.28
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with8s1i6kdlpgkci1d4login_id312
+INFO : _code......500get_status_message...Internal Server Error_content_type....application/json
+INFO : response{"status":"Failure","msg":"Doctor already added in the list"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:09:56
+INFO : Remote Address =>1.39.60.28
+INFO : PHP Scritp Name =>/dual_referral/GET_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:09:56
+INFO : Remote Address =>1.39.60.28
+INFO : PHP Scritp Name =>/dual_referral/GET_DOC
+INFO : Type of Request =>POST
+INFO : Calling get_doc for doctor
+INFO : login with8s1i6kdlpgkci1d4login_id312hospital_id17
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Doctors available","Doc_list":[{"refer_out_doc_id":"120","doctor_stub_id":"306","hospital_id":"17","refer_out_time":"2015-12-24 00:06:16","Doctor_serial_id":"306","Doctor_Title":"Dr.","Doctor_name":"International patients Columbia Asia","Doctor_dob":"44","Doctor_email":"vinay.kaul@columbiaasia.com","Doctor_specialization":"Vinay Kaul ","Doctor_qualification":"Sales and Marketing ","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore","Doctor_Address":"Bangalore","Doctor_mobile_number":"9902288771","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"20","license_number":"111","visibility":"1","my_type":"I am a doctor","country_code":"+91","type_value":"","Doctor_login_enc_key":"pb66y6wabxn7iihf","Doctor_unregistered":"False","reset_key":null},{"refer_out_doc_id":"119","doctor_stub_id":"305","hospital_id":"17","refer_out_time":"2015-12-23 23:44:41","Doctor_serial_id":"305","Doctor_Title":"Dr.","Doctor_name":"North West Columbia Asia","Doctor_dob":"35","Doctor_email":"yashpal.rawat@columbiaasia.com","Doctor_specialization":"Sales and Marketing","Doctor_qualification":"Marketing","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Haryana","Doctor_City":"Gurgaon","Doctor_Address":"Gurgaon, Gaziabad, Patiala, Ahmedabad, Pune","Doctor_mobile_number":"9818659504","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"10","license_number":"111","visibility":"1","my_type":"I am a doctor","country_code":"+91","type_value":"","Doctor_login_enc_key":"y5wau1jncy3l3hg5","Doctor_unregistered":"False","reset_key":null},{"refer_out_doc_id":"122","doctor_stub_id":"309","hospital_id":"17","refer_out_time":"2015-12-24 00:30:15","Doctor_serial_id":"309","Doctor_Title":"Dr.","Doctor_name":"Whitefield Columbia Asia","Doctor_dob":"30","Doctor_email":"faraz.ahmed@columbiaasia.com","Doctor_specialization":"Sales ","Doctor_qualification":"Sales","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Whitefield Bangalore","Doctor_Address":"Whitefield Bangalore","Doctor_mobile_number":"9591111226","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"10","license_number":"111","visibility":"1","my_type":"I am a doctor","country_code":"+91","type_value":"","Doctor_login_enc_key":"8f42sd5y6fgmllif","Doctor_unregistered":"False","reset_key":null}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:09:56
+INFO : Remote Address =>1.39.60.28
+INFO : PHP Scritp Name =>/dual_referral/GET_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 09:09:56
+INFO : Remote Address =>1.39.60.28
+INFO : PHP Scritp Name =>/dual_referral/GET_DOC
+INFO : Type of Request =>POST
+INFO : Calling get_doc for doctor
+INFO : login with8s1i6kdlpgkci1d4login_id312hospital_id17
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Doctors available","Doc_list":[{"refer_out_doc_id":"120","doctor_stub_id":"306","hospital_id":"17","refer_out_time":"2015-12-24 00:06:16","Doctor_serial_id":"306","Doctor_Title":"Dr.","Doctor_name":"International patients Columbia Asia","Doctor_dob":"44","Doctor_email":"vinay.kaul@columbiaasia.com","Doctor_specialization":"Vinay Kaul ","Doctor_qualification":"Sales and Marketing ","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore","Doctor_Address":"Bangalore","Doctor_mobile_number":"9902288771","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"20","license_number":"111","visibility":"1","my_type":"I am a doctor","country_code":"+91","type_value":"","Doctor_login_enc_key":"pb66y6wabxn7iihf","Doctor_unregistered":"False","reset_key":null},{"refer_out_doc_id":"119","doctor_stub_id":"305","hospital_id":"17","refer_out_time":"2015-12-23 23:44:41","Doctor_serial_id":"305","Doctor_Title":"Dr.","Doctor_name":"North West Columbia Asia","Doctor_dob":"35","Doctor_email":"yashpal.rawat@columbiaasia.com","Doctor_specialization":"Sales and Marketing","Doctor_qualification":"Marketing","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Haryana","Doctor_City":"Gurgaon","Doctor_Address":"Gurgaon, Gaziabad, Patiala, Ahmedabad, Pune","Doctor_mobile_number":"9818659504","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"10","license_number":"111","visibility":"1","my_type":"I am a doctor","country_code":"+91","type_value":"","Doctor_login_enc_key":"y5wau1jncy3l3hg5","Doctor_unregistered":"False","reset_key":null},{"refer_out_doc_id":"122","doctor_stub_id":"309","hospital_id":"17","refer_out_time":"2015-12-24 00:30:15","Doctor_serial_id":"309","Doctor_Title":"Dr.","Doctor_name":"Whitefield Columbia Asia","Doctor_dob":"30","Doctor_email":"faraz.ahmed@columbiaasia.com","Doctor_specialization":"Sales ","Doctor_qualification":"Sales","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Whitefield Bangalore","Doctor_Address":"Whitefield Bangalore","Doctor_mobile_number":"9591111226","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"10","license_number":"111","visibility":"1","my_type":"I am a doctor","country_code":"+91","type_value":"","Doctor_login_enc_key":"8f42sd5y6fgmllif","Doctor_unregistered":"False","reset_key":null}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 14:36:07
+INFO : Remote Address =>116.202.73.246
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 14:36:07
+INFO : Remote Address =>116.202.73.246
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 15:02:38
+INFO : Remote Address =>116.202.73.246
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 15:02:38
+INFO : Remote Address =>116.202.73.246
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 15:39:10
+INFO : Remote Address =>59.88.198.173
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 15:39:10
+INFO : Remote Address =>59.88.198.173
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with9783oodktxzm610ylogin_id302
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 15:40:53
+INFO : Remote Address =>59.88.198.173
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 15:40:53
+INFO : Remote Address =>59.88.198.173
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with9783oodktxzm610ylogin_id302
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 16:58:12
+INFO : Remote Address =>106.197.150.221
+INFO : PHP Scritp Name =>/dual_referral/LOGIN_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 16:58:12
+INFO : Remote Address =>106.197.150.221
+INFO : PHP Scritp Name =>/dual_referral/LOGIN_DOC
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_DOC for doctor
+INFO : login with9880130842pass11111
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"2","Doctor_Title":"Dr.","Doctor_name":"Shashi","Doctor_dob":"2\/7\/1979","Doctor_email":"pai.shashidhar@gmail.com","Doctor_specialization":"cardio thoracic surgery","Doctor_qualification":"MBBS, MD","Doctor_HospitalName":"DEMO HOSPITAL","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"Manipal","Doctor_mobile_number":"9880130842","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"15","license_number":"11111","visibility":"1","my_type":"","country_code":"","type_value":"","Doctor_login_enc_key":"5cittcde06af3ax7","Doctor_unregistered":"False","reset_key":"8d830zen2d2"}}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 16:58:12
+INFO : Remote Address =>106.197.150.221
+INFO : PHP Scritp Name =>/dual_referral/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 16:58:12
+INFO : Remote Address =>106.197.150.221
+INFO : PHP Scritp Name =>/dual_referral/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : Calling REGISTER_GCM for doctor
+INFO : login with5cittcde06af3ax7login_id2mobile-OSIOS
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message from GCM server"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 16:58:12
+INFO : Remote Address =>106.197.150.221
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 16:58:12
+INFO : Remote Address =>106.197.150.221
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : Calling REFER_IN_RESPONSE_HOS for doctor
+INFO : login with5cittcde06af3ax7login_id2
+select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization, ds.Doctor_qualification, ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_yxp IN (SELECT refer_by_hos_id FROM `hospital_refer_in_doctor_stub` where doc_stub_id='2' )and ds.type_value='hospital' UNION select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization,ds.Doctor_qualification,ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_serial_id in(Select personal_list_doc_id from doctor_personal_list where doc_id='2') 
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Hospitals available","Hos_list":[{"Doctor_serial_id":"26","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Referralio","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"India","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"5","type_value":"hospital"},{"Doctor_serial_id":"156","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Dr. Ranjan Shetty, Cardiologist, Kasturba Hospital","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Manipal","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"12","type_value":"hospital"},{"Doctor_serial_id":"158","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Dr. Pratap Kumar, MARC ","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Manipal","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"13","type_value":"hospital"},{"Doctor_serial_id":"249","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Global Hospital","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Hyderabad","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"14","type_value":"hospital"},{"Doctor_serial_id":"279","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Bangalore","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"15","type_value":"hospital"},{"Doctor_serial_id":"304","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"India","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"17","type_value":"hospital"},{"Doctor_serial_id":"56","Doctor_name":"Raksha Pai","Doctor_dob":"1985-10-15","Doctor_email":"raksha.pai.nayak@gmail.com","Doctor_specialization":"Cardiology","Doctor_qualification":"MBBS MD","Doctor_HospitalName":"Referralio","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Udupi","Doctor_Address":"Udupi","Doctor_mobile_number":"9901427893","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"68","Doctor_name":"sachin","Doctor_dob":"11\/9\/2015","Doctor_email":"sachin.checkin@gmail.com","Doctor_specialization":"Cardiology","Doctor_qualification":"mbbs","Doctor_HospitalName":"demo","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"manipal","Doctor_mobile_number":"7026646022","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"94","Doctor_name":"mangalore KMC Manipal Hospital","Doctor_dob":"38","Doctor_email":"surendra.prasad@manipalhospitals.com","Doctor_specialization":"CARDIO THORACIC SURGERY,","Doctor_qualification":"md","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"kmc","Doctor_mobile_number":"9845222257","Doctor_photograph":"account_image.png","Doctor_yxp":"13","type_value":""},{"Doctor_serial_id":"250","Doctor_name":"Global Hospital","Doctor_dob":"40","Doctor_email":"keyur.patel@globalhospitalsindia.com","Doctor_specialization":"INTERNAL MEDICINE","Doctor_qualification":"MBBS MD","Doctor_HospitalName":"Global Hospital","Doctor_Country":"India","Doctor_State":"Thelangana","Doctor_City":"Hyderabad","Doctor_Address":"Hyderabad","Doctor_mobile_number":"8897509043","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"281","Doctor_name":"Salem Manipal Hospitals","Doctor_dob":"30","Doctor_email":"jashva@manipalhospitals.com","Doctor_specialization":"Marketing Team","Doctor_qualification":"MBA ","Doctor_HospitalName":"Manipal Hospital salem","Doctor_Country":"India","Doctor_State":"TamilNadu","Doctor_City":"Salem","Doctor_Address":"Manipal Hospitals, Salem","Doctor_mobile_number":"9629599933","Doctor_photograph":"+919629599933.png","Doctor_yxp":"09","type_value":""},{"Doctor_serial_id":"285","Doctor_name":"Bangalore Old Airport Road Manipal Hospital","Doctor_dob":"30","Doctor_email":"Subhashit.m@manipalhospitals.com","Doctor_specialization":"Marketing Team","Doctor_qualification":"Marketing","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore Old Airport Road","Doctor_Address":"Bangalore Old Airport Road","Doctor_mobile_number":"9886371559","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"288","Doctor_name":"Vijaywada Manipal Hospitals","Doctor_dob":"30","Doctor_email":"Somashekar.c@manipalhospitals.com","Doctor_specialization":"Marketing Team","Doctor_qualification":"Marketing","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"India","Doctor_State":"Andhra Pradesh","Doctor_City":"Vijayawada","Doctor_Address":"Vijayawada","Doctor_mobile_number":"9880480816","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"293","Doctor_name":"Paramjit Singh","Doctor_dob":"30","Doctor_email":"psluddu@gmail.com","Doctor_specialization":"Referralio Marketing","Doctor_qualification":"M Pharma","Doctor_HospitalName":"Referralio","Doctor_Country":"India","Doctor_State":"Delhi","Doctor_City":"Delhi","Doctor_Address":"Delhi","Doctor_mobile_number":"9900911637","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"305","Doctor_name":"North West Columbia Asia","Doctor_dob":"35","Doctor_email":"yashpal.rawat@columbiaasia.com","Doctor_specialization":"Sales and Marketing","Doctor_qualification":"Marketing","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Haryana","Doctor_City":"Gurgaon","Doctor_Address":"Gurgaon, Gaziabad, Patiala, Ahmedabad, Pune","Doctor_mobile_number":"9818659504","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"306","Doctor_name":"International patients Columbia Asia","Doctor_dob":"44","Doctor_email":"vinay.kaul@columbiaasia.com","Doctor_specialization":"Vinay Kaul ","Doctor_qualification":"Sales and Marketing ","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore","Doctor_Address":"Bangalore","Doctor_mobile_number":"9902288771","Doctor_photograph":"account_image.png","Doctor_yxp":"20","type_value":""}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 20:12:03
+INFO : Remote Address =>183.62.104.158
+INFO : PHP Scritp Name =>/dual_referral/RESET_PASS
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 20:12:03
+INFO : Remote Address =>183.62.104.158
+INFO : PHP Scritp Name =>/dual_referral/RESET_PASS
+INFO : Type of Request =>POST
+INFO : Calling RESET_PASS for doctor
+INFO : reset with09727emailhofxc
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Failed","msg":"No such records found in database"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 20:12:05
+INFO : Remote Address =>183.62.104.158
+INFO : PHP Scritp Name =>/dual_referral/RESET_PASS
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 20:12:05
+INFO : Remote Address =>183.62.104.158
+INFO : PHP Scritp Name =>/dual_referral/RESET_PASS
+INFO : Type of Request =>POST
+INFO : Calling RESET_PASS for doctor
+INFO : reset with09727emailhofxc
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Failed","msg":"No such records found in database"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 20:12:06
+INFO : Remote Address =>183.62.104.158
+INFO : PHP Scritp Name =>/dual_referral/RESET_PASS
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 20:12:06
+INFO : Remote Address =>183.62.104.158
+INFO : PHP Scritp Name =>/dual_referral/RESET_PASS
+INFO : Type of Request =>POST
+INFO : Calling RESET_PASS for doctor
+INFO : reset with09727emailhofxc
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Failed","msg":"No such records found in database"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 22:21:57
+INFO : Remote Address =>59.88.198.173
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 22:21:57
+INFO : Remote Address =>59.88.198.173
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with9783oodktxzm610ylogin_id302
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 22:23:27
+INFO : Remote Address =>59.88.198.173
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 22:23:27
+INFO : Remote Address =>59.88.198.173
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with9783oodktxzm610ylogin_id302
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 22:29:28
+INFO : Remote Address =>223.227.133.58
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 22:29:28
+INFO : Remote Address =>223.227.133.58
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with9783oodktxzm610ylogin_id302
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 23:05:28
+INFO : Remote Address =>59.88.198.173
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 23:05:28
+INFO : Remote Address =>59.88.198.173
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with9783oodktxzm610ylogin_id302
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 23:07:35
+INFO : Remote Address =>59.88.198.173
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 23:07:35
+INFO : Remote Address =>59.88.198.173
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with9783oodktxzm610ylogin_id302
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 23:36:58
+INFO : Remote Address =>116.202.138.84
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 23:36:58
+INFO : Remote Address =>116.202.138.84
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 23:39:16
+INFO : Remote Address =>116.202.138.84
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 23:39:16
+INFO : Remote Address =>116.202.138.84
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 23:46:09
+INFO : Remote Address =>116.202.138.84
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-25 23:46:09
+INFO : Remote Address =>116.202.138.84
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}

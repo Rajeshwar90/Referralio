@@ -1,0 +1,4 @@
+[04-Jul-2015 00:07:08 Asia/Kolkata] PHP Fatal error:  Call to undefined function http_get() in /home/mavericks101/public_html/chottu.org/dual_referral/msg_mob_doc.php on line 94
+[05-Jul-2015 11:55:56 Asia/Kolkata] PHP Fatal error:  Call to undefined function send_email() in /home/mavericks101/public_html/chottu.org/dual_referral/reset_password.php on line 221
+[05-Jul-2015 12:02:47 Asia/Kolkata] PHP Fatal error:  Call to undefined function send_email() in /home/mavericks101/public_html/chottu.org/dual_referral/reset_password.php on line 221
+[05-Jul-2015 12:04:53 Asia/Kolkata] PHP Fatal error:  Call to undefined function send_email() in /home/mavericks101/public_html/chottu.org/dual_referral/reset_password.php on line 221

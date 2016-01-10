@@ -1,0 +1,87 @@
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 00:07:36
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 00:07:36
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with8050745242pass80507passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '8050745242' AND BINARY Doctor_password = md5('80507') and type_value='hospital_user' and Doctor_unregistered='False' LIMIT 1=>row cnt=>1
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"325","Doctor_Title":"Mr.","Doctor_name":"Satyanarayana","Doctor_dob":"","Doctor_email":"satyanarayan.s@columbiaasia.com","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"","Doctor_mobile_number":"8050745242","Doctor_password":"0130769689fc487f3a17c0535d859cd9","Doctor_photograph":"account_image.png","Doctor_yxp":"19","license_number":"","visibility":"0","my_type":"","country_code":"","type_value":"hospital_user","Doctor_login_enc_key":"rdb004mm0k8zh6di","Doctor_unregistered":"False","reset_key":null}}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 00:07:37
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 00:07:37
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : Calling REGISTER_GCM for doctor
+INFO : login withrdb004mm0k8zh6dilogin_id325mobile-OSAndroid
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message from GCM server"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 00:07:37
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 00:07:37
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login withrdb004mm0k8zh6dilogin_id325
+INFO : get clients queryselect doctor_name,temp1.* from doctor_stub ds inner join (SELECT mapping_hospital_user_id,mapping_id,patient_stub_id,sales_view_flag,rm.timestamp as time, Patient_thread_id, Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id FROM `referral_mapping_patient_stub` rm inner join patient_stub ps on rm.patient_stub_id=ps.Patient_thread_id  where rm.mapping_hospital_user_id='325' order by rm.timestamp DESC)as temp1 on ds.Doctor_serial_id=temp1.Reg_by_doc
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Success","msg":"Patients Not available"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 00:07:45
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 00:07:45
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login withrdb004mm0k8zh6dilogin_id325
+INFO : get clients queryselect doctor_name,temp1.* from doctor_stub ds inner join (SELECT mapping_hospital_user_id,mapping_id,patient_stub_id,sales_view_flag,rm.timestamp as time, Patient_thread_id, Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id FROM `referral_mapping_patient_stub` rm inner join patient_stub ps on rm.patient_stub_id=ps.Patient_thread_id  where rm.mapping_hospital_user_id='325' order by rm.timestamp DESC)as temp1 on ds.Doctor_serial_id=temp1.Reg_by_doc
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Success","msg":"Patients Not available"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 00:07:53
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 00:07:53
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login withrdb004mm0k8zh6dilogin_id325
+INFO : get clients queryselect doctor_name,temp1.* from doctor_stub ds inner join (SELECT mapping_hospital_user_id,mapping_id,patient_stub_id,sales_view_flag,rm.timestamp as time, Patient_thread_id, Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id FROM `referral_mapping_patient_stub` rm inner join patient_stub ps on rm.patient_stub_id=ps.Patient_thread_id  where rm.mapping_hospital_user_id='325' order by rm.timestamp DESC)as temp1 on ds.Doctor_serial_id=temp1.Reg_by_doc
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Success","msg":"Patients Not available"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 08:10:03
+INFO : Remote Address =>223.227.20.46
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 08:10:03
+INFO : Remote Address =>223.227.20.46
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with7026646022pass11111passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '7026646022' AND BINARY Doctor_password = md5('11111') and type_value='hospital_user' and Doctor_unregistered='False' LIMIT 1=>row cnt=>0
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Failed","msg":"Login Failure"}

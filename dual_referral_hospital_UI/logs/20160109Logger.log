@@ -1,0 +1,71 @@
+INFO : ------------------------------------------
+INFO : Date =>2016-01-09 10:39:23
+INFO : Remote Address =>180.151.248.178
+INFO : ------------------------------------------
+INFO : Date =>2016-01-09 10:39:23
+INFO : Remote Address =>180.151.248.178
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updaterefdoc.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO : ------------------------------------------
+INFO : Date =>2016-01-09 11:07:26
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '631')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id
+INFO : ------------------------------------------
+INFO : Date =>2016-01-09 11:08:34
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '632')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id
+INFO : ------------------------------------------
+INFO : Date =>2016-01-09 12:16:49
+INFO : Remote Address =>103.230.222.86
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/hospital_user_registration_UI.php
+INFO : Type of Request =>POST
+INFO : insert query=>insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,type_value,country_code) values('Mr.','Kiran','','kiran.p@COLUMBIAASIA.COM','','','','','','','','9886111275',md5('11275'),'account_image.png','22','','0','hospital_user','')
+INFO : ------------------------------------------
+INFO : Date =>2016-01-09 17:08:07
+INFO : Remote Address =>149.202.49.23
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/hospital_user_registration_UI.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-09 19:20:51
+INFO : Remote Address =>123.201.198.125
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9743292723
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','Sachin Pandey','45','sachin.pandey@gmail.com','CARDIO VASCULAR SURGERY','MBBS','Medisense','India','Karnataka','Udupi','23 udupi lane mahalunge','9743292723',md5('sachin123'),'account_image.png','5','MH234','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMedisense - Your username is 9743292723 and password is sachin123 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-09 20:58:20
+INFO : Remote Address =>27.61.46.220
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>5ref_doc_id==>275
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count0
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Sudhakar Katpady','45','Male','Katpady','9880330914','Radiation therapy','5','Radiation therapy','275',5,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>635
+INFO : get count hospital_id =>1
+INFO : hospital_id =>5
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='5' and referring_doctor_id='5'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-09 20:58:21
+INFO : Remote Address =>27.61.46.220
+Result+{"multicast_id":5807009195375541122,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]} 

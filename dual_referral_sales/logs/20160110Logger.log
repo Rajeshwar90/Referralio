@@ -1,0 +1,254 @@
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:56:56
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:56:56
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login withuct81wia2437jw7glogin_id353
+INFO : _code......203get_status_message...Non-Authoritative Information_content_type....application/json
+INFO : response{"status":"Failed","msg":"Basic authentication failed"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:57:22
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:57:22
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with7276698941passtest1passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '7276698941' AND BINARY Doctor_password = md5('test1') and type_value like '%hospital_user%' and Doctor_unregistered='False' LIMIT 1=>row cnt=>0
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Failed","msg":"Login Failure"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:57:36
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:57:36
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with9620903650pass11111passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '9620903650' AND BINARY Doctor_password = md5('11111') and type_value like '%hospital_user%' and Doctor_unregistered='False' LIMIT 1=>row cnt=>1
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"333","Doctor_Title":"Mr.","Doctor_name":"Fatima Solapure","Doctor_dob":"","Doctor_email":"testsolapur@gmail.com","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"","Doctor_mobile_number":"9620903650","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"18","license_number":"","visibility":"0","my_type":"","country_code":"","type_value":"hospital_user","Doctor_login_enc_key":"dq0wqvuq58e98z8a","Doctor_unregistered":"False","reset_key":null}}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:57:36
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:57:36
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : Calling REGISTER_GCM for doctor
+INFO : login withdq0wqvuq58e98z8alogin_id333mobile-OSAndroid
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message from GCM server"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:57:37
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:57:37
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login withdq0wqvuq58e98z8alogin_id333
+INFO : type valuehospital_user
+INFO : get clients queryselect doctor_name,temp1.* from doctor_stub ds inner join (SELECT mapping_hospital_user_id,mapping_id,patient_stub_id,sales_view_flag,rm.timestamp as time, Patient_thread_id, Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id FROM `referral_mapping_patient_stub` rm inner join patient_stub ps on rm.patient_stub_id=ps.Patient_thread_id  where rm.mapping_hospital_user_id='333' order by rm.timestamp DESC)as temp1 on ds.Doctor_serial_id=temp1.Reg_by_doc
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Client Patients available","Pat_list":[{"doctor_name":"Rajeshwar Bose","mapping_hospital_user_id":"333","mapping_id":"39","patient_stub_id":"634","sales_view_flag":"0","time":"2016-01-09 08:55:25","Patient_thread_id":"634","Patient_Name":"testpat23","Patient_Age":"23","Patient_Gender":"Male","Patient_Location":"Haryana","Patient_mobile_number":"9652315234","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"50","Patient_defined_notes":"Note","doc_ref_id":"390"},{"doctor_name":"Rajeshwar Bose","mapping_hospital_user_id":"333","mapping_id":"39","patient_stub_id":"625","sales_view_flag":"0","time":"2016-01-06 21:47:14","Patient_thread_id":"625","Patient_Name":"Xxx sd","Patient_Age":"52","Patient_Gender":"Female","Patient_Location":"Bhopal","Patient_mobile_number":"8527419236","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"50","Patient_defined_notes":"Note","doc_ref_id":"2"},{"doctor_name":"Rajeshwar Bose","mapping_hospital_user_id":"333","mapping_id":"39","patient_stub_id":"622","sales_view_flag":"0","time":"2016-01-06 14:58:05","Patient_thread_id":"622","Patient_Name":"test","Patient_Age":"32","Patient_Gender":"Male","Patient_Location":"bangalore","Patient_mobile_number":"9632587410","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"50","Patient_defined_notes":"Note","doc_ref_id":"2"},{"doctor_name":"Rajeshwar Bose","mapping_hospital_user_id":"333","mapping_id":"39","patient_stub_id":"591","sales_view_flag":"1","time":"2016-01-01 02:47:01","Patient_thread_id":"591","Patient_Name":"test","Patient_Age":"22","Patient_Gender":"Male","Patient_Location":"bangalore","Patient_mobile_number":"9880130842","Patient_issue_notes":"test","Reg_by_doc":"50","Patient_defined_notes":"test","doc_ref_id":"2"},{"doctor_name":"Rajeshwar Bose","mapping_hospital_user_id":"333","mapping_id":"39","patient_stub_id":"590","sales_view_flag":"1","time":"2016-01-01 02:43:42","Patient_thread_id":"590","Patient_Name":"Bhavesh jain","Patient_Age":"38","Patient_Gender":"Male","Patient_Location":"Pune","Patient_mobile_number":"9852314568","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"50","Patient_defined_notes":"Note","doc_ref_id":"2"},{"doctor_name":"Rajeshwar Bose","mapping_hospital_user_id":"333","mapping_id":"39","patient_stub_id":"589","sales_view_flag":"1","time":"2016-01-01 02:40:51","Patient_thread_id":"589","Patient_Name":"Arjim khan","Patient_Age":"23","Patient_Gender":"Male","Patient_Location":"Mumbai","Patient_mobile_number":"9852364521","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"50","Patient_defined_notes":"Note","doc_ref_id":"335"},{"doctor_name":"Rajeshwar Bose","mapping_hospital_user_id":"333","mapping_id":"39","patient_stub_id":"580","sales_view_flag":"1","time":"2015-12-30 12:24:02","Patient_thread_id":"580","Patient_Name":"testmedisensepat","Patient_Age":"25","Patient_Gender":"Female","Patient_Location":"manipal","Patient_mobile_number":"9638527412","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"50","Patient_defined_notes":"Note","doc_ref_id":"2"}]}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:59:04
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:59:04
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with8050745242pass80507passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '8050745242' AND BINARY Doctor_password = md5('80507') and type_value like '%hospital_user%' and Doctor_unregistered='False' LIMIT 1=>row cnt=>1
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"325","Doctor_Title":"Mr.","Doctor_name":"Satyanarayana","Doctor_dob":"","Doctor_email":"satyanarayan.s@columbiaasia.com","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"","Doctor_mobile_number":"8050745242","Doctor_password":"0130769689fc487f3a17c0535d859cd9","Doctor_photograph":"account_image.png","Doctor_yxp":"19","license_number":"","visibility":"0","my_type":"","country_code":"","type_value":"hospital_user","Doctor_login_enc_key":"08hlk6ay8dd7dine","Doctor_unregistered":"False","reset_key":null}}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:59:04
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:59:04
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : Calling REGISTER_GCM for doctor
+INFO : login with08hlk6ay8dd7dinelogin_id325mobile-OSAndroid
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message from GCM server"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:59:04
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:59:04
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login with08hlk6ay8dd7dinelogin_id325
+INFO : type valuehospital_user
+INFO : get clients queryselect doctor_name,temp1.* from doctor_stub ds inner join (SELECT mapping_hospital_user_id,mapping_id,patient_stub_id,sales_view_flag,rm.timestamp as time, Patient_thread_id, Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id FROM `referral_mapping_patient_stub` rm inner join patient_stub ps on rm.patient_stub_id=ps.Patient_thread_id  where rm.mapping_hospital_user_id='325' order by rm.timestamp DESC)as temp1 on ds.Doctor_serial_id=temp1.Reg_by_doc
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Client Patients available","Pat_list":[{"doctor_name":"Dr. sadiq ahmed","mapping_hospital_user_id":"325","mapping_id":"43","patient_stub_id":"632","sales_view_flag":"1","time":"2016-01-08 23:32:49","Patient_thread_id":"632","Patient_Name":"david","Patient_Age":"30","Patient_Gender":"Male","Patient_Location":"bangalore","Patient_mobile_number":"9880174062","Patient_issue_notes":"Serious","Reg_by_doc":"327","Patient_defined_notes":"Dear Dr, Referring you this patient. Please do the needful and let me know progress, through this app. Thanks","doc_ref_id":"324"},{"doctor_name":"Dr. sadiq ahmed","mapping_hospital_user_id":"325","mapping_id":"43","patient_stub_id":"631","sales_view_flag":"1","time":"2016-01-08 23:32:24","Patient_thread_id":"631","Patient_Name":"david","Patient_Age":"3","Patient_Gender":"Male","Patient_Location":"bangalore","Patient_mobile_number":"9880174062","Patient_issue_notes":"Serious","Reg_by_doc":"327","Patient_defined_notes":"Dear Dr, Referring you this patient. Please do the needful and let me know progress, through this app. Thanks","doc_ref_id":"324"},{"doctor_name":"Dr m.a razzak","mapping_hospital_user_id":"325","mapping_id":"40","patient_stub_id":"617","sales_view_flag":"1","time":"2016-01-02 02:00:18","Patient_thread_id":"617","Patient_Name":"Katti Mani","Patient_Age":"62","Patient_Gender":"Male","Patient_Location":"Marathahalli","Patient_mobile_number":"8686374719","Patient_issue_notes":"Cardiac issues","Reg_by_doc":"331","Patient_defined_notes":"Cardiac issues","doc_ref_id":"324"},{"doctor_name":"Dr m.a razzak","mapping_hospital_user_id":"325","mapping_id":"40","patient_stub_id":"608","sales_view_flag":"1","time":"2016-01-02 01:37:08","Patient_thread_id":"608","Patient_Name":"Mogalabi","Patient_Age":"38","Patient_Gender":"Female","Patient_Location":"Marathahalli","Patient_mobile_number":"8686374719","Patient_issue_notes":"Self fall down","Reg_by_doc":"331","Patient_defined_notes":"Self fall down","doc_ref_id":"324"},{"doctor_name":"Dr m.a razzak","mapping_hospital_user_id":"325","mapping_id":"40","patient_stub_id":"604","sales_view_flag":"1","time":"2016-01-02 01:25:10","Patient_thread_id":"604","Patient_Name":"Kavitha","Patient_Age":"39","Patient_Gender":"Female","Patient_Location":"Marathahalli","Patient_mobile_number":"8686374719","Patient_issue_notes":"Sever Back Pain","Reg_by_doc":"331","Patient_defined_notes":"Sever Back Pain","doc_ref_id":"324"},{"doctor_name":"Shashi","mapping_hospital_user_id":"325","mapping_id":"41","patient_stub_id":"588","sales_view_flag":"1","time":"2016-01-01 01:27:06","Patient_thread_id":"588","Patient_Name":"krishna","Patient_Age":"36","Patient_Gender":"Male","Patient_Location":"bangalore","Patient_mobile_number":"9880130842","Patient_issue_notes":"Serious","Reg_by_doc":"2","Patient_defined_notes":"Dear Dr, Referring you this patient. Please do the needful and let me know progress, through this app. Thanks","doc_ref_id":"324"},{"doctor_name":"Shashi","mapping_hospital_user_id":"325","mapping_id":"41","patient_stub_id":"587","sales_view_flag":"1","time":"2016-01-01 01:16:10","Patient_thread_id":"587","Patient_Name":"ram s","Patient_Age":"36","Patient_Gender":"Male","Patient_Location":"Bangalore","Patient_mobile_number":"9880130842","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"2","Patient_defined_notes":"Note","doc_ref_id":"324"},{"doctor_name":"Dr m.a razzak","mapping_hospital_user_id":"325","mapping_id":"40","patient_stub_id":"583","sales_view_flag":"1","time":"2015-12-31 11:53:31","Patient_thread_id":"583","Patient_Name":"dinesh","Patient_Age":"2","Patient_Gender":"Male","Patient_Location":"satya","Patient_mobile_number":"8686374719","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"331","Patient_defined_notes":"Note","doc_ref_id":"324"}]}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:59:12
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 01:59:12
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login with08hlk6ay8dd7dinelogin_id325
+INFO : type valuehospital_user
+INFO : get clients queryselect doctor_name,temp1.* from doctor_stub ds inner join (SELECT mapping_hospital_user_id,mapping_id,patient_stub_id,sales_view_flag,rm.timestamp as time, Patient_thread_id, Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id FROM `referral_mapping_patient_stub` rm inner join patient_stub ps on rm.patient_stub_id=ps.Patient_thread_id  where rm.mapping_hospital_user_id='325' order by rm.timestamp DESC)as temp1 on ds.Doctor_serial_id=temp1.Reg_by_doc
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Client Patients available","Pat_list":[{"doctor_name":"Dr. sadiq ahmed","mapping_hospital_user_id":"325","mapping_id":"43","patient_stub_id":"632","sales_view_flag":"1","time":"2016-01-08 23:32:49","Patient_thread_id":"632","Patient_Name":"david","Patient_Age":"30","Patient_Gender":"Male","Patient_Location":"bangalore","Patient_mobile_number":"9880174062","Patient_issue_notes":"Serious","Reg_by_doc":"327","Patient_defined_notes":"Dear Dr, Referring you this patient. Please do the needful and let me know progress, through this app. Thanks","doc_ref_id":"324"},{"doctor_name":"Dr. sadiq ahmed","mapping_hospital_user_id":"325","mapping_id":"43","patient_stub_id":"631","sales_view_flag":"1","time":"2016-01-08 23:32:24","Patient_thread_id":"631","Patient_Name":"david","Patient_Age":"3","Patient_Gender":"Male","Patient_Location":"bangalore","Patient_mobile_number":"9880174062","Patient_issue_notes":"Serious","Reg_by_doc":"327","Patient_defined_notes":"Dear Dr, Referring you this patient. Please do the needful and let me know progress, through this app. Thanks","doc_ref_id":"324"},{"doctor_name":"Dr m.a razzak","mapping_hospital_user_id":"325","mapping_id":"40","patient_stub_id":"617","sales_view_flag":"1","time":"2016-01-02 02:00:18","Patient_thread_id":"617","Patient_Name":"Katti Mani","Patient_Age":"62","Patient_Gender":"Male","Patient_Location":"Marathahalli","Patient_mobile_number":"8686374719","Patient_issue_notes":"Cardiac issues","Reg_by_doc":"331","Patient_defined_notes":"Cardiac issues","doc_ref_id":"324"},{"doctor_name":"Dr m.a razzak","mapping_hospital_user_id":"325","mapping_id":"40","patient_stub_id":"608","sales_view_flag":"1","time":"2016-01-02 01:37:08","Patient_thread_id":"608","Patient_Name":"Mogalabi","Patient_Age":"38","Patient_Gender":"Female","Patient_Location":"Marathahalli","Patient_mobile_number":"8686374719","Patient_issue_notes":"Self fall down","Reg_by_doc":"331","Patient_defined_notes":"Self fall down","doc_ref_id":"324"},{"doctor_name":"Dr m.a razzak","mapping_hospital_user_id":"325","mapping_id":"40","patient_stub_id":"604","sales_view_flag":"1","time":"2016-01-02 01:25:10","Patient_thread_id":"604","Patient_Name":"Kavitha","Patient_Age":"39","Patient_Gender":"Female","Patient_Location":"Marathahalli","Patient_mobile_number":"8686374719","Patient_issue_notes":"Sever Back Pain","Reg_by_doc":"331","Patient_defined_notes":"Sever Back Pain","doc_ref_id":"324"},{"doctor_name":"Shashi","mapping_hospital_user_id":"325","mapping_id":"41","patient_stub_id":"588","sales_view_flag":"1","time":"2016-01-01 01:27:06","Patient_thread_id":"588","Patient_Name":"krishna","Patient_Age":"36","Patient_Gender":"Male","Patient_Location":"bangalore","Patient_mobile_number":"9880130842","Patient_issue_notes":"Serious","Reg_by_doc":"2","Patient_defined_notes":"Dear Dr, Referring you this patient. Please do the needful and let me know progress, through this app. Thanks","doc_ref_id":"324"},{"doctor_name":"Shashi","mapping_hospital_user_id":"325","mapping_id":"41","patient_stub_id":"587","sales_view_flag":"1","time":"2016-01-01 01:16:10","Patient_thread_id":"587","Patient_Name":"ram s","Patient_Age":"36","Patient_Gender":"Male","Patient_Location":"Bangalore","Patient_mobile_number":"9880130842","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"2","Patient_defined_notes":"Note","doc_ref_id":"324"},{"doctor_name":"Dr m.a razzak","mapping_hospital_user_id":"325","mapping_id":"40","patient_stub_id":"583","sales_view_flag":"1","time":"2015-12-31 11:53:31","Patient_thread_id":"583","Patient_Name":"dinesh","Patient_Age":"2","Patient_Gender":"Male","Patient_Location":"satya","Patient_mobile_number":"8686374719","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"331","Patient_defined_notes":"Note","doc_ref_id":"324"}]}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:01:51
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:01:51
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with7709944555pass44555passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '7709944555' AND BINARY Doctor_password = md5('44555') and type_value like '%hospital_user%' and Doctor_unregistered='False' LIMIT 1=>row cnt=>1
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"359","Doctor_Title":"","Doctor_name":"Abhishek Thomas","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"","Doctor_mobile_number":"7709944555","Doctor_password":"2181d94fba9a1d2de2b5f6fb75f8ab08","Doctor_photograph":"account_image.png","Doctor_yxp":"23","license_number":"","visibility":"0","my_type":"","country_code":"","type_value":"hospital_user_all","Doctor_login_enc_key":"0pe0rii7b6f0l9vt","Doctor_unregistered":"False","reset_key":null}}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:01:52
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:01:52
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : Calling REGISTER_GCM for doctor
+INFO : login with0pe0rii7b6f0l9vtlogin_id359mobile-OSAndroid
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message from GCM server"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:01:52
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:01:52
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login with0pe0rii7b6f0l9vtlogin_id359
+INFO : type valuehospital_user_all
+INFO : get clients queryselect 'Undefined' as doctor_name,'Undefined' as mapping_hospital_user_id,'Undefined' as mapping_id,'Undefined' as patient_stub_id,'0' as sales_view_flag,Patient_thread_id,Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id,timestamp as time from patient_stub where hospital_id_transaction=(SELECT doctor_yxp from doctor_stub where type_value='hospital_user_all' and doctor_serial_id='359')
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Client Patients available","Pat_list":[{"doctor_name":"Undefined","mapping_hospital_user_id":"Undefined","mapping_id":"Undefined","patient_stub_id":"Undefined","sales_view_flag":"0","Patient_thread_id":"626","Patient_Name":"aishath","Patient_Age":"43","Patient_Gender":"Female","Patient_Location":"mysore","Patient_mobile_number":"8892006347","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"376","Patient_defined_notes":"Note","doc_ref_id":"375","time":"2016-01-07 22:59:10"},{"doctor_name":"Undefined","mapping_hospital_user_id":"Undefined","mapping_id":"Undefined","patient_stub_id":"Undefined","sales_view_flag":"0","Patient_thread_id":"627","Patient_Name":"had","Patient_Age":"85","Patient_Gender":"Male","Patient_Location":"b","Patient_mobile_number":"9986015402","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"375","Patient_defined_notes":"Note","doc_ref_id":"376","time":"2016-01-08 00:27:06"},{"doctor_name":"Undefined","mapping_hospital_user_id":"Undefined","mapping_id":"Undefined","patient_stub_id":"Undefined","sales_view_flag":"0","Patient_thread_id":"628","Patient_Name":"Voice","Patient_Age":"0","Patient_Gender":"Male","Patient_Location":"Voice","Patient_mobile_number":"Voice","Patient_issue_notes":"","Reg_by_doc":"375","Patient_defined_notes":"Voice","doc_ref_id":"376","time":"2016-01-08 00:28:52"}]}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:03:37
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:03:37
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login with0pe0rii7b6f0l9vtlogin_id359
+INFO : type valuehospital_user_all
+INFO : get clients queryselect 'Undefined' as doctor_name,'Undefined' as mapping_hospital_user_id,'Undefined' as mapping_id,Patient_thread_id as patient_stub_id,'0' as sales_view_flag,Patient_thread_id,Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id,timestamp as time from patient_stub where hospital_id_transaction=(SELECT doctor_yxp from doctor_stub where type_value='hospital_user_all' and doctor_serial_id='359')
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Client Patients available","Pat_list":[{"doctor_name":"Undefined","mapping_hospital_user_id":"Undefined","mapping_id":"Undefined","patient_stub_id":"626","sales_view_flag":"0","Patient_thread_id":"626","Patient_Name":"aishath","Patient_Age":"43","Patient_Gender":"Female","Patient_Location":"mysore","Patient_mobile_number":"8892006347","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"376","Patient_defined_notes":"Note","doc_ref_id":"375","time":"2016-01-07 22:59:10"},{"doctor_name":"Undefined","mapping_hospital_user_id":"Undefined","mapping_id":"Undefined","patient_stub_id":"627","sales_view_flag":"0","Patient_thread_id":"627","Patient_Name":"had","Patient_Age":"85","Patient_Gender":"Male","Patient_Location":"b","Patient_mobile_number":"9986015402","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"375","Patient_defined_notes":"Note","doc_ref_id":"376","time":"2016-01-08 00:27:06"},{"doctor_name":"Undefined","mapping_hospital_user_id":"Undefined","mapping_id":"Undefined","patient_stub_id":"628","sales_view_flag":"0","Patient_thread_id":"628","Patient_Name":"Voice","Patient_Age":"0","Patient_Gender":"Male","Patient_Location":"Voice","Patient_mobile_number":"Voice","Patient_issue_notes":"","Reg_by_doc":"375","Patient_defined_notes":"Voice","doc_ref_id":"376","time":"2016-01-08 00:28:52"}]}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:03:52
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:03:52
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login with0pe0rii7b6f0l9vtlogin_id359
+INFO : type valuehospital_user_all
+INFO : get clients queryselect 'Undefined' as doctor_name,'Undefined' as mapping_hospital_user_id,'Undefined' as mapping_id,Patient_thread_id as patient_stub_id,'0' as sales_view_flag,Patient_thread_id,Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id,timestamp as time from patient_stub where hospital_id_transaction=(SELECT doctor_yxp from doctor_stub where type_value='hospital_user_all' and doctor_serial_id='359')
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Client Patients available","Pat_list":[{"doctor_name":"Undefined","mapping_hospital_user_id":"Undefined","mapping_id":"Undefined","patient_stub_id":"626","sales_view_flag":"0","Patient_thread_id":"626","Patient_Name":"aishath","Patient_Age":"43","Patient_Gender":"Female","Patient_Location":"mysore","Patient_mobile_number":"8892006347","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"376","Patient_defined_notes":"Note","doc_ref_id":"375","time":"2016-01-07 22:59:10"},{"doctor_name":"Undefined","mapping_hospital_user_id":"Undefined","mapping_id":"Undefined","patient_stub_id":"627","sales_view_flag":"0","Patient_thread_id":"627","Patient_Name":"had","Patient_Age":"85","Patient_Gender":"Male","Patient_Location":"b","Patient_mobile_number":"9986015402","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"375","Patient_defined_notes":"Note","doc_ref_id":"376","time":"2016-01-08 00:27:06"},{"doctor_name":"Undefined","mapping_hospital_user_id":"Undefined","mapping_id":"Undefined","patient_stub_id":"628","sales_view_flag":"0","Patient_thread_id":"628","Patient_Name":"Voice","Patient_Age":"0","Patient_Gender":"Male","Patient_Location":"Voice","Patient_mobile_number":"Voice","Patient_issue_notes":"","Reg_by_doc":"375","Patient_defined_notes":"Voice","doc_ref_id":"376","time":"2016-01-08 00:28:52"}]}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:10:41
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:10:41
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login with0pe0rii7b6f0l9vtlogin_id359
+INFO : type valuehospital_user_all
+INFO : get clients queryselect temp.*,ds.doctor_name from (select 'Undefined' as mapping_hospital_user_id,'Undefined' as mapping_id,Patient_thread_id as patient_stub_id,'0' as sales_view_flag,Patient_thread_id,Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id,timestamp as time from patient_stub where hospital_id_transaction=(SELECT doctor_yxp from doctor_stub where type_value='hospital_user_all' and doctor_serial_id='359'))as temp inner join doctor_stub ds on temp.Reg_by_doc=ds.Doctor_Serial_id
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Client Patients available","Pat_list":[{"mapping_hospital_user_id":"Undefined","mapping_id":"Undefined","patient_stub_id":"626","sales_view_flag":"0","Patient_thread_id":"626","Patient_Name":"aishath","Patient_Age":"43","Patient_Gender":"Female","Patient_Location":"mysore","Patient_mobile_number":"8892006347","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"376","Patient_defined_notes":"Note","doc_ref_id":"375","time":"2016-01-07 22:59:10","doctor_name":"PRAVEEN KUMAR"},{"mapping_hospital_user_id":"Undefined","mapping_id":"Undefined","patient_stub_id":"627","sales_view_flag":"0","Patient_thread_id":"627","Patient_Name":"had","Patient_Age":"85","Patient_Gender":"Male","Patient_Location":"b","Patient_mobile_number":"9986015402","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"375","Patient_defined_notes":"Note","doc_ref_id":"376","time":"2016-01-08 00:27:06","doctor_name":"DATHATHRI"},{"mapping_hospital_user_id":"Undefined","mapping_id":"Undefined","patient_stub_id":"628","sales_view_flag":"0","Patient_thread_id":"628","Patient_Name":"Voice","Patient_Age":"0","Patient_Gender":"Male","Patient_Location":"Voice","Patient_mobile_number":"Voice","Patient_issue_notes":"","Reg_by_doc":"375","Patient_defined_notes":"Voice","doc_ref_id":"376","time":"2016-01-08 00:28:52","doctor_name":"DATHATHRI"}]}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:10:50
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:10:50
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login with0pe0rii7b6f0l9vtlogin_id359pat_thrd_id627doc_idtest359
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Failure","msg":"Message is empty and new conversation"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:10:58
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-10 02:10:58
+INFO : Remote Address =>103.48.98.98
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login with0pe0rii7b6f0l9vtlogin_id359
+INFO : type valuehospital_user_all
+INFO : get clients queryselect temp.*,ds.doctor_name from (select 'Undefined' as mapping_hospital_user_id,'Undefined' as mapping_id,Patient_thread_id as patient_stub_id,'0' as sales_view_flag,Patient_thread_id,Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id,timestamp as time from patient_stub where hospital_id_transaction=(SELECT doctor_yxp from doctor_stub where type_value='hospital_user_all' and doctor_serial_id='359'))as temp inner join doctor_stub ds on temp.Reg_by_doc=ds.Doctor_Serial_id
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Client Patients available","Pat_list":[{"mapping_hospital_user_id":"Undefined","mapping_id":"Undefined","patient_stub_id":"626","sales_view_flag":"0","Patient_thread_id":"626","Patient_Name":"aishath","Patient_Age":"43","Patient_Gender":"Female","Patient_Location":"mysore","Patient_mobile_number":"8892006347","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"376","Patient_defined_notes":"Note","doc_ref_id":"375","time":"2016-01-07 22:59:10","doctor_name":"PRAVEEN KUMAR"},{"mapping_hospital_user_id":"Undefined","mapping_id":"Undefined","patient_stub_id":"627","sales_view_flag":"0","Patient_thread_id":"627","Patient_Name":"had","Patient_Age":"85","Patient_Gender":"Male","Patient_Location":"b","Patient_mobile_number":"9986015402","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"375","Patient_defined_notes":"Note","doc_ref_id":"376","time":"2016-01-08 00:27:06","doctor_name":"DATHATHRI"},{"mapping_hospital_user_id":"Undefined","mapping_id":"Undefined","patient_stub_id":"628","sales_view_flag":"0","Patient_thread_id":"628","Patient_Name":"Voice","Patient_Age":"0","Patient_Gender":"Male","Patient_Location":"Voice","Patient_mobile_number":"Voice","Patient_issue_notes":"","Reg_by_doc":"375","Patient_defined_notes":"Voice","doc_ref_id":"376","time":"2016-01-08 00:28:52","doctor_name":"DATHATHRI"}]}

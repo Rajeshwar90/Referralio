@@ -1,0 +1,30 @@
+transaction field
+date of time
+created by:
+
+ADD transaction btn
+name
+mobile no
+referring doctor name :drop down search add plus 
+referrind doctor mobile # non editable
+add hospotal doctor drop down serach
+hospital doctor mobule # non ediable
+notes:
+
+pending approved
+editable control save
+
+add transaction edit on patient name
+messaging list
+messaging field
+
+manage hospital users button
+name:
+mobile #
+user type:
+email id
+password:
+confirm password
+display: all
+add button
+referring doctor mapping multiple select with the search w ith multiple select

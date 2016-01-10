@@ -1,0 +1,14 @@
+INFO : ------------------------------------------
+INFO : Date =>2015-11-29 12:54:01
+INFO : Remote Address =>63.110.26.25
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-11-29 12:54:01
+INFO : Remote Address =>63.110.26.25
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login withtest input data!passSymc1234passResource id #11
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = 'test input data!' AND BINARY Doctor_password = md5('Symc1234') and type_value='hospital_user' and Doctor_unregistered='False' LIMIT 1=>row cnt=>0
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Failed","msg":"Login Failure"}

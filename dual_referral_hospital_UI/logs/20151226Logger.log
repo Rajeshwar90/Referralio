@@ -1,0 +1,301 @@
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:16:26
+INFO : Remote Address =>121.244.49.210
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9980218242
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Mr.','Sreeram R','32','sreeram.r@columbiaasia.com','Marketing','MBA','Columbia Asia Corporate','India','Karnataka','Bangalore','Ramamurthynagar','9980218242',md5('sreeram'),'account_image.png','10','1234','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgColumbia Asia Corporate - Your username is 9980218242 and password is sreeram 
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:18:24
+INFO : Remote Address =>121.244.49.210
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:18:24
+INFO : Remote Address =>121.244.49.210
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updaterefdoc.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:20:49
+INFO : Remote Address =>121.244.49.210
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>314ref_doc_id==>316
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count0
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Narayana','56','Male','Tumkur','9876543210','Cardiac Arrest','314','Cardiac Arrest','316',17,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>569
+INFO : get count hospital_id =>1
+INFO : hospital_id =>17
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='17' and referring_doctor_id='314'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:20:49
+INFO : Remote Address =>121.244.49.210
+Result+{"multicast_id":8270473231809809893,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:21:25
+INFO : Remote Address =>121.244.49.210
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '569')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:32:41
+INFO : Remote Address =>121.244.49.210
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/hospital_user_registration_UI.php
+INFO : Type of Request =>POST
+INFO : insert query=>insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,type_value,country_code) values('Mr.','Manjunath R','','manjunatha.r@columbiaasia.com','','','','','','','','9886654463',md5('Manju@12'),'account_image.png','17','','0','hospital_user','')
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:33:13
+INFO : Remote Address =>121.244.49.210
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updateHospitalUserMapping.php
+INFO : Type of Request =>POST
+INFO : after post
+INFO : received post318hospital_id17referring_doc_id2
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:34:21
+INFO : Remote Address =>121.244.49.210
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:34:21
+INFO : Remote Address =>121.244.49.210
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_mobile_msg.php
+INFO : Type of Request =>POST
+INFO : doctor_req namerefer-in
+INFO : refer in count4
+INFO : hospital nameColumbia Asia Corporate
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:34:21
+INFO : Remote Address =>121.244.49.210
+Result+"registration_ids" field cannot be empty
+ 
+INFO : result
+INFO : inside push in mobile number
+INFO : inside IOS
+INFO : inside ios payload{"aps":{"alert":"Thank u","sound":"default","extra":"{\"msg\":\"Thank u\",\"flag_push\":\"broadcast_msg\",\"Broadcast_In_cnt\":1}"}}
+INFO : inside IOS result
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:34:38
+INFO : Remote Address =>121.244.49.210
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:34:38
+INFO : Remote Address =>121.244.49.210
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_mobile_msg.php
+INFO : Type of Request =>POST
+INFO : doctor_req namerefer-out
+INFO : refer in count4
+INFO : hospital nameColumbia Asia Corporate
+INFO : inside refer out mobile number9818659504
+INFO : inside refer out mobile number9902288771
+INFO : inside refer out mobile number9591111226
+INFO : inside refer out mobile number9980218242
+INFO : inside push out mobile number
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:34:38
+INFO : Remote Address =>121.244.49.210
+Result+{"multicast_id":7606721600206349095,"success":3,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1451106278799022%1927fc30f9fd7ecd"},{"message_id":"0:1451106278800439%1927fc30f9fd7ecd"},{"message_id":"0:1451106278801726%1927fc30f9fd7ecd"}]} 
+INFO : result
+INFO : inside ios payload{"aps":{"alert":"Pl take care","sound":"default","extra":"{\"msg\":\"Pl take care\",\"flag_push\":\"broadcast_msg\",\"Broadcast_In_cnt\":1}"}}
+INFO : inside IOS result
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:42:23
+INFO : Remote Address =>121.244.49.210
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:42:23
+INFO : Remote Address =>121.244.49.210
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_mobile_msg.php
+INFO : Type of Request =>POST
+INFO : doctor_req namerefer-in
+INFO : refer in count4
+INFO : hospital nameColumbia Asia Corporate
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:42:23
+INFO : Remote Address =>121.244.49.210
+Result+{"multicast_id":7321563413895951929,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1451106743436093%1927fc30f9fd7ecd"}]} 
+INFO : result
+INFO : inside push in mobile number
+INFO : inside IOS
+INFO : inside ios payload{"aps":{"alert":"Thank you","sound":"default","extra":"{\"msg\":\"Thank you\",\"flag_push\":\"broadcast_msg\",\"Broadcast_In_cnt\":1}"}}
+INFO : inside IOS result
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:42:42
+INFO : Remote Address =>121.244.49.210
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:42:42
+INFO : Remote Address =>121.244.49.210
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_mobile_msg.php
+INFO : Type of Request =>POST
+INFO : doctor_req namerefer-out
+INFO : refer in count4
+INFO : hospital nameColumbia Asia Corporate
+INFO : inside refer out mobile number9818659504
+INFO : inside refer out mobile number9902288771
+INFO : inside refer out mobile number9591111226
+INFO : inside refer out mobile number9980218242
+INFO : inside push out mobile number
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:42:42
+INFO : Remote Address =>121.244.49.210
+Result+{"multicast_id":6320098233334647782,"success":3,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1451106762439432%1927fc30f9fd7ecd"},{"message_id":"0:1451106762439434%1927fc30f9fd7ecd"},{"message_id":"0:1451106762444709%1927fc30f9fd7ecd"}]} 
+INFO : result
+INFO : inside ios payload{"aps":{"alert":"Pl take care","sound":"default","extra":"{\"msg\":\"Pl take care\",\"flag_push\":\"broadcast_msg\",\"Broadcast_In_cnt\":1}"}}
+INFO : inside IOS result
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:43:15
+INFO : Remote Address =>121.244.49.210
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updateHospitalUserMapping.php
+INFO : Type of Request =>POST
+INFO : after post
+INFO : received post318hospital_id17referring_doc_id2
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:43:22
+INFO : Remote Address =>121.244.49.210
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/del_hospital_docs.php
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 10:56:33
+INFO : Remote Address =>121.244.49.210
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '566')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 14:21:05
+INFO : Remote Address =>106.216.190.130
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 14:21:05
+INFO : Remote Address =>106.216.190.130
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_mobile_msg.php
+INFO : Type of Request =>POST
+INFO : doctor_req namerefer-in
+INFO : refer in count5
+INFO : hospital nameReferralio
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 14:21:05
+INFO : Remote Address =>106.216.190.130
+Result+{"multicast_id":9177042430075470873,"success":3,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1451119865591861%1927fc30f9fd7ecd"},{"message_id":"0:1451119865593226%1927fc30f9fd7ecd"},{"message_id":"0:1451119865593777%1927fc30f9fd7ecd"}]} 
+INFO : result
+INFO : inside push in mobile number
+INFO : inside IOS
+INFO : inside ios payload{"aps":{"alert":"Test","sound":"default","extra":"{\"msg\":\"Test\",\"flag_push\":\"broadcast_msg\",\"Broadcast_In_cnt\":1}"}}
+INFO : inside IOS result
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 14:35:01
+INFO : Remote Address =>198.27.82.152
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 14:35:01
+INFO : Remote Address =>198.27.82.152
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updaterefdoc.php
+INFO : Type of Request =>GET
+INFO : before post
+INFO : received post
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 16:27:31
+INFO : Remote Address =>1.186.28.220
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>319ref_doc_id==>3
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count0
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Shivamma  H S','42','Female','Davangere','9844420150','Infertility','319','Infertility','3',13,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>574
+INFO : get count hospital_id =>1
+INFO : hospital_id =>13
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='13' and referring_doctor_id='319'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 16:27:32
+INFO : Remote Address =>1.186.28.220
+Result+{"multicast_id":6084126995321213477,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 16:27:42
+INFO : Remote Address =>1.186.28.220
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '562')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 16:27:49
+INFO : Remote Address =>1.186.28.220
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '574')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 19:19:56
+INFO : Remote Address =>144.76.12.75
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 19:19:56
+INFO : Remote Address =>144.76.12.75
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updaterefdoc.php
+INFO : Type of Request =>GET
+INFO : before post
+INFO : received post
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 22:55:22
+INFO : Remote Address =>46.4.89.35
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/del_hospital_docs.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 22:55:27
+INFO : Remote Address =>46.4.89.35
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/delete_referring_docs.php
+INFO : Type of Request =>GET
+INFO : query_update------------>update referral_mapping set referring_doctor_id='' where hospital_id='' and referring_doctor_id=''
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 22:57:54
+INFO : Remote Address =>46.4.89.35
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 22:57:54
+INFO : Remote Address =>46.4.89.35
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_mobile_msg.php
+INFO : Type of Request =>GET
+INFO : doctor_req name
+INFO : refer in count0
+INFO : hospital name
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 22:58:08
+INFO : Remote Address =>46.4.89.35
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_personal_broadcast.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 22:58:08
+INFO : Remote Address =>46.4.89.35
+Result+{"multicast_id":8006530217704648859,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : result
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 22:58:17
+INFO : Remote Address =>46.4.89.35
+INFO : ------------------------------------------
+INFO : Date =>2015-12-26 22:58:17
+INFO : Remote Address =>46.4.89.35
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updatehospitaladminpass.php
+INFO : Type of Request =>GET
+INFO : before post
+INFO : received post

@@ -1,0 +1,386 @@
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 20:15:09
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 20:15:09
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with7026646022pass11111passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '7026646022' AND BINARY Doctor_password = md5('11111') and type_value='hospital_user' and Doctor_unregistered='False' LIMIT 1=>row cnt=>1
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"68","Doctor_Title":"Dr.","Doctor_name":"sachin","Doctor_dob":"11\/9\/2015","Doctor_email":"sachin.checkin@gmail.com","Doctor_specialization":"Cardiology","Doctor_qualification":"mbbs","Doctor_HospitalName":"demo","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"manipal","Doctor_mobile_number":"7026646022","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"10","license_number":"11111","visibility":"1","my_type":"hospital_user","country_code":"+91","type_value":"","Doctor_login_enc_key":"m246y8ju686mzez3","Doctor_unregistered":"False","reset_key":"hgwby3ehvo68"}}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 20:15:09
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 20:15:09
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : Calling REGISTER_GCM for doctor
+INFO : login withm246y8ju686mzez3login_id68mobile-OSAndroid
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message from GCM server"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 20:15:27
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 20:15:27
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login withm246y8ju686mzez3login_id68
+INFO : _code......203get_status_message...Non-Authoritative Information_content_type....application/json
+INFO : response{"status":"Failed","msg":"Basic authentication failed"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 20:44:27
+INFO : Remote Address =>223.227.29.113
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 20:44:27
+INFO : Remote Address =>223.227.29.113
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with7026646022pass11111passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '7026646022' AND BINARY Doctor_password = md5('11111') and type_value='hospital_user' and Doctor_unregistered='False' LIMIT 1=>row cnt=>1
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"68","Doctor_Title":"Dr.","Doctor_name":"sachin","Doctor_dob":"11\/9\/2015","Doctor_email":"sachin.checkin@gmail.com","Doctor_specialization":"Cardiology","Doctor_qualification":"mbbs","Doctor_HospitalName":"demo","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"manipal","Doctor_mobile_number":"7026646022","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"10","license_number":"11111","visibility":"1","my_type":"hospital_user","country_code":"+91","type_value":"","Doctor_login_enc_key":"d6e9t5xbjr1d7ydk","Doctor_unregistered":"False","reset_key":"hgwby3ehvo68"}}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 20:44:54
+INFO : Remote Address =>223.227.29.113
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 20:44:54
+INFO : Remote Address =>223.227.29.113
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with7026646022pass11111passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '7026646022' AND BINARY Doctor_password = md5('11111') and type_value='hospital_user' and Doctor_unregistered='False' LIMIT 1=>row cnt=>1
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"68","Doctor_Title":"Dr.","Doctor_name":"sachin","Doctor_dob":"11\/9\/2015","Doctor_email":"sachin.checkin@gmail.com","Doctor_specialization":"Cardiology","Doctor_qualification":"mbbs","Doctor_HospitalName":"demo","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"manipal","Doctor_mobile_number":"7026646022","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"10","license_number":"11111","visibility":"1","my_type":"hospital_user","country_code":"+91","type_value":"","Doctor_login_enc_key":"1nxwwx8u382za3bs","Doctor_unregistered":"False","reset_key":"hgwby3ehvo68"}}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 20:45:08
+INFO : Remote Address =>223.227.29.113
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 20:45:08
+INFO : Remote Address =>223.227.29.113
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with7026646022pass11111passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '7026646022' AND BINARY Doctor_password = md5('11111') and type_value='hospital_user' and Doctor_unregistered='False' LIMIT 1=>row cnt=>1
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"68","Doctor_Title":"Dr.","Doctor_name":"sachin","Doctor_dob":"11\/9\/2015","Doctor_email":"sachin.checkin@gmail.com","Doctor_specialization":"Cardiology","Doctor_qualification":"mbbs","Doctor_HospitalName":"demo","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"manipal","Doctor_mobile_number":"7026646022","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"10","license_number":"11111","visibility":"1","my_type":"hospital_user","country_code":"+91","type_value":"","Doctor_login_enc_key":"nhrb842io9p9n2dv","Doctor_unregistered":"False","reset_key":"hgwby3ehvo68"}}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 21:38:50
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 21:38:50
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with9620903650pass11111passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '9620903650' AND BINARY Doctor_password = md5('11111') and type_value='hospital_user' and Doctor_unregistered='False' LIMIT 1=>row cnt=>1
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"333","Doctor_Title":"Mr.","Doctor_name":"Fatima Solapure","Doctor_dob":"","Doctor_email":"testsolapur@gmail.com","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"","Doctor_mobile_number":"9620903650","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"18","license_number":"","visibility":"0","my_type":"","country_code":"","type_value":"hospital_user","Doctor_login_enc_key":"0i2fk9q5wezi0e7b","Doctor_unregistered":"False","reset_key":null}}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 21:38:51
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 21:38:51
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : Calling REGISTER_GCM for doctor
+INFO : login with0i2fk9q5wezi0e7blogin_id333mobile-OSAndroid
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message from GCM server"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 21:38:51
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 21:38:51
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login with0i2fk9q5wezi0e7blogin_id333
+INFO : get clients queryselect doctor_name,temp1.* from doctor_stub ds inner join (SELECT mapping_hospital_user_id,mapping_id,patient_stub_id,sales_view_flag,rm.timestamp as time, Patient_thread_id, Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id FROM `referral_mapping_patient_stub` rm inner join patient_stub ps on rm.patient_stub_id=ps.Patient_thread_id  where rm.mapping_hospital_user_id='333' order by rm.timestamp DESC)as temp1 on ds.Doctor_serial_id=temp1.Reg_by_doc
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Success","msg":"Patients Not available"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 21:38:55
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 21:38:55
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login with0i2fk9q5wezi0e7blogin_id333
+INFO : get clients queryselect doctor_name,temp1.* from doctor_stub ds inner join (SELECT mapping_hospital_user_id,mapping_id,patient_stub_id,sales_view_flag,rm.timestamp as time, Patient_thread_id, Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id FROM `referral_mapping_patient_stub` rm inner join patient_stub ps on rm.patient_stub_id=ps.Patient_thread_id  where rm.mapping_hospital_user_id='333' order by rm.timestamp DESC)as temp1 on ds.Doctor_serial_id=temp1.Reg_by_doc
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Success","msg":"Patients Not available"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 21:53:42
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 21:53:42
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with9620903650pass11111passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '9620903650' AND BINARY Doctor_password = md5('11111') and type_value='hospital_user' and Doctor_unregistered='False' LIMIT 1=>row cnt=>1
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"333","Doctor_Title":"Mr.","Doctor_name":"Fatima Solapure","Doctor_dob":"","Doctor_email":"testsolapur@gmail.com","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"","Doctor_mobile_number":"9620903650","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"18","license_number":"","visibility":"0","my_type":"","country_code":"","type_value":"hospital_user","Doctor_login_enc_key":"6x5nsxc7swah84dt","Doctor_unregistered":"False","reset_key":null}}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 21:53:42
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 21:53:42
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : Calling REGISTER_GCM for doctor
+INFO : login with6x5nsxc7swah84dtlogin_id333mobile-OSAndroid
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message from GCM server"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 21:53:43
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 21:53:43
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login with6x5nsxc7swah84dtlogin_id333
+INFO : get clients queryselect doctor_name,temp1.* from doctor_stub ds inner join (SELECT mapping_hospital_user_id,mapping_id,patient_stub_id,sales_view_flag,rm.timestamp as time, Patient_thread_id, Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id FROM `referral_mapping_patient_stub` rm inner join patient_stub ps on rm.patient_stub_id=ps.Patient_thread_id  where rm.mapping_hospital_user_id='333' order by rm.timestamp DESC)as temp1 on ds.Doctor_serial_id=temp1.Reg_by_doc
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Success","msg":"Patients Not available"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 22:54:19
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 22:54:19
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login with6x5nsxc7swah84dtlogin_id333
+INFO : get clients queryselect doctor_name,temp1.* from doctor_stub ds inner join (SELECT mapping_hospital_user_id,mapping_id,patient_stub_id,sales_view_flag,rm.timestamp as time, Patient_thread_id, Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id FROM `referral_mapping_patient_stub` rm inner join patient_stub ps on rm.patient_stub_id=ps.Patient_thread_id  where rm.mapping_hospital_user_id='333' order by rm.timestamp DESC)as temp1 on ds.Doctor_serial_id=temp1.Reg_by_doc
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Client Patients available","Pat_list":[{"doctor_name":"Rajeshwar Bose","mapping_hospital_user_id":"333","mapping_id":"39","patient_stub_id":"580","sales_view_flag":"0","time":"2015-12-30 12:24:02","Patient_thread_id":"580","Patient_Name":"testmedisensepat","Patient_Age":"25","Patient_Gender":"Female","Patient_Location":"manipal","Patient_mobile_number":"9638527412","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"50","Patient_defined_notes":"Note","doc_ref_id":"2"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 22:57:35
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 22:57:35
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/LOGIN_SALES
+INFO : Type of Request =>POST
+INFO : login with9620903650pass11111passResource id #8
+INFO : login with sqlSELECT * FROM doctor_stub WHERE Doctor_mobile_number = '9620903650' AND BINARY Doctor_password = md5('11111') and type_value='hospital_user' and Doctor_unregistered='False' LIMIT 1=>row cnt=>1
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"333","Doctor_Title":"Mr.","Doctor_name":"Fatima Solapure","Doctor_dob":"","Doctor_email":"testsolapur@gmail.com","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"","Doctor_mobile_number":"9620903650","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"18","license_number":"","visibility":"0","my_type":"","country_code":"","type_value":"hospital_user","Doctor_login_enc_key":"emxna17eh376e5dn","Doctor_unregistered":"False","reset_key":null}}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 22:57:35
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 22:57:35
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : Calling REGISTER_GCM for doctor
+INFO : login withemxna17eh376e5dnlogin_id333mobile-OSAndroid
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message from GCM server"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 22:57:36
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 22:57:36
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/GET_CLIENT_SALES
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_SALES for salesperson
+INFO : login withemxna17eh376e5dnlogin_id333
+INFO : get clients queryselect doctor_name,temp1.* from doctor_stub ds inner join (SELECT mapping_hospital_user_id,mapping_id,patient_stub_id,sales_view_flag,rm.timestamp as time, Patient_thread_id, Patient_Name,Patient_Age,Patient_Gender,Patient_Location,Patient_mobile_number,Patient_issue_notes,Reg_by_doc,Patient_defined_notes,doc_ref_id FROM `referral_mapping_patient_stub` rm inner join patient_stub ps on rm.patient_stub_id=ps.Patient_thread_id  where rm.mapping_hospital_user_id='333' order by rm.timestamp DESC)as temp1 on ds.Doctor_serial_id=temp1.Reg_by_doc
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Client Patients available","Pat_list":[{"doctor_name":"Rajeshwar Bose","mapping_hospital_user_id":"333","mapping_id":"39","patient_stub_id":"580","sales_view_flag":"1","time":"2015-12-30 12:24:02","Patient_thread_id":"580","Patient_Name":"testmedisensepat","Patient_Age":"25","Patient_Gender":"Female","Patient_Location":"manipal","Patient_mobile_number":"9638527412","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"50","Patient_defined_notes":"Note","doc_ref_id":"2"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:05:03
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:05:03
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withemxna17eh376e5dnlogin_id333pat_thrd_id580doc_idtest333
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Failure","msg":"Message is empty","msg_list":[{"message":"I got a push notification on my iphone for this.","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:25:01"},{"message":"great","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:22"},{"message":"i got push for message also in referral h","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:50"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:05:22
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:05:22
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withemxna17eh376e5dnlogin_id333pat_thrd_id580doc_idtest333
+INFO : doc_id doc_id333
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message is present","msg_list":[{"message":"I got a push notification on my iphone for this.","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:25:01"},{"message":"great","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:22"},{"message":"i got push for message also in referral h","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:50"},{"message":"this is from sales referral h","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:35:22"}],"PUSHresult":""}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:05:23
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:05:23
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withemxna17eh376e5dnlogin_id333pat_thrd_id580doc_idtest333
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Failure","msg":"Message is empty","msg_list":[{"message":"I got a push notification on my iphone for this.","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:25:01"},{"message":"great","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:22"},{"message":"i got push for message also in referral h","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:50"},{"message":"this is from sales referral h","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:35:22"},{"message":"Super. Received from referring doctor","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:35:23"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:06:00
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:06:00
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withemxna17eh376e5dnlogin_id333pat_thrd_id580doc_idtest333
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Failure","msg":"Message is empty","msg_list":[{"message":"I got a push notification on my iphone for this.","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:25:01"},{"message":"great","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:22"},{"message":"i got push for message also in referral h","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:50"},{"message":"this is from sales referral h","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:35:22"},{"message":"Super. Received from referring doctor","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:35:23"},{"message":"Perfect","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:35:59"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:06:02
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:06:02
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withemxna17eh376e5dnlogin_id333pat_thrd_id580doc_idtest333
+INFO : doc_id doc_id333
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message is present","msg_list":[{"message":"I got a push notification on my iphone for this.","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:25:01"},{"message":"great","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:22"},{"message":"i got push for message also in referral h","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:50"},{"message":"this is from sales referral h","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:35:22"},{"message":"Super. Received from referring doctor","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:35:23"},{"message":"Perfect","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:35:59"},{"message":"this message i m sending from mapped sales","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:36:02"}],"PUSHresult":""}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:07:01
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:07:01
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withemxna17eh376e5dnlogin_id333pat_thrd_id580doc_idtest333
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Failure","msg":"Message is empty","msg_list":[{"message":"I got a push notification on my iphone for this.","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:25:01"},{"message":"great","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:22"},{"message":"i got push for message also in referral h","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:50"},{"message":"this is from sales referral h","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:35:22"},{"message":"Super. Received from referring doctor","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:35:23"},{"message":"Perfect","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:35:59"},{"message":"this message i m sending from mapped sales","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:36:02"},{"message":"This message is from user interface web","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:36:53"},{"message":"I did not receive push from referralH","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:37:01"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:08:48
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:08:48
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withemxna17eh376e5dnlogin_id333pat_thrd_id580doc_idtest333
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Failure","msg":"Message is empty","msg_list":[{"message":"I got a push notification on my iphone for this.","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:25:01"},{"message":"great","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:22"},{"message":"i got push for message also in referral h","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:50"},{"message":"this is from sales referral h","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:35:22"},{"message":"Super. Received from referring doctor","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:35:23"},{"message":"Perfect","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:35:59"},{"message":"this message i m sending from mapped sales","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:36:02"},{"message":"This message is from user interface web","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:36:53"},{"message":"I did not receive push from referralH","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:37:01"},{"message":"Neither from backend","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:37:56"},{"message":"is this in IOS?","doc_id":"333","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:38:11"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:10:05
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:10:05
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withemxna17eh376e5dnlogin_id333pat_thrd_id580doc_idtest333
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Failure","msg":"Message is empty","msg_list":[{"message":"I got a push notification on my iphone for this.","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:25:01"},{"message":"great","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:22"},{"message":"i got push for message also in referral h","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:50"},{"message":"this is from sales referral h","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:35:22"},{"message":"Super. Received from referring doctor","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:35:23"},{"message":"Perfect","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:35:59"},{"message":"this message i m sending from mapped sales","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:36:02"},{"message":"This message is from user interface web","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:36:53"},{"message":"I did not receive push from referralH","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:37:01"},{"message":"Neither from backend","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:37:56"},{"message":"is this in IOS?","doc_id":"333","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:38:11"},{"message":"I am receiving from all places...are you using IOS ?","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:39:36"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:11:36
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:11:36
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withemxna17eh376e5dnlogin_id333pat_thrd_id580doc_idtest333
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Failure","msg":"Message is empty","msg_list":[{"message":"I got a push notification on my iphone for this.","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:25:01"},{"message":"great","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:22"},{"message":"i got push for message also in referral h","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:50"},{"message":"this is from sales referral h","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:35:22"},{"message":"Super. Received from referring doctor","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:35:23"},{"message":"Perfect","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:35:59"},{"message":"this message i m sending from mapped sales","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:36:02"},{"message":"This message is from user interface web","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:36:53"},{"message":"I did not receive push from referralH","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:37:01"},{"message":"Neither from backend","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:37:56"},{"message":"is this in IOS?","doc_id":"333","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:38:11"},{"message":"I am receiving from all places...are you using IOS ?","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:39:36"},{"message":"Hello from hospital user test","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:40:30"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:11:55
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-30 23:11:55
+INFO : Remote Address =>219.91.218.216
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withemxna17eh376e5dnlogin_id333pat_thrd_id580doc_idtest333
+INFO : doc_id doc_id333
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message is present","msg_list":[{"message":"I got a push notification on my iphone for this.","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:25:01"},{"message":"great","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:22"},{"message":"i got push for message also in referral h","doc_id":"2","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:34:50"},{"message":"this is from sales referral h","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:35:22"},{"message":"Super. Received from referring doctor","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:35:23"},{"message":"Perfect","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:35:59"},{"message":"this message i m sending from mapped sales","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:36:02"},{"message":"This message is from user interface web","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:36:53"},{"message":"I did not receive push from referralH","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:37:01"},{"message":"Neither from backend","doc_id":"50","Doctor_name":"Shashi","timestamp":"2015-12-30 12:37:56"},{"message":"is this in IOS?","doc_id":"333","Doctor_name":"Rajeshwar Bose","timestamp":"2015-12-30 12:38:11"},{"message":"I am receiving from all places...are you using IOS ?","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:39:36"},{"message":"Hello from hospital user test","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:40:30"},{"message":"from referring doc app","doc_id":"333","Doctor_name":"Fatima Solapure","timestamp":"2015-12-30 12:41:55"}],"PUSHresult":""}

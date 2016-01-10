@@ -1,0 +1,123 @@
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 09:46:54
+INFO : Remote Address =>149.202.54.5
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 09:46:54
+INFO : Remote Address =>149.202.54.5
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updaterefdoc.php
+INFO : Type of Request =>GET
+INFO : before post
+INFO : received post
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 20:54:34
+INFO : Remote Address =>175.100.139.169
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9880130842
+INFO : POST data Array
+INFO :  not unique data *******************************
+INFO :  doc id present is *******************************2
+INFO :  count_query_unique_referout_any*******************************0
+INFO :  count_query_unique_referout*******************************0
+INFO :  count_query_unique_referoutINSERT INTO hospital_refer_out_doctor_stub(doctor_stub_id, hospital_id) VALUES ('2','18')
+INFO :  before handling temp doctors
+INFO : count handling temp doctors0
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 20:54:34
+INFO : Remote Address =>175.100.139.169
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9880130842
+INFO : POST data Array
+INFO :  not unique data *******************************
+INFO :  doc id present is *******************************2
+INFO :  count_query_unique_referout_any*******************************0
+INFO :  count_query_unique_referout*******************************1
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:01:35
+INFO : Remote Address =>175.100.139.169
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:01:35
+INFO : Remote Address =>175.100.139.169
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_mobile_msg.php
+INFO : Type of Request =>POST
+INFO : doctor_req namerefer-in
+INFO : refer in count1
+INFO : hospital nameMedisense
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:01:35
+INFO : Remote Address =>175.100.139.169
+Result+{"multicast_id":6220392874157064276,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1451403095359850%1927fc30f9fd7ecd"}]} 
+INFO : result
+INFO : inside push in mobile number
+INFO : inside IOS
+INFO : inside ios payload{"aps":{"alert":"Testing Referralio application.Please bear with us.","sound":"default","extra":"{\"msg\":\"Testing Referralio application.Please bear with us.\",\"flag_push\":\"broadcast_msg\",\"Broadcast_In_cnt\":1}"}}
+INFO : inside IOS result
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:02:09
+INFO : Remote Address =>175.100.139.169
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:02:09
+INFO : Remote Address =>175.100.139.169
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_mobile_msg.php
+INFO : Type of Request =>POST
+INFO : doctor_req namerefer-out
+INFO : refer in count1
+INFO : hospital nameMedisense
+INFO : inside refer out mobile number9880130842
+INFO : inside push out mobile number
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:02:09
+INFO : Remote Address =>175.100.139.169
+Result+"registration_ids" field cannot be empty
+ 
+INFO : result
+INFO : inside ios payload{"aps":{"alert":"Testing Referralio application.Please bear with us. Only to hospital doctors.","sound":"default","extra":"{\"msg\":\"Testing Referralio application.Please bear with us. Only to hospital doctors.\",\"flag_push\":\"broadcast_msg\",\"Broadcast_In_cnt\":1}"}}
+INFO : inside IOS result
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:19:34
+INFO : Remote Address =>175.100.139.169
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:19:34
+INFO : Remote Address =>175.100.139.169
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_mobile_msg.php
+INFO : Type of Request =>POST
+INFO : doctor_req namerefer-out
+INFO : refer in count1
+INFO : hospital nameMedisense
+INFO : inside refer out mobile number9880130842
+INFO : inside push out mobile number
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:19:34
+INFO : Remote Address =>175.100.139.169
+Result+"registration_ids" field cannot be empty
+ 
+INFO : result
+INFO : inside ios payload{"aps":{"alert":"test push notification for hospital doctors.","sound":"default","extra":"{\"msg\":\"test push notification for hospital doctors.\",\"flag_push\":\"broadcast_msg\",\"Broadcast_In_cnt\":1}"}}
+INFO : inside IOS result
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:53:33
+INFO : Remote Address =>175.100.139.169
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:53:33
+INFO : Remote Address =>175.100.139.169
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_mobile_msg.php
+INFO : Type of Request =>POST
+INFO : doctor_req namerefer-out
+INFO : refer in count5
+INFO : hospital nameReferralio
+INFO : inside refer out mobile number7026646022
+INFO : inside refer out mobile number9538810437
+INFO : inside push out mobile number...**###
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:53:33
+INFO : Remote Address =>175.100.139.169
+Result+{"multicast_id":5967347741936026542,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1451406213296459%1927fc30f9fd7ecd"},{"message_id":"0:1451406213280318%1927fc30f9fd7ecd"}]} 
+INFO : result
+INFO : inside ios payload{"aps":{"alert":"Test  for hospital doctors","sound":"default","extra":"{\"msg\":\"Test  for hospital doctors\",\"flag_push\":\"broadcast_msg\",\"Broadcast_In_cnt\":1}"}}
+INFO : inside IOS result *************

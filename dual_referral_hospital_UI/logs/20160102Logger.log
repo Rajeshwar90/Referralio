@@ -1,0 +1,660 @@
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 10:52:27
+INFO : Remote Address =>180.151.248.178
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 10:52:27
+INFO : Remote Address =>180.151.248.178
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updaterefdoc.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 10:52:58
+INFO : Remote Address =>180.151.248.178
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 10:52:58
+INFO : Remote Address =>180.151.248.178
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updaterefdoc.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:16:14
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>327ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count0
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Sathya','30','Female','whitefield','9880174062','poison case','327','poison case','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>592
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='327'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:16:14
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":7194346277008798856,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:25:44
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>326ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count0
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Manjula','40','Female','whitefield','9886125000','Pneumonia','326','Pneumonia','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>593
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='326'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:25:44
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":4985846909625982997,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:28:12
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>327ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count1
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Neeta Sunitha','30','Female','White field','9880174062','Pneumonia','327','Pneumonia','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>594
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='327'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:28:13
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":7729509005625217789,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:30:38
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>327ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count2
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Shravani','33','Female','White Field','9880174062','Acute GE','327','Acute GE','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>595
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='327'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:30:39
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":6148604352125838969,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:32:28
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>329ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count0
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Shanta','55','Female','Devsandra','9632171492','Fever','329','Fever','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>596
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='329'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:32:28
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":5204910677073394472,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:39:06
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>330ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count0
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Bhuvanesh','8','Male','Doddanakundi','9008880082','Abscess','330','Abscess','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>597
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='330'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:39:07
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":9087735519338124581,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:41:09
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>327ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count3
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Sant Ram','76','Male','White Field','9880174062','Pneumonia','327','Pneumonia','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>598
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='327'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:41:09
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":9214113637856218309,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:43:14
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>327ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count4
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Upasana','37','Female','White field','9880174062','Appendicities','327','Appendicities','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>599
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='327'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:43:15
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":6494734742615992065,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:47:10
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>329ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count1
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Muganth','1','Male','Devsandra','9632171492','Pneumonia','329','Pneumonia','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>600
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='329'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:47:11
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":5818142792135330431,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:48:43
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>327ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count5
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Nimishith','10','Male','White Field','9880174062','Fever','327','Fever','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>601
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='327'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:48:44
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":7410239863319059262,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:50:50
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>326ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count1
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Suresh','36','Male','White Field','9886125000','nephrotic Syndrome','326','nephrotic Syndrome','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>602
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='326'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:50:51
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":7247844923834440678,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:52:47
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>327ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count6
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Venugopal','45','Male','White field','9880174062','Risk Fracture','327','Risk Fracture','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>603
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='327'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:52:47
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":6550928167252663993,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:55:10
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>331ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count1
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Kavitha','39','Female','Marathahalli','8686374719','Sever Back Pain','331','Sever Back Pain','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>604
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='331'
+INFO : rows ****** =>1
+INFO : hospital_id******** =>32540
+INFO : insertion in referral_mapping_patient_stub done
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:55:10
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":7235091725891110730,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:56:51
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>329ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count2
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Lakshya','9','Male','Devsandra','9632171492','Hernia','329','Hernia','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>605
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='329'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:56:51
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":6377807203668834968,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:59:52
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>327ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count7
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Sounjanya','34','Female','White Feild','9880174062','Wide excersion & debrideme','327','Wide excersion & debrideme','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>606
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='327'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 11:59:52
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":4885489735453321771,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:03:45
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>328ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count0
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('B/O NIDHI AGRAWAL','1','Male','White Field','9742097499','Jaundice','328','Jaundice','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>607
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='328'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:03:45
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":7071132468155940337,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:07:08
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>331ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count2
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Mogalabi','38','Female','Marathahalli','8686374719','Self fall down','331','Self fall down','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>608
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='331'
+INFO : rows ****** =>1
+INFO : hospital_id******** =>32540
+INFO : insertion in referral_mapping_patient_stub done
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:07:08
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":6735082290812400001,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:09:10
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>329ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count3
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Tejas gowda','38','Male','Devsandra','9632171492','hernia','329','hernia','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>609
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='329'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:09:11
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":7896604523807492649,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:11:55
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>330ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count1
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Indira','62','Female','Doddanakundi','9008880082','Fever','330','Fever','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>610
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='330'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:11:55
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":4682688945911149374,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:13:58
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>330ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count2
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Anitha','20','Female','Doddanakundi','9008880082','endoscopy','330','endoscopy','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>611
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='330'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:13:59
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":9002596814315309251,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:16:18
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>330ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count3
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Satya','25','Female','Doddanakundi','9008880082','IVF','330','IVF','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>612
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='330'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:16:18
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":5931559838975552791,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:18:09
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>327ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count8
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Mumtaz','42','Female','White Feild','9880174062','Sugar Problem','327','Sugar Problem','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>613
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='327'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:18:10
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":6089479969175616824,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:20:05
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>328ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count1
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Vinyas','4','Male','White Field','9742097499','Pneumonia','328','Pneumonia','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>614
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='328'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:20:05
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":6174435884561520272,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:22:50
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>329ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count4
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Sohangowda','2','Male','Devsandra','9632171492','Fever','329','Fever','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>615
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='329'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:22:50
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":5605565057518161303,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:27:52
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>329ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count5
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('DEEGANTH','2','Male','Devansandra','9632171492','Pneumonia','329','Pneumonia','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>616
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='329'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:27:52
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":5152877120144039934,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:30:18
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>331ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count3
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Katti Mani','62','Male','Marathahalli','8686374719','Cardiac issues','331','Cardiac issues','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>617
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='331'
+INFO : rows ****** =>1
+INFO : hospital_id******** =>32540
+INFO : insertion in referral_mapping_patient_stub done
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:30:18
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":7745533694512662453,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:01
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>326ref_doc_id==>324
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count2
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Venkataraman','37','Male','White feild','9886125000','Neurology','326','Neurology','324',19,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>618
+INFO : get count hospital_id =>1
+INFO : hospital_id =>19
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='19' and referring_doctor_id='326'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:01
+INFO : Remote Address =>180.151.248.178
+Result+{"multicast_id":6793683645602645303,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 15:26:40
+INFO : Remote Address =>1.186.28.220
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>336ref_doc_id==>3
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count0
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Akshatha  S  Pai','25','Female','Sirsi','9591850343','Infertility','336','Infertility','3',13,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>619
+INFO : get count hospital_id =>1
+INFO : hospital_id =>13
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='13' and referring_doctor_id='336'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 15:26:40
+INFO : Remote Address =>1.186.28.220
+Result+{"multicast_id":5669941076082302183,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:47:45
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '592')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:48:37
+INFO : Remote Address =>180.151.248.178
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '618')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id

@@ -1,0 +1,114 @@
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 12:10:48
+INFO : Remote Address =>103.230.222.86
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '555')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 12:11:23
+INFO : Remote Address =>103.230.222.86
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '555')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 15:56:48
+INFO : Remote Address =>144.76.29.162
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/del_hospital_docs.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 15:56:50
+INFO : Remote Address =>144.76.29.162
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/deleteHospitalUserMapping.php
+INFO : Type of Request =>GET
+INFO : after post
+INFO : received posthospital_idreferring_doc_id
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 15:56:52
+INFO : Remote Address =>144.76.29.162
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/delete_referring_docs.php
+INFO : Type of Request =>GET
+INFO : query_update------------>update referral_mapping set referring_doctor_id='' where hospital_id='' and referring_doctor_id=''
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 15:57:36
+INFO : Remote Address =>144.76.29.162
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/hospital_user_registration_UI.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 15:59:35
+INFO : Remote Address =>144.76.29.162
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 15:59:35
+INFO : Remote Address =>144.76.29.162
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_mobile_msg.php
+INFO : Type of Request =>GET
+INFO : doctor_req name
+INFO : refer in count0
+INFO : hospital name
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 15:59:39
+INFO : Remote Address =>144.76.29.162
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_personal_broadcast.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 15:59:39
+INFO : Remote Address =>144.76.29.162
+Result+{"multicast_id":5454644138377868926,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : result
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 16:01:40
+INFO : Remote Address =>144.76.29.162
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updateHospitalUserMapping.php
+INFO : Type of Request =>GET
+INFO : after post
+INFO : received posthospital_idreferring_doc_id
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 16:02:56
+INFO : Remote Address =>1.186.28.220
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '497')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 16:03:10
+INFO : Remote Address =>1.186.28.220
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '549')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 16:09:29
+INFO : Remote Address =>1.186.28.220
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>298ref_doc_id==>3
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count0
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Netravathi','38','Female','Bhatkal','9972098399','Infertility','298','Infertility','3',13,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>556
+INFO : get count hospital_id =>1
+INFO : hospital_id =>13
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='13' and referring_doctor_id='298'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 16:09:29
+INFO : Remote Address =>1.186.28.220
+Result+{"multicast_id":8312952931386402948,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2015-12-21 16:09:43
+INFO : Remote Address =>1.186.28.220
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '556')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id

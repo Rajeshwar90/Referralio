@@ -1,0 +1,60 @@
+INFO : ------------------------------------------
+INFO : Date =>2015-12-22 12:32:40
+INFO : Remote Address =>1.186.28.220
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>299ref_doc_id==>3
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count0
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Shanthi Vijay','32','Female','Karkala','9480792152','Infertility','299','Infertility','3',13,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>559
+INFO : get count hospital_id =>1
+INFO : hospital_id =>13
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='13' and referring_doctor_id='299'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2015-12-22 12:32:41
+INFO : Remote Address =>1.186.28.220
+Result+{"multicast_id":8395528218582999728,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2015-12-22 13:54:54
+INFO : Remote Address =>1.186.28.220
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>300ref_doc_id==>3
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count0
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('Omana Pankajakshan','38','Female','Kannur','9447857241','Infertility','300','Infertility','3',13,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>561
+INFO : get count hospital_id =>1
+INFO : hospital_id =>13
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='13' and referring_doctor_id='300'
+INFO : rows ****** =>0
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2015-12-22 13:54:54
+INFO : Remote Address =>1.186.28.220
+Result+{"multicast_id":5157172834430666283,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]} 
+INFO : ------------------------------------------
+INFO : Date =>2015-12-22 14:03:10
+INFO : Remote Address =>1.186.28.220
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '559')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id
+INFO : ------------------------------------------
+INFO : Date =>2015-12-22 15:10:27
+INFO : Remote Address =>1.186.28.220
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '561')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id

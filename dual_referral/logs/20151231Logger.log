@@ -1,0 +1,330 @@
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:13:45
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/REG_DOC_STUB
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:13:45
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/REG_DOC_STUB
+INFO : Type of Request =>POST
+INFO : Calling registration for doctor
+INFO : before handling temp doctors
+INFO : count handling temp doctors1
+INFO : after handling temp doctors
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Successfully doctor has been registered"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:14:51
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/LOGIN_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:14:51
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/LOGIN_DOC
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_DOC for doctor
+INFO : login with8686374719passmohammedrazzak
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"331","Doctor_Title":"Dr.","Doctor_name":"Dr m.a razzak","Doctor_dob":"26","Doctor_email":"drabdulrazzaksamson@gmail.com","Doctor_specialization":"GENERAL MEDICINE,rehab medicine","Doctor_qualification":"pg","Doctor_HospitalName":"yashomathi hospital","Doctor_Country":"india","Doctor_State":"tg","Doctor_City":"hyderabad","Doctor_Address":"yashomathi hospital","Doctor_mobile_number":"8686374719","Doctor_password":"86034b670636af9cde4a0003e8f9fa55","Doctor_photograph":"account_image.png","Doctor_yxp":"3","license_number":"apmcc02147","visibility":"1","my_type":"I am a Doctor","country_code":"+91","type_value":"","Doctor_login_enc_key":"1dqar4ddkaxc3o6i","Doctor_unregistered":"False","reset_key":null}}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:14:53
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:14:53
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : Calling REGISTER_GCM for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331mobile-OSAndroid
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message from GCM server"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:14:54
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:14:54
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : Calling REFER_IN_RESPONSE_HOS for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization, ds.Doctor_qualification, ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_yxp IN (SELECT refer_by_hos_id FROM `hospital_refer_in_doctor_stub` where doc_stub_id='331' )and ds.type_value='hospital' UNION select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization,ds.Doctor_qualification,ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_serial_id in(Select personal_list_doc_id from doctor_personal_list where doc_id='331') 
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Hospitals available","Hos_list":[{"Doctor_serial_id":"323","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Whitefield-Columbia Asia","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Whitefield, Bangalore","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"19","type_value":"hospital"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:15:50
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/GET_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:15:50
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/GET_DOC
+INFO : Type of Request =>POST
+INFO : Calling get_doc for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331hospital_id19
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Doctors available","Doc_list":[{"refer_out_doc_id":"125","doctor_stub_id":"324","hospital_id":"19","refer_out_time":"2015-12-30 04:43:57","Doctor_serial_id":"324","Doctor_Title":"Dr.","Doctor_name":"Whitefield Columbia Asia","Doctor_dob":"48","Doctor_email":"nupur.t@columbiaasia.com","Doctor_specialization":"Medical Services","Doctor_qualification":"MBBS,MHA","Doctor_HospitalName":"Whitefield-Columbia Asia","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore","Doctor_Address":"Whitefield Bangalore","Doctor_mobile_number":"9620281969","Doctor_password":"ad4f7f9df2a5f86407e2eac841cce236","Doctor_photograph":"account_image.png","Doctor_yxp":"20","license_number":"111","visibility":"1","my_type":"I am a doctor","country_code":"+91","type_value":"","Doctor_login_enc_key":"","Doctor_unregistered":"False","reset_key":null}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:16:21
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/LISTING_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:16:21
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/LISTING_DOC
+INFO : Type of Request =>POST
+INFO : Calling LISTING_DOC for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+Element===>19 
+refer str,19 
+refer str after trim19 
+INFO : query_get_referred_in1 hospital in=> 0
+INFO : query_get_referred_inselect refer_by_hos_id from hospital_refer_in_doctor_stub where doc_stub_id='331' referred_str=> 19
+INFO : listing doctor query_list_docselect Doctor_serial_id,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_photograph,Doctor_yxp,type_value from doctor_stub where type_value='hospital' and Doctor_yxp IN (19) UNION select Doctor_serial_id,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_photograph,Doctor_yxp,type_value from doctor_stub ds inner join (select doctor_stub_id from hospital_refer_out_doctor_stub where hospital_id IN (19)) as res1 on res1.doctor_stub_id=ds.Doctor_serial_id where Doctor_serial_id!='331' and Doctor_unregistered='False' and visibility=1 order by Doctor_name ASC referred_str=> 19
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Doctors available","Doc_list":[{"Doctor_serial_id":"323","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Whitefield-Columbia Asia","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Whitefield, Bangalore","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"19","type_value":"hospital"},{"Doctor_serial_id":"324","Doctor_name":"Whitefield Columbia Asia","Doctor_dob":"48","Doctor_email":"nupur.t@columbiaasia.com","Doctor_specialization":"Medical Services","Doctor_qualification":"MBBS,MHA","Doctor_HospitalName":"Whitefield-Columbia Asia","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore","Doctor_Address":"Whitefield Bangalore","Doctor_mobile_number":"9620281969","Doctor_photograph":"account_image.png","Doctor_yxp":"20","type_value":""}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:16:36
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/REFFERING_IN_STATS
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:16:36
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/REFFERING_IN_STATS
+INFO : Type of Request =>POST
+INFO : Calling REFFERING_IN for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Success","msg":"No Refer IN patients available"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:16:59
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/GET_BROADCAST_MSGS
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:16:59
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/GET_BROADCAST_MSGS
+INFO : Type of Request =>POST
+INFO : Calling GET_BROADCAST_MSGS for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331hospital_id
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Messages available","Msg_list":[{"broadcast_id":"1","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-12-29 21:08:34"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:18:49
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/UPDATE_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 11:18:49
+INFO : Remote Address =>101.223.57.156
+INFO : PHP Scritp Name =>/dual_referral/UPDATE_DOC
+INFO : Type of Request =>POST
+INFO : Calling update for doctor
+INFO : login with+918686374719
+INFO : PHP sql print =>update doctor_stub set Doctor_name='Dr m.a razzak', Doctor_dob='26',Doctor_email='drabdulrazzaksamson@gmail.com',Doctor_specialization='REHAB MEDICINE',Doctor_qualification='pursuing md',Doctor_HospitalName='yashomathi hospital',Doctor_Country='india',Doctor_State='tg',Doctor_City='hyderabad',Doctor_Address='yashomathi hospital',Doctor_photograph='+918686374719.png',Doctor_yxp='3',license_number='apmcc02147',visibility='1',my_type='I am a Doctor',country_code='91' where Doctor_serial_id='331'
+INFO inside file image putting 
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Successfully doctor has been updated"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 13:26:34
+INFO : Remote Address =>116.202.31.147
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 13:26:34
+INFO : Remote Address =>116.202.31.147
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 13:30:32
+INFO : Remote Address =>116.202.31.147
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 13:30:32
+INFO : Remote Address =>116.202.31.147
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 13:40:15
+INFO : Remote Address =>116.202.31.147
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 13:40:15
+INFO : Remote Address =>116.202.31.147
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 14:39:54
+INFO : Remote Address =>116.202.31.147
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 14:39:54
+INFO : Remote Address =>116.202.31.147
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 20:43:34
+INFO : Remote Address =>116.202.112.229
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 20:43:34
+INFO : Remote Address =>116.202.112.229
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 22:23:28
+INFO : Remote Address =>49.139.249.107
+INFO : PHP Scritp Name =>/dual_referral/LISTING_ONESHOT
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 22:23:28
+INFO : Remote Address =>49.139.249.107
+INFO : PHP Scritp Name =>/dual_referral/LISTING_ONESHOT
+INFO : Type of Request =>POST
+INFO : Calling MYLISTONESHOT for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+Element===>19 
+refer str,19 
+refer str after trim19 
+INFO : listing doctor query_list_docselect Doctor_serial_id,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_photograph,Doctor_yxp,type_value from doctor_stub ds inner join (select doctor_stub_id from hospital_refer_out_doctor_stub where hospital_id IN (19)) as res1 on res1.doctor_stub_id=ds.Doctor_serial_id where Doctor_serial_id!='331' and Doctor_unregistered='False' and visibility=1 order by Doctor_name ASC referred_str=> 19
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Mylist Doctors available","Doc_list":[{"Doctor_serial_id":"324","Doctor_name":"Whitefield Columbia Asia","Doctor_dob":"48","Doctor_email":"nupur.t@columbiaasia.com","Doctor_specialization":"Medical Services","Doctor_qualification":"MBBS,MHA","Doctor_HospitalName":"Whitefield-Columbia Asia","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore","Doctor_Address":"Whitefield Bangalore","Doctor_mobile_number":"9620281969","Doctor_photograph":"account_image.png","Doctor_yxp":"20","type_value":""}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 22:23:31
+INFO : Remote Address =>49.139.249.107
+INFO : PHP Scritp Name =>/dual_referral/REG_PAT_STUB
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 22:23:31
+INFO : Remote Address =>49.139.249.107
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 22:23:31
+INFO : Remote Address =>49.139.249.107
+INFO : PHP Scritp Name =>/dual_referral/REG_PAT_STUB
+INFO : Type of Request =>POST
+INFO : Calling registration for patient
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+INFO : login with doc_ref_id324pat_thread_id_new
+INFO : patient registerselect * from hospital_refer_out_doctor_stub where doctor_stub_id='324'
+INFO : count of hospital value1
+INFO : hos_id_trans19
+INFO :  Refer Now option sql_print sql_printinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction) values('dinesh','2','Male','satya','8686374719','Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks','331','Note','324','19')
+INFO : login doc_ref_id324
+INFO : login inside doc_ref_id324
+INFO : refer in count1
+INFO : mysql_num_rows inside sql_gcm0
+INFO : num inside num0
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Patient successfully registered","result":null}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 22:23:31
+INFO : Remote Address =>49.139.249.107
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 22:23:31
+INFO : Remote Address =>49.139.249.107
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+INFO : login doc_id324
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Added to mylist"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 22:23:44
+INFO : Remote Address =>49.139.249.107
+INFO : PHP Scritp Name =>/dual_referral/REG_PAT_STUB
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 22:23:44
+INFO : Remote Address =>49.139.249.107
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 22:23:44
+INFO : Remote Address =>49.139.249.107
+INFO : PHP Scritp Name =>/dual_referral/REG_PAT_STUB
+INFO : Type of Request =>POST
+INFO : Calling registration for patient
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+INFO : login with doc_ref_id324pat_thread_id_new
+INFO : patient registerselect * from hospital_refer_out_doctor_stub where doctor_stub_id='324'
+INFO : count of hospital value1
+INFO : hos_id_trans19
+INFO :  Refer Now option sql_print sql_printinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction) values('dinesh','2','Male','satya','8686374719','Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks','331','Note','324','19')
+INFO :  matches with lastdinesh
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Patient successfully registered"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 22:24:14
+INFO : Remote Address =>49.139.249.107
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 22:24:14
+INFO : Remote Address =>49.139.249.107
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 23:56:18
+INFO : Remote Address =>49.139.249.107
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 23:56:18
+INFO : Remote Address =>49.139.249.107
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 23:57:35
+INFO : Remote Address =>157.55.39.107
+INFO : PHP Scritp Name =>/dual_referral/msg_broadcastAPI.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2015-12-31 23:57:35
+INFO : Remote Address =>157.55.39.107
+INFO : PHP Scritp Name =>/dual_referral/msg_broadcastAPI.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response

@@ -1,0 +1,26 @@
+1) doctor Stub table:
+
+registered by coloumn,
+Mobile registration-----> 0
+Hospital registration---> Hospital_id
+
+2) New table Hospiatal stub:
+
+Hospital Id:
+Hospital name:
+Hospital Location:
+Hospital Username:
+Hospital Password:
+
+3) Refer In Hospital-Doctor Stub New table
+
+Refer In Id
+Refer In Name:
+Refer In Mobile
+Refer In Email
+Refer In Hospital Id
+
+Done:
+1) refer in doctor getting saved in database
+2) response for both doctor and hospital
+3) clicking on hospital giving response of doctor list.

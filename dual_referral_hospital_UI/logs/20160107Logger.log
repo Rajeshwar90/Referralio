@@ -1,0 +1,80 @@
+INFO : ------------------------------------------
+INFO : Date =>2016-01-07 10:01:55
+INFO : Remote Address =>103.230.222.86
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updateHospitalUserMapping.php
+INFO : Type of Request =>POST
+INFO : after post
+INFO : received post325hospital_id19referring_doc_id327
+INFO : ------------------------------------------
+INFO : Date =>2016-01-07 12:51:50
+INFO : Remote Address =>121.244.90.18
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/update_secondary_status.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_Title as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '621')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id
+INFO : ------------------------------------------
+INFO : Date =>2016-01-07 16:23:06
+INFO : Remote Address =>106.216.170.119
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/hospital_user_registration_UI.php
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-07 23:43:26
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/hospital_user_registration_UI.php
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-07 23:49:55
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9980298321
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','DR RAJAGOPAL JAMBUNATHA','42','manjunatha.r@columbiaasia.com','CARDIOLOGY','DM','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9980298321',md5('98321'),'account_image.png','2','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9980298321 and password is 98321 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-07 23:52:41
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9740631668
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','SHASHIREKHA','40','manjunatha.r@columbiaasia.com','CARDIOLOGY','DNB','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9740631668',md5('31668'),'account_image.png','2','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9740631668 and password is 31668 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-07 23:55:04
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9986893505
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','REKHA V BHAT','40','manjunatha.r@columbiaasia.com','ENDOCRINOLOGIST','DM','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9986893505',md5('93505'),'account_image.png','6','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9986893505 and password is 93505 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-07 23:57:42
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9611073211
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','MAHADEV','39','manjunatha.r@columbiaasia.com','EMERGENCY CONSULTANT','MD','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9611073211',md5('73211'),'account_image.png','1','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9611073211 and password is 73211 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-07 23:59:30
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9844107614
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','NAGA NISCHAL','41','manjunatha.r@columbiaasia.com','EMERGENCY CONSULTANT','MD','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9844107614',md5('07614'),'account_image.png','1','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9844107614 and password is 07614 

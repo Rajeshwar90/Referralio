@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /dual_referral_sales/
+RewriteRule ^(LOGIN_SALES)$ login_sales.php?request=$1 [QSA,NC,L]
+RewriteRule ^(GET_CLIENT_SALES)$ getMyClients.php?request=$1 [QSA,NC,L]
+RewriteRule ^(REGISTER_GCM)$ register_REST_GCM.php?request=$1 [QSA,NC,L]
+RewriteRule ^(MSG_API)$ Patient_msg_API.php?request=$1 [QSA,NC,L]
+</IfModule>

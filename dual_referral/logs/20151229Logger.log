@@ -1,0 +1,597 @@
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 02:19:32
+INFO : Remote Address =>207.46.13.80
+INFO : PHP Scritp Name =>/dual_referral/update_doc_profile.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 02:19:32
+INFO : Remote Address =>207.46.13.80
+INFO : PHP Scritp Name =>/dual_referral/update_doc_profile.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 06:18:19
+INFO : Remote Address =>157.55.39.152
+INFO : PHP Scritp Name =>/dual_referral/reset_password.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 06:18:19
+INFO : Remote Address =>157.55.39.152
+INFO : PHP Scritp Name =>/dual_referral/reset_password.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 08:06:22
+INFO : Remote Address =>223.228.44.159
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 08:06:22
+INFO : Remote Address =>223.228.44.159
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withloipjia5oic9yfgjlogin_id315
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 08:50:40
+INFO : Remote Address =>40.77.167.28
+INFO : PHP Scritp Name =>/dual_referral/login_doctor.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 08:50:40
+INFO : Remote Address =>40.77.167.28
+INFO : PHP Scritp Name =>/dual_referral/login_doctor.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 13:05:38
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 13:05:38
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 13:07:40
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 13:07:40
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 13:08:50
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 13:08:50
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 13:09:29
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 13:09:29
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 13:11:40
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 13:11:40
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 13:50:51
+INFO : Remote Address =>223.187.148.40
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 13:50:51
+INFO : Remote Address =>223.187.148.40
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withloipjia5oic9yfgjlogin_id315
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:12:51
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:12:51
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:14:30
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:14:30
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:19:36
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:19:36
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:20:29
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:20:29
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:23:38
+INFO : Remote Address =>27.61.235.227
+INFO : PHP Scritp Name =>/dual_referral/LOGIN_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:23:38
+INFO : Remote Address =>27.61.235.227
+INFO : PHP Scritp Name =>/dual_referral/LOGIN_DOC
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_DOC for doctor
+INFO : login with9880130842pass11111
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"2","Doctor_Title":"Dr.","Doctor_name":"Shashi","Doctor_dob":"2\/7\/1979","Doctor_email":"pai.shashidhar@gmail.com","Doctor_specialization":"cardio thoracic surgery","Doctor_qualification":"MBBS, MD","Doctor_HospitalName":"DEMO HOSPITAL","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"Manipal","Doctor_mobile_number":"9880130842","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"15","license_number":"11111","visibility":"1","my_type":"","country_code":"","type_value":"","Doctor_login_enc_key":"dl41kqqf80f221vi","Doctor_unregistered":"False","reset_key":"8d830zen2d2"}}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:23:39
+INFO : Remote Address =>27.61.235.227
+INFO : PHP Scritp Name =>/dual_referral/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:23:39
+INFO : Remote Address =>27.61.235.227
+INFO : PHP Scritp Name =>/dual_referral/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : Calling REGISTER_GCM for doctor
+INFO : login withdl41kqqf80f221vilogin_id2mobile-OSIOS
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message from GCM server"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:23:40
+INFO : Remote Address =>27.61.235.227
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:23:40
+INFO : Remote Address =>27.61.235.227
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : Calling REFER_IN_RESPONSE_HOS for doctor
+INFO : login withdl41kqqf80f221vilogin_id2
+select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization, ds.Doctor_qualification, ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_yxp IN (SELECT refer_by_hos_id FROM `hospital_refer_in_doctor_stub` where doc_stub_id='2' )and ds.type_value='hospital' UNION select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization,ds.Doctor_qualification,ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_serial_id in(Select personal_list_doc_id from doctor_personal_list where doc_id='2') 
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Hospitals available","Hos_list":[{"Doctor_serial_id":"26","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Referralio","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"India","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"5","type_value":"hospital"},{"Doctor_serial_id":"156","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Dr. Ranjan Shetty, Cardiologist, Kasturba Hospital","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Manipal","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"12","type_value":"hospital"},{"Doctor_serial_id":"158","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Dr. Pratap Kumar, MARC ","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Manipal","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"13","type_value":"hospital"},{"Doctor_serial_id":"249","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Global Hospital","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Hyderabad","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"14","type_value":"hospital"},{"Doctor_serial_id":"279","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Bangalore","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"15","type_value":"hospital"},{"Doctor_serial_id":"304","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"India","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"17","type_value":"hospital"},{"Doctor_serial_id":"56","Doctor_name":"Raksha Pai","Doctor_dob":"1985-10-15","Doctor_email":"raksha.pai.nayak@gmail.com","Doctor_specialization":"Cardiology","Doctor_qualification":"MBBS MD","Doctor_HospitalName":"Referralio","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Udupi","Doctor_Address":"Udupi","Doctor_mobile_number":"9901427893","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"68","Doctor_name":"sachin","Doctor_dob":"11\/9\/2015","Doctor_email":"sachin.checkin@gmail.com","Doctor_specialization":"Cardiology","Doctor_qualification":"mbbs","Doctor_HospitalName":"demo","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"manipal","Doctor_mobile_number":"7026646022","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"94","Doctor_name":"mangalore KMC Manipal Hospital","Doctor_dob":"38","Doctor_email":"surendra.prasad@manipalhospitals.com","Doctor_specialization":"CARDIO THORACIC SURGERY,","Doctor_qualification":"md","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"kmc","Doctor_mobile_number":"9845222257","Doctor_photograph":"account_image.png","Doctor_yxp":"13","type_value":""},{"Doctor_serial_id":"250","Doctor_name":"Global Hospital","Doctor_dob":"40","Doctor_email":"keyur.patel@globalhospitalsindia.com","Doctor_specialization":"INTERNAL MEDICINE","Doctor_qualification":"MBBS MD","Doctor_HospitalName":"Global Hospital","Doctor_Country":"India","Doctor_State":"Thelangana","Doctor_City":"Hyderabad","Doctor_Address":"Hyderabad","Doctor_mobile_number":"8897509043","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"281","Doctor_name":"Salem Manipal Hospitals","Doctor_dob":"30","Doctor_email":"jashva@manipalhospitals.com","Doctor_specialization":"Marketing Team","Doctor_qualification":"MBA ","Doctor_HospitalName":"Manipal Hospital salem","Doctor_Country":"India","Doctor_State":"TamilNadu","Doctor_City":"Salem","Doctor_Address":"Manipal Hospitals, Salem","Doctor_mobile_number":"9629599933","Doctor_photograph":"+919629599933.png","Doctor_yxp":"09","type_value":""},{"Doctor_serial_id":"285","Doctor_name":"Bangalore Old Airport Road Manipal Hospital","Doctor_dob":"30","Doctor_email":"Subhashit.m@manipalhospitals.com","Doctor_specialization":"Marketing Team","Doctor_qualification":"Marketing","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore Old Airport Road","Doctor_Address":"Bangalore Old Airport Road","Doctor_mobile_number":"9886371559","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"288","Doctor_name":"Vijaywada Manipal Hospitals","Doctor_dob":"30","Doctor_email":"Somashekar.c@manipalhospitals.com","Doctor_specialization":"Marketing Team","Doctor_qualification":"Marketing","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"India","Doctor_State":"Andhra Pradesh","Doctor_City":"Vijayawada","Doctor_Address":"Vijayawada","Doctor_mobile_number":"9880480816","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"293","Doctor_name":"Paramjit Singh","Doctor_dob":"30","Doctor_email":"psluddu@gmail.com","Doctor_specialization":"Referralio Marketing","Doctor_qualification":"M Pharma","Doctor_HospitalName":"Referralio","Doctor_Country":"India","Doctor_State":"Delhi","Doctor_City":"Delhi","Doctor_Address":"Delhi","Doctor_mobile_number":"9900911637","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"305","Doctor_name":"North West Columbia Asia","Doctor_dob":"35","Doctor_email":"yashpal.rawat@columbiaasia.com","Doctor_specialization":"Sales and Marketing","Doctor_qualification":"Marketing","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Haryana","Doctor_City":"Gurgaon","Doctor_Address":"Gurgaon, Gaziabad, Patiala, Ahmedabad, Pune","Doctor_mobile_number":"9818659504","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"306","Doctor_name":"International patients Columbia Asia","Doctor_dob":"44","Doctor_email":"vinay.kaul@columbiaasia.com","Doctor_specialization":"Vinay Kaul ","Doctor_qualification":"Sales and Marketing ","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore","Doctor_Address":"Bangalore","Doctor_mobile_number":"9902288771","Doctor_photograph":"account_image.png","Doctor_yxp":"20","type_value":""},{"Doctor_serial_id":"309","Doctor_name":"Whitefield Columbia Asia","Doctor_dob":"30","Doctor_email":"faraz.ahmed@columbiaasia.com","Doctor_specialization":"Sales ","Doctor_qualification":"Sales","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Whitefield Bangalore","Doctor_Address":"Whitefield Bangalore","Doctor_mobile_number":"9591111226","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"316","Doctor_name":"Sreeram R","Doctor_dob":"32","Doctor_email":"sreeram.r@columbiaasia.com","Doctor_specialization":"Marketing","Doctor_qualification":"MBA","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore","Doctor_Address":"Ramamurthynagar","Doctor_mobile_number":"9980218242","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:35:36
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 14:35:36
+INFO : Remote Address =>116.202.117.72
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 15:45:53
+INFO : Remote Address =>180.215.32.61
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 15:45:53
+INFO : Remote Address =>180.215.32.61
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 17:51:49
+INFO : Remote Address =>117.246.174.65
+INFO : PHP Scritp Name =>/dual_referral/REFFERING_OUT_STATS
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 17:51:49
+INFO : Remote Address =>117.246.174.65
+INFO : PHP Scritp Name =>/dual_referral/REFFERING_OUT_STATS
+INFO : Type of Request =>POST
+INFO : Calling REFFERING_OUT for doctor
+INFO : login withdybyj2te9cive1l6login_id134doc_id2
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Refer OUT Patients available","ReferOUT_list":[{"Patient_thread_id":"557","Patient_Name":"Vaman","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"LA MA ","Patient_mobile_number":"9845206316","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"0","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-22 00:48:55","cnt":"0"},{"Patient_thread_id":"541","Patient_Name":"Tanvi","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"LA ","Patient_mobile_number":"9480558067","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-17 05:50:25","cnt":"1"},{"Patient_thread_id":"458","Patient_Name":"Vasadev","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"ms ","Patient_mobile_number":"9448452593","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-08 06:53:13","cnt":"0"},{"Patient_thread_id":"456","Patient_Name":"Rajesb","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"dl ","Patient_mobile_number":"9845009117","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-07 08:08:59","cnt":"0"},{"Patient_thread_id":"441","Patient_Name":"Hussain","Patient_Age":"25","Patient_Gender":"Male","Patient_Location":"FL ","Patient_mobile_number":"9480558067","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-04 06:15:48","cnt":"0"},{"Patient_thread_id":"429","Patient_Name":"Saghuna. ","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"mangalore ","Patient_mobile_number":"9448148239","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-02 01:29:41","cnt":"0"},{"Patient_thread_id":"427","Patient_Name":"Tanvi","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"ms ","Patient_mobile_number":"7259928182","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-01 07:09:25","cnt":"0"},{"Patient_thread_id":"351","Patient_Name":"Drghh","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"FL ","Patient_mobile_number":"9880825793","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-20 05:33:33","cnt":"0"},{"Patient_thread_id":"320","Patient_Name":"Geetha","Patient_Age":"23","Patient_Gender":"Female","Patient_Location":"LA ","Patient_mobile_number":"9916244875","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-18 00:04:54","cnt":"0"},{"Patient_thread_id":"317","Patient_Name":"Govibd","Patient_Age":"23","Patient_Gender":"Male","Patient_Location":"all ","Patient_mobile_number":"9900479406","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-17 05:40:52","cnt":"0"},{"Patient_thread_id":"308","Patient_Name":"Ramu","Patient_Age":"25","Patient_Gender":"Male","Patient_Location":"so ","Patient_mobile_number":"9449599232","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-11 23:59:10","cnt":"0"},{"Patient_thread_id":"302","Patient_Name":"Sudhakar Dee","Patient_Age":"42","Patient_Gender":"Male","Patient_Location":"LA ","Patient_mobile_number":"9448445458","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-11 00:14:38","cnt":"0"},{"Patient_thread_id":"297","Patient_Name":"Voice","Patient_Age":"0","Patient_Gender":"Male","Patient_Location":"Voice","Patient_mobile_number":"Voice","Patient_issue_notes":"","Reg_by_doc":"134","Patient_defined_notes":"Voice","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"1447157717_134_2.wav","TImestamp":"2015-11-10 07:15:17","cnt":"0"},{"Patient_thread_id":"283","Patient_Name":"Gopl","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"LA ","Patient_mobile_number":"9481316667","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-09 05:11:57","cnt":"0"},{"Patient_thread_id":"273","Patient_Name":"Damodhar","Patient_Age":"56","Patient_Gender":"Male","Patient_Location":"ask ","Patient_mobile_number":"9743781912","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-07 00:22:52","cnt":"0"},{"Patient_thread_id":"272","Patient_Name":"Go Vind","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"ms ","Patient_mobile_number":"9731477833","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-06 23:38:45","cnt":"0"},{"Patient_thread_id":"271","Patient_Name":"Ranj","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"magnificent views ","Patient_mobile_number":"9972685442","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-06 06:49:11","cnt":"0"},{"Patient_thread_id":"270","Patient_Name":"Ramesh","Patient_Age":"42","Patient_Gender":"Male","Patient_Location":"mangalore ","Patient_mobile_number":"653425","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-05 03:53:15","cnt":"0"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 17:52:38
+INFO : Remote Address =>117.246.174.65
+INFO : PHP Scritp Name =>/dual_referral/REG_PAT_STUB
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 17:52:38
+INFO : Remote Address =>117.246.174.65
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 17:52:38
+INFO : Remote Address =>117.246.174.65
+INFO : PHP Scritp Name =>/dual_referral/REG_PAT_STUB
+INFO : Type of Request =>POST
+INFO : Calling registration for patient
+INFO : login withdybyj2te9cive1l6login_id134
+INFO : login with doc_ref_id2pat_thread_id_new
+INFO : patient registerselect * from hospital_refer_out_doctor_stub where doctor_stub_id='2'
+INFO : count of hospital value0
+INFO : hos_id_trans0
+INFO :  Refer Now option sql_print sql_printinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction) values('Govind','45','Male','LA ','9535521391','Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks','134','Note','2','0')
+INFO : login doc_ref_id2
+INFO : login inside doc_ref_id2
+INFO : refer in count2
+INFO : mysql_num_rows inside sql_gcm1
+INFO : num inside num1
+INFO : login gcm_id8560f511f3203b5e2e6cf8f61be6dbf255213cc0c49cb48bfd587ab22750e965os type=>IOS
+INFO : login with mobile9880130842
+INFO : login with msgPatient+Govind+has+been+referred+to+you+by+Dr.K+S+Kamath
+INFO : login with urlhttp://sms6.routesms.com:8080/bulksms/bulksms?username=medisense&password=medi2015&type=5&dlr=0&destination=9880130842&source=HCHKIN&message=Patient+Govind+has+been+referred+to+you+by+Dr.K+S+Kamath
+INFO : inside IOS8560f511f3203b5e2e6cf8f61be6dbf255213cc0c49cb48bfd587ab22750e965
+INFO : inside ios payload{"aps":{"alert":"DR.K S Kamath has reffered a patient Govind","sound":"default","extra":"{\"msg\":\"DR.K S Kamath has reffered a patient Govind\",\"flag_push\":\"Refer\",\"Refer_In_cnt\":\"2\"}"}}
+INFO : inside IOS result
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Patient successfully registered","result":null}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 17:54:06
+INFO : Remote Address =>117.246.174.65
+INFO : PHP Scritp Name =>/dual_referral/REFFERING_OUT_STATS
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 17:54:06
+INFO : Remote Address =>117.246.174.65
+INFO : PHP Scritp Name =>/dual_referral/REFFERING_OUT_STATS
+INFO : Type of Request =>POST
+INFO : Calling REFFERING_OUT for doctor
+INFO : login withdybyj2te9cive1l6login_id134doc_id2
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Refer OUT Patients available","ReferOUT_list":[{"Patient_thread_id":"576","Patient_Name":"Govind","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"LA ","Patient_mobile_number":"9535521391","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"0","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-29 07:22:38","cnt":"0"},{"Patient_thread_id":"557","Patient_Name":"Vaman","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"LA MA ","Patient_mobile_number":"9845206316","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"0","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-22 00:48:55","cnt":"0"},{"Patient_thread_id":"541","Patient_Name":"Tanvi","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"LA ","Patient_mobile_number":"9480558067","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-17 05:50:25","cnt":"1"},{"Patient_thread_id":"458","Patient_Name":"Vasadev","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"ms ","Patient_mobile_number":"9448452593","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-08 06:53:13","cnt":"0"},{"Patient_thread_id":"456","Patient_Name":"Rajesb","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"dl ","Patient_mobile_number":"9845009117","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-07 08:08:59","cnt":"0"},{"Patient_thread_id":"441","Patient_Name":"Hussain","Patient_Age":"25","Patient_Gender":"Male","Patient_Location":"FL ","Patient_mobile_number":"9480558067","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-04 06:15:48","cnt":"0"},{"Patient_thread_id":"429","Patient_Name":"Saghuna. ","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"mangalore ","Patient_mobile_number":"9448148239","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-02 01:29:41","cnt":"0"},{"Patient_thread_id":"427","Patient_Name":"Tanvi","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"ms ","Patient_mobile_number":"7259928182","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-01 07:09:25","cnt":"0"},{"Patient_thread_id":"351","Patient_Name":"Drghh","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"FL ","Patient_mobile_number":"9880825793","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-20 05:33:33","cnt":"0"},{"Patient_thread_id":"320","Patient_Name":"Geetha","Patient_Age":"23","Patient_Gender":"Female","Patient_Location":"LA ","Patient_mobile_number":"9916244875","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-18 00:04:54","cnt":"0"},{"Patient_thread_id":"317","Patient_Name":"Govibd","Patient_Age":"23","Patient_Gender":"Male","Patient_Location":"all ","Patient_mobile_number":"9900479406","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-17 05:40:52","cnt":"0"},{"Patient_thread_id":"308","Patient_Name":"Ramu","Patient_Age":"25","Patient_Gender":"Male","Patient_Location":"so ","Patient_mobile_number":"9449599232","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-11 23:59:10","cnt":"0"},{"Patient_thread_id":"302","Patient_Name":"Sudhakar Dee","Patient_Age":"42","Patient_Gender":"Male","Patient_Location":"LA ","Patient_mobile_number":"9448445458","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-11 00:14:38","cnt":"0"},{"Patient_thread_id":"297","Patient_Name":"Voice","Patient_Age":"0","Patient_Gender":"Male","Patient_Location":"Voice","Patient_mobile_number":"Voice","Patient_issue_notes":"","Reg_by_doc":"134","Patient_defined_notes":"Voice","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"1447157717_134_2.wav","TImestamp":"2015-11-10 07:15:17","cnt":"0"},{"Patient_thread_id":"283","Patient_Name":"Gopl","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"LA ","Patient_mobile_number":"9481316667","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-09 05:11:57","cnt":"0"},{"Patient_thread_id":"273","Patient_Name":"Damodhar","Patient_Age":"56","Patient_Gender":"Male","Patient_Location":"ask ","Patient_mobile_number":"9743781912","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-07 00:22:52","cnt":"0"},{"Patient_thread_id":"272","Patient_Name":"Go Vind","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"ms ","Patient_mobile_number":"9731477833","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-06 23:38:45","cnt":"0"},{"Patient_thread_id":"271","Patient_Name":"Ranj","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"magnificent views ","Patient_mobile_number":"9972685442","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-06 06:49:11","cnt":"0"},{"Patient_thread_id":"270","Patient_Name":"Ramesh","Patient_Age":"42","Patient_Gender":"Male","Patient_Location":"mangalore ","Patient_mobile_number":"653425","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-05 03:53:15","cnt":"0"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 18:22:16
+INFO : Remote Address =>117.237.150.105
+INFO : PHP Scritp Name =>/dual_referral/REFFERING_OUT_STATS
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 18:22:16
+INFO : Remote Address =>117.237.150.105
+INFO : PHP Scritp Name =>/dual_referral/REFFERING_OUT_STATS
+INFO : Type of Request =>POST
+INFO : Calling REFFERING_OUT for doctor
+INFO : login withdybyj2te9cive1l6login_id134doc_id2
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Refer OUT Patients available","ReferOUT_list":[{"Patient_thread_id":"576","Patient_Name":"Govind","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"LA ","Patient_mobile_number":"9535521391","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"0","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-29 07:22:38","cnt":"0"},{"Patient_thread_id":"557","Patient_Name":"Vaman","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"LA MA ","Patient_mobile_number":"9845206316","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"0","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-22 00:48:55","cnt":"0"},{"Patient_thread_id":"541","Patient_Name":"Tanvi","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"LA ","Patient_mobile_number":"9480558067","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-17 05:50:25","cnt":"1"},{"Patient_thread_id":"458","Patient_Name":"Vasadev","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"ms ","Patient_mobile_number":"9448452593","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-08 06:53:13","cnt":"0"},{"Patient_thread_id":"456","Patient_Name":"Rajesb","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"dl ","Patient_mobile_number":"9845009117","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-07 08:08:59","cnt":"0"},{"Patient_thread_id":"441","Patient_Name":"Hussain","Patient_Age":"25","Patient_Gender":"Male","Patient_Location":"FL ","Patient_mobile_number":"9480558067","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-04 06:15:48","cnt":"0"},{"Patient_thread_id":"429","Patient_Name":"Saghuna. ","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"mangalore ","Patient_mobile_number":"9448148239","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-02 01:29:41","cnt":"0"},{"Patient_thread_id":"427","Patient_Name":"Tanvi","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"ms ","Patient_mobile_number":"7259928182","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-01 07:09:25","cnt":"0"},{"Patient_thread_id":"351","Patient_Name":"Drghh","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"FL ","Patient_mobile_number":"9880825793","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-20 05:33:33","cnt":"0"},{"Patient_thread_id":"320","Patient_Name":"Geetha","Patient_Age":"23","Patient_Gender":"Female","Patient_Location":"LA ","Patient_mobile_number":"9916244875","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-18 00:04:54","cnt":"0"},{"Patient_thread_id":"317","Patient_Name":"Govibd","Patient_Age":"23","Patient_Gender":"Male","Patient_Location":"all ","Patient_mobile_number":"9900479406","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-17 05:40:52","cnt":"0"},{"Patient_thread_id":"308","Patient_Name":"Ramu","Patient_Age":"25","Patient_Gender":"Male","Patient_Location":"so ","Patient_mobile_number":"9449599232","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-11 23:59:10","cnt":"0"},{"Patient_thread_id":"302","Patient_Name":"Sudhakar Dee","Patient_Age":"42","Patient_Gender":"Male","Patient_Location":"LA ","Patient_mobile_number":"9448445458","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-11 00:14:38","cnt":"0"},{"Patient_thread_id":"297","Patient_Name":"Voice","Patient_Age":"0","Patient_Gender":"Male","Patient_Location":"Voice","Patient_mobile_number":"Voice","Patient_issue_notes":"","Reg_by_doc":"134","Patient_defined_notes":"Voice","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"1447157717_134_2.wav","TImestamp":"2015-11-10 07:15:17","cnt":"0"},{"Patient_thread_id":"283","Patient_Name":"Gopl","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"LA ","Patient_mobile_number":"9481316667","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-09 05:11:57","cnt":"0"},{"Patient_thread_id":"273","Patient_Name":"Damodhar","Patient_Age":"56","Patient_Gender":"Male","Patient_Location":"ask ","Patient_mobile_number":"9743781912","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-07 00:22:52","cnt":"0"},{"Patient_thread_id":"272","Patient_Name":"Go Vind","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"ms ","Patient_mobile_number":"9731477833","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-06 23:38:45","cnt":"0"},{"Patient_thread_id":"271","Patient_Name":"Ranj","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"magnificent views ","Patient_mobile_number":"9972685442","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-06 06:49:11","cnt":"0"},{"Patient_thread_id":"270","Patient_Name":"Ramesh","Patient_Age":"42","Patient_Gender":"Male","Patient_Location":"mangalore ","Patient_mobile_number":"653425","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-05 03:53:15","cnt":"0"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 18:23:01
+INFO : Remote Address =>117.237.150.105
+INFO : PHP Scritp Name =>/dual_referral/REFFERING_OUT_STATS
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 18:23:01
+INFO : Remote Address =>117.237.150.105
+INFO : PHP Scritp Name =>/dual_referral/REFFERING_OUT_STATS
+INFO : Type of Request =>POST
+INFO : Calling REFFERING_OUT for doctor
+INFO : login withdybyj2te9cive1l6login_id134doc_id2
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Refer OUT Patients available","ReferOUT_list":[{"Patient_thread_id":"576","Patient_Name":"Govind","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"LA ","Patient_mobile_number":"9535521391","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"0","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-29 07:22:38","cnt":"0"},{"Patient_thread_id":"557","Patient_Name":"Vaman","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"LA MA ","Patient_mobile_number":"9845206316","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"0","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-22 00:48:55","cnt":"0"},{"Patient_thread_id":"541","Patient_Name":"Tanvi","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"LA ","Patient_mobile_number":"9480558067","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-17 05:50:25","cnt":"1"},{"Patient_thread_id":"458","Patient_Name":"Vasadev","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"ms ","Patient_mobile_number":"9448452593","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-08 06:53:13","cnt":"0"},{"Patient_thread_id":"456","Patient_Name":"Rajesb","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"dl ","Patient_mobile_number":"9845009117","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-07 08:08:59","cnt":"0"},{"Patient_thread_id":"441","Patient_Name":"Hussain","Patient_Age":"25","Patient_Gender":"Male","Patient_Location":"FL ","Patient_mobile_number":"9480558067","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-04 06:15:48","cnt":"0"},{"Patient_thread_id":"429","Patient_Name":"Saghuna. ","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"mangalore ","Patient_mobile_number":"9448148239","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-02 01:29:41","cnt":"0"},{"Patient_thread_id":"427","Patient_Name":"Tanvi","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"ms ","Patient_mobile_number":"7259928182","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-01 07:09:25","cnt":"0"},{"Patient_thread_id":"351","Patient_Name":"Drghh","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"FL ","Patient_mobile_number":"9880825793","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"11","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-20 05:33:33","cnt":"0"},{"Patient_thread_id":"320","Patient_Name":"Geetha","Patient_Age":"23","Patient_Gender":"Female","Patient_Location":"LA ","Patient_mobile_number":"9916244875","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-18 00:04:54","cnt":"0"},{"Patient_thread_id":"317","Patient_Name":"Govibd","Patient_Age":"23","Patient_Gender":"Male","Patient_Location":"all ","Patient_mobile_number":"9900479406","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-17 05:40:52","cnt":"0"},{"Patient_thread_id":"308","Patient_Name":"Ramu","Patient_Age":"25","Patient_Gender":"Male","Patient_Location":"so ","Patient_mobile_number":"9449599232","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-11 23:59:10","cnt":"0"},{"Patient_thread_id":"302","Patient_Name":"Sudhakar Dee","Patient_Age":"42","Patient_Gender":"Male","Patient_Location":"LA ","Patient_mobile_number":"9448445458","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-11 00:14:38","cnt":"0"},{"Patient_thread_id":"297","Patient_Name":"Voice","Patient_Age":"0","Patient_Gender":"Male","Patient_Location":"Voice","Patient_mobile_number":"Voice","Patient_issue_notes":"","Reg_by_doc":"134","Patient_defined_notes":"Voice","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"1447157717_134_2.wav","TImestamp":"2015-11-10 07:15:17","cnt":"0"},{"Patient_thread_id":"283","Patient_Name":"Gopl","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"LA ","Patient_mobile_number":"9481316667","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-09 05:11:57","cnt":"0"},{"Patient_thread_id":"273","Patient_Name":"Damodhar","Patient_Age":"56","Patient_Gender":"Male","Patient_Location":"ask ","Patient_mobile_number":"9743781912","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-07 00:22:52","cnt":"0"},{"Patient_thread_id":"272","Patient_Name":"Go Vind","Patient_Age":"45","Patient_Gender":"Male","Patient_Location":"ms ","Patient_mobile_number":"9731477833","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-06 23:38:45","cnt":"0"},{"Patient_thread_id":"271","Patient_Name":"Ranj","Patient_Age":"45","Patient_Gender":"Female","Patient_Location":"magnificent views ","Patient_mobile_number":"9972685442","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-06 06:49:11","cnt":"0"},{"Patient_thread_id":"270","Patient_Name":"Ramesh","Patient_Age":"42","Patient_Gender":"Male","Patient_Location":"mangalore ","Patient_mobile_number":"653425","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"134","Patient_defined_notes":"Note","doc_ref_id":"2","hospital_id_transaction":"0","refer_in_view_flag":"1","primary_status":"1","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-11-05 03:53:15","cnt":"0"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 19:47:32
+INFO : Remote Address =>27.61.235.227
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 19:47:32
+INFO : Remote Address =>27.61.235.227
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : Calling REFER_IN_RESPONSE_HOS for doctor
+INFO : login withdl41kqqf80f221vilogin_id2
+select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization, ds.Doctor_qualification, ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_yxp IN (SELECT refer_by_hos_id FROM `hospital_refer_in_doctor_stub` where doc_stub_id='2' )and ds.type_value='hospital' UNION select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization,ds.Doctor_qualification,ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_serial_id in(Select personal_list_doc_id from doctor_personal_list where doc_id='2') 
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Hospitals available","Hos_list":[{"Doctor_serial_id":"26","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Referralio","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"India","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"5","type_value":"hospital"},{"Doctor_serial_id":"156","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Dr. Ranjan Shetty, Cardiologist, Kasturba Hospital","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Manipal","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"12","type_value":"hospital"},{"Doctor_serial_id":"158","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Dr. Pratap Kumar, MARC ","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Manipal","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"13","type_value":"hospital"},{"Doctor_serial_id":"249","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Global Hospital","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Hyderabad","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"14","type_value":"hospital"},{"Doctor_serial_id":"279","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Bangalore","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"15","type_value":"hospital"},{"Doctor_serial_id":"304","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"India","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"17","type_value":"hospital"},{"Doctor_serial_id":"56","Doctor_name":"Raksha Pai","Doctor_dob":"1985-10-15","Doctor_email":"raksha.pai.nayak@gmail.com","Doctor_specialization":"Cardiology","Doctor_qualification":"MBBS MD","Doctor_HospitalName":"Referralio","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Udupi","Doctor_Address":"Udupi","Doctor_mobile_number":"9901427893","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"68","Doctor_name":"sachin","Doctor_dob":"11\/9\/2015","Doctor_email":"sachin.checkin@gmail.com","Doctor_specialization":"Cardiology","Doctor_qualification":"mbbs","Doctor_HospitalName":"demo","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"manipal","Doctor_mobile_number":"7026646022","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"94","Doctor_name":"mangalore KMC Manipal Hospital","Doctor_dob":"38","Doctor_email":"surendra.prasad@manipalhospitals.com","Doctor_specialization":"CARDIO THORACIC SURGERY,","Doctor_qualification":"md","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"kmc","Doctor_mobile_number":"9845222257","Doctor_photograph":"account_image.png","Doctor_yxp":"13","type_value":""},{"Doctor_serial_id":"250","Doctor_name":"Global Hospital","Doctor_dob":"40","Doctor_email":"keyur.patel@globalhospitalsindia.com","Doctor_specialization":"INTERNAL MEDICINE","Doctor_qualification":"MBBS MD","Doctor_HospitalName":"Global Hospital","Doctor_Country":"India","Doctor_State":"Thelangana","Doctor_City":"Hyderabad","Doctor_Address":"Hyderabad","Doctor_mobile_number":"8897509043","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"281","Doctor_name":"Salem Manipal Hospitals","Doctor_dob":"30","Doctor_email":"jashva@manipalhospitals.com","Doctor_specialization":"Marketing Team","Doctor_qualification":"MBA ","Doctor_HospitalName":"Manipal Hospital salem","Doctor_Country":"India","Doctor_State":"TamilNadu","Doctor_City":"Salem","Doctor_Address":"Manipal Hospitals, Salem","Doctor_mobile_number":"9629599933","Doctor_photograph":"+919629599933.png","Doctor_yxp":"09","type_value":""},{"Doctor_serial_id":"285","Doctor_name":"Bangalore Old Airport Road Manipal Hospital","Doctor_dob":"30","Doctor_email":"Subhashit.m@manipalhospitals.com","Doctor_specialization":"Marketing Team","Doctor_qualification":"Marketing","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore Old Airport Road","Doctor_Address":"Bangalore Old Airport Road","Doctor_mobile_number":"9886371559","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"288","Doctor_name":"Vijaywada Manipal Hospitals","Doctor_dob":"30","Doctor_email":"Somashekar.c@manipalhospitals.com","Doctor_specialization":"Marketing Team","Doctor_qualification":"Marketing","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"India","Doctor_State":"Andhra Pradesh","Doctor_City":"Vijayawada","Doctor_Address":"Vijayawada","Doctor_mobile_number":"9880480816","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"293","Doctor_name":"Paramjit Singh","Doctor_dob":"30","Doctor_email":"psluddu@gmail.com","Doctor_specialization":"Referralio Marketing","Doctor_qualification":"M Pharma","Doctor_HospitalName":"Referralio","Doctor_Country":"India","Doctor_State":"Delhi","Doctor_City":"Delhi","Doctor_Address":"Delhi","Doctor_mobile_number":"9900911637","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"305","Doctor_name":"North West Columbia Asia","Doctor_dob":"35","Doctor_email":"yashpal.rawat@columbiaasia.com","Doctor_specialization":"Sales and Marketing","Doctor_qualification":"Marketing","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Haryana","Doctor_City":"Gurgaon","Doctor_Address":"Gurgaon, Gaziabad, Patiala, Ahmedabad, Pune","Doctor_mobile_number":"9818659504","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"306","Doctor_name":"International patients Columbia Asia","Doctor_dob":"44","Doctor_email":"vinay.kaul@columbiaasia.com","Doctor_specialization":"Vinay Kaul ","Doctor_qualification":"Sales and Marketing ","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore","Doctor_Address":"Bangalore","Doctor_mobile_number":"9902288771","Doctor_photograph":"account_image.png","Doctor_yxp":"20","type_value":""},{"Doctor_serial_id":"309","Doctor_name":"Whitefield Columbia Asia","Doctor_dob":"30","Doctor_email":"faraz.ahmed@columbiaasia.com","Doctor_specialization":"Sales ","Doctor_qualification":"Sales","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Whitefield Bangalore","Doctor_Address":"Whitefield Bangalore","Doctor_mobile_number":"9591111226","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"316","Doctor_name":"Sreeram R","Doctor_dob":"32","Doctor_email":"sreeram.r@columbiaasia.com","Doctor_specialization":"Marketing","Doctor_qualification":"MBA","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore","Doctor_Address":"Ramamurthynagar","Doctor_mobile_number":"9980218242","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:19:01
+INFO : Remote Address =>122.179.43.174
+INFO : PHP Scritp Name =>/dual_referral/LOGIN_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:19:01
+INFO : Remote Address =>122.179.43.174
+INFO : PHP Scritp Name =>/dual_referral/LOGIN_DOC
+INFO : Type of Request =>POST
+INFO : Calling LOGIN_DOC for doctor
+INFO : login with9880130842pass11111
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","doc_details":{"Doctor_serial_id":"2","Doctor_Title":"Dr.","Doctor_name":"Shashi","Doctor_dob":"2\/7\/1979","Doctor_email":"pai.shashidhar@gmail.com","Doctor_specialization":"cardio thoracic surgery","Doctor_qualification":"MBBS, MD","Doctor_HospitalName":"Medisense","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"Manipal","Doctor_mobile_number":"9880130842","Doctor_password":"b0baee9d279d34fa1dfd71aadb908c3f","Doctor_photograph":"account_image.png","Doctor_yxp":"15","license_number":"11111","visibility":"1","my_type":"","country_code":"","type_value":"","Doctor_login_enc_key":"gn7urlpiokssmhn3","Doctor_unregistered":"False","reset_key":"8d830zen2d2"}}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:19:01
+INFO : Remote Address =>122.179.43.174
+INFO : PHP Scritp Name =>/dual_referral/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:19:01
+INFO : Remote Address =>122.179.43.174
+INFO : PHP Scritp Name =>/dual_referral/REGISTER_GCM
+INFO : Type of Request =>POST
+INFO : Calling REGISTER_GCM for doctor
+INFO : login withgn7urlpiokssmhn3login_id2mobile-OSIOS
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Message from GCM server"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:19:02
+INFO : Remote Address =>122.179.43.174
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:19:02
+INFO : Remote Address =>122.179.43.174
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : Calling REFER_IN_RESPONSE_HOS for doctor
+INFO : login withgn7urlpiokssmhn3login_id2
+select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization, ds.Doctor_qualification, ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_yxp IN (SELECT refer_by_hos_id FROM `hospital_refer_in_doctor_stub` where doc_stub_id='2' )and ds.type_value='hospital' UNION select ds.Doctor_serial_id,ds.Doctor_name, ds.Doctor_dob, ds.Doctor_email, ds.Doctor_specialization,ds.Doctor_qualification,ds.Doctor_HospitalName,ds.Doctor_Country,ds.Doctor_State,ds.Doctor_City,ds.Doctor_Address, ds.Doctor_mobile_number, ds.Doctor_photograph,ds.Doctor_yxp,ds.type_value from doctor_stub ds where ds.Doctor_serial_id in(Select personal_list_doc_id from doctor_personal_list where doc_id='2') 
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Hospitals available","Hos_list":[{"Doctor_serial_id":"26","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Referralio","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"India","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"5","type_value":"hospital"},{"Doctor_serial_id":"156","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Dr. Ranjan Shetty, Cardiologist, Kasturba Hospital","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Manipal","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"12","type_value":"hospital"},{"Doctor_serial_id":"158","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Dr. Pratap Kumar, MARC ","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Manipal","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"13","type_value":"hospital"},{"Doctor_serial_id":"249","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Global Hospital","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Hyderabad","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"14","type_value":"hospital"},{"Doctor_serial_id":"279","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Bangalore","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"15","type_value":"hospital"},{"Doctor_serial_id":"304","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"India","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"17","type_value":"hospital"},{"Doctor_serial_id":"56","Doctor_name":"Raksha Pai","Doctor_dob":"1985-10-15","Doctor_email":"raksha.pai.nayak@gmail.com","Doctor_specialization":"Cardiology","Doctor_qualification":"MBBS MD","Doctor_HospitalName":"Referralio","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Udupi","Doctor_Address":"Udupi","Doctor_mobile_number":"9901427893","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"68","Doctor_name":"sachin","Doctor_dob":"11\/9\/2015","Doctor_email":"sachin.checkin@gmail.com","Doctor_specialization":"Cardiology","Doctor_qualification":"mbbs","Doctor_HospitalName":"demo","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"manipal","Doctor_mobile_number":"7026646022","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"94","Doctor_name":"mangalore KMC Manipal Hospital","Doctor_dob":"38","Doctor_email":"surendra.prasad@manipalhospitals.com","Doctor_specialization":"CARDIO THORACIC SURGERY,","Doctor_qualification":"md","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"kmc","Doctor_mobile_number":"9845222257","Doctor_photograph":"account_image.png","Doctor_yxp":"13","type_value":""},{"Doctor_serial_id":"250","Doctor_name":"Global Hospital","Doctor_dob":"40","Doctor_email":"keyur.patel@globalhospitalsindia.com","Doctor_specialization":"INTERNAL MEDICINE","Doctor_qualification":"MBBS MD","Doctor_HospitalName":"Global Hospital","Doctor_Country":"India","Doctor_State":"Thelangana","Doctor_City":"Hyderabad","Doctor_Address":"Hyderabad","Doctor_mobile_number":"8897509043","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"281","Doctor_name":"Salem Manipal Hospitals","Doctor_dob":"30","Doctor_email":"jashva@manipalhospitals.com","Doctor_specialization":"Marketing Team","Doctor_qualification":"MBA ","Doctor_HospitalName":"Manipal Hospital salem","Doctor_Country":"India","Doctor_State":"TamilNadu","Doctor_City":"Salem","Doctor_Address":"Manipal Hospitals, Salem","Doctor_mobile_number":"9629599933","Doctor_photograph":"+919629599933.png","Doctor_yxp":"09","type_value":""},{"Doctor_serial_id":"285","Doctor_name":"Bangalore Old Airport Road Manipal Hospital","Doctor_dob":"30","Doctor_email":"Subhashit.m@manipalhospitals.com","Doctor_specialization":"Marketing Team","Doctor_qualification":"Marketing","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore Old Airport Road","Doctor_Address":"Bangalore Old Airport Road","Doctor_mobile_number":"9886371559","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"288","Doctor_name":"Vijaywada Manipal Hospitals","Doctor_dob":"30","Doctor_email":"Somashekar.c@manipalhospitals.com","Doctor_specialization":"Marketing Team","Doctor_qualification":"Marketing","Doctor_HospitalName":"Manipal Hospital","Doctor_Country":"India","Doctor_State":"Andhra Pradesh","Doctor_City":"Vijayawada","Doctor_Address":"Vijayawada","Doctor_mobile_number":"9880480816","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"293","Doctor_name":"Paramjit Singh","Doctor_dob":"30","Doctor_email":"psluddu@gmail.com","Doctor_specialization":"Referralio Marketing","Doctor_qualification":"M Pharma","Doctor_HospitalName":"Referralio","Doctor_Country":"India","Doctor_State":"Delhi","Doctor_City":"Delhi","Doctor_Address":"Delhi","Doctor_mobile_number":"9900911637","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"305","Doctor_name":"North West Columbia Asia","Doctor_dob":"35","Doctor_email":"yashpal.rawat@columbiaasia.com","Doctor_specialization":"Sales and Marketing","Doctor_qualification":"Marketing","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Haryana","Doctor_City":"Gurgaon","Doctor_Address":"Gurgaon, Gaziabad, Patiala, Ahmedabad, Pune","Doctor_mobile_number":"9818659504","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"306","Doctor_name":"International patients Columbia Asia","Doctor_dob":"44","Doctor_email":"vinay.kaul@columbiaasia.com","Doctor_specialization":"Vinay Kaul ","Doctor_qualification":"Sales and Marketing ","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore","Doctor_Address":"Bangalore","Doctor_mobile_number":"9902288771","Doctor_photograph":"account_image.png","Doctor_yxp":"20","type_value":""},{"Doctor_serial_id":"309","Doctor_name":"Whitefield Columbia Asia","Doctor_dob":"30","Doctor_email":"faraz.ahmed@columbiaasia.com","Doctor_specialization":"Sales ","Doctor_qualification":"Sales","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Whitefield Bangalore","Doctor_Address":"Whitefield Bangalore","Doctor_mobile_number":"9591111226","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""},{"Doctor_serial_id":"316","Doctor_name":"Sreeram R","Doctor_dob":"32","Doctor_email":"sreeram.r@columbiaasia.com","Doctor_specialization":"Marketing","Doctor_qualification":"MBA","Doctor_HospitalName":"Columbia Asia Corporate","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore","Doctor_Address":"Ramamurthynagar","Doctor_mobile_number":"9980218242","Doctor_photograph":"account_image.png","Doctor_yxp":"10","type_value":""}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:44:01
+INFO : Remote Address =>116.203.22.99
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:44:01
+INFO : Remote Address =>116.203.22.99
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:46:28
+INFO : Remote Address =>116.203.22.99
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:46:28
+INFO : Remote Address =>116.203.22.99
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:53:53
+INFO : Remote Address =>116.203.22.99
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:53:53
+INFO : Remote Address =>116.203.22.99
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:58:35
+INFO : Remote Address =>223.196.228.235
+INFO : PHP Scritp Name =>/dual_referral/GET_BROADCAST_MSGS
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 21:58:35
+INFO : Remote Address =>223.196.228.235
+INFO : PHP Scritp Name =>/dual_referral/GET_BROADCAST_MSGS
+INFO : Type of Request =>POST
+INFO : Calling GET_BROADCAST_MSGS for doctor
+INFO : login withhj6t1bvdk07fz009login_id50hospital_id
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Messages available","Msg_list":[{"broadcast_id":"4","message_title":"ReferraliO","message_content":"Test  for hospital doctors","doctor_id":"0","hospital_id_author":"5","hospital_name":"Referralio","read_flag":"read","datetime":"2015-12-29 11:23:33"},{"broadcast_id":"3","message_title":"ReferraliO","message_content":"test push notification for hospital doctors.","doctor_id":"0","hospital_id_author":"18","hospital_name":"Medisense","read_flag":"read","datetime":"2015-12-29 10:49:34"},{"broadcast_id":"2","message_title":"ReferraliO","message_content":"Testing Referralio application.Please bear with us. Only to hospital doctors.","doctor_id":"0","hospital_id_author":"18","hospital_name":"Medisense","read_flag":"read","datetime":"2015-12-29 10:32:09"},{"broadcast_id":"1","message_title":"ReferraliO","message_content":"Testing Referralio application.Please bear with us.","doctor_id":"0","hospital_id_author":"18","hospital_name":"Medisense","read_flag":"read","datetime":"2015-12-29 10:31:35"}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:02:09
+INFO : Remote Address =>223.196.228.235
+INFO : PHP Scritp Name =>/dual_referral/LISTING_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:02:09
+INFO : Remote Address =>223.196.228.235
+INFO : PHP Scritp Name =>/dual_referral/LISTING_DOC
+INFO : Type of Request =>POST
+INFO : Calling LISTING_DOC for doctor
+INFO : login withhj6t1bvdk07fz009login_id50
+Element===>18 
+refer str,18 
+refer str after trim18 
+INFO : query_get_referred_in1 hospital in=> 0
+INFO : query_get_referred_inselect refer_by_hos_id from hospital_refer_in_doctor_stub where doc_stub_id='50' referred_str=> 18
+INFO : listing doctor query_list_docselect Doctor_serial_id,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_photograph,Doctor_yxp,type_value from doctor_stub where type_value='hospital' and Doctor_yxp IN (18) UNION select Doctor_serial_id,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_photograph,Doctor_yxp,type_value from doctor_stub ds inner join (select doctor_stub_id from hospital_refer_out_doctor_stub where hospital_id IN (18)) as res1 on res1.doctor_stub_id=ds.Doctor_serial_id where Doctor_serial_id!='50' and Doctor_unregistered='False' and visibility=1 order by Doctor_name ASC referred_str=> 18
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Doctors available","Doc_list":[{"Doctor_serial_id":"320","Doctor_name":"","Doctor_dob":"","Doctor_email":"","Doctor_specialization":"","Doctor_qualification":"","Doctor_HospitalName":"Medisense","Doctor_Country":"","Doctor_State":"","Doctor_City":"","Doctor_Address":"Udupi","Doctor_mobile_number":"","Doctor_photograph":"hospital_img.png","Doctor_yxp":"18","type_value":"hospital"},{"Doctor_serial_id":"2","Doctor_name":"Shashi","Doctor_dob":"2\/7\/1979","Doctor_email":"pai.shashidhar@gmail.com","Doctor_specialization":"cardio thoracic surgery","Doctor_qualification":"MBBS, MD","Doctor_HospitalName":"Medisense","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Mangalore","Doctor_Address":"Manipal","Doctor_mobile_number":"9880130842","Doctor_photograph":"account_image.png","Doctor_yxp":"15","type_value":""}]}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:02:13
+INFO : Remote Address =>223.196.228.235
+INFO : PHP Scritp Name =>/dual_referral/GET_BROADCAST_MSGS
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:02:13
+INFO : Remote Address =>223.196.228.235
+INFO : PHP Scritp Name =>/dual_referral/GET_BROADCAST_MSGS
+INFO : Type of Request =>POST
+INFO : Calling GET_BROADCAST_MSGS for doctor
+INFO : login withhj6t1bvdk07fz009login_id50hospital_id
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Success","msg":"No Messages available"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:16:15
+INFO : Remote Address =>106.197.98.206
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:16:15
+INFO : Remote Address =>106.197.98.206
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withloipjia5oic9yfgjlogin_id315
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:29:12
+INFO : Remote Address =>116.202.3.117
+INFO : PHP Scritp Name =>/dual_referral/GET_BROADCAST_MSGS
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:29:12
+INFO : Remote Address =>116.202.3.117
+INFO : PHP Scritp Name =>/dual_referral/GET_BROADCAST_MSGS
+INFO : Type of Request =>POST
+INFO : Calling GET_BROADCAST_MSGS for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275hospital_id
+INFO : _code......204get_status_message...No Content_content_type....application/json
+INFO : response{"status":"Success","msg":"No Messages available"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:33:03
+INFO : Remote Address =>116.202.3.117
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:33:03
+INFO : Remote Address =>116.202.3.117
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:34:18
+INFO : Remote Address =>116.202.3.117
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:34:18
+INFO : Remote Address =>116.202.3.117
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:35:26
+INFO : Remote Address =>116.202.3.117
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:35:26
+INFO : Remote Address =>116.202.3.117
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:37:06
+INFO : Remote Address =>116.202.3.117
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:37:06
+INFO : Remote Address =>116.202.3.117
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:58:59
+INFO : Remote Address =>223.187.193.79
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-12-29 22:58:59
+INFO : Remote Address =>223.187.193.79
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withloipjia5oic9yfgjlogin_id315
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}

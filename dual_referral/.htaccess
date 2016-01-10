@@ -1,0 +1,25 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase  /dual_referral/
+RewriteRule ^(LOGIN_DOC)$ login_doctor.php?request=$1 [QSA,NC,L]
+RewriteRule ^(REG_DOC_STUB)$ registration_doctor.php?request=$1 [QSA,NC,L]
+RewriteRule ^(TEST_VAL)$ test_Rest.php?request=$1 [QSA,NC,L]
+RewriteRule ^(LISTING_DOC)$ listing_doctor.php?request=$1 [QSA,NC,L]
+RewriteRule ^(REG_PAT_STUB)$ registration_patient.php?request=$1 [QSA,NC,L]
+RewriteRule ^(REGISTER_GCM)$ register_REST_GCM.php?request=$1 [QSA,NC,L]
+RewriteRule ^(REFFERING_IN_STATS)$ refer_RULES.php?request=$1 [QSA,NC,L]
+RewriteRule ^(REFFERING_OUT_STATS)$ refer_RULES.php?request=$1 [QSA,NC,L]
+RewriteRule ^(LISTING_PAT)$ existing_patient_list.php?request=$1 [QSA,NC,L]	
+RewriteRule ^(UPDATE_DOC)$ update_doc_profile.php?request=$1 [QSA,NC,L]
+RewriteRule ^(ADD_DEL_DOC)$ universal_doc_api_add_del.php?request=$1 [QSA,NC,L]
+RewriteRule ^(LISTING_MYDOC)$ mylist_doctor.php?request=$1 [QSA,NC,L]
+RewriteRule ^(MSG_API)$ Patient_msg_API.php?request=$1 [QSA,NC,L]
+RewriteRule ^(MSG_MOB)$ msg_mob_doc.php?request=$1 [QSA,NC,L]
+RewriteRule ^(UNREGISTER_DELETE_GCM_ID)$ unregister_del_GCM.php?request=$1 [QSA,NC,L]
+RewriteRule ^(RESET_PASS)$ reset_password.php?request=$1 [QSA,NC,L]
+RewriteRule ^(GET_DOC)$ get_doc_hospital.php?request=$1 [QSA,NC,L]
+RewriteRule ^(REFER_IN_RESPONSE)$ refer_in_response_hos.php?request=$1 [QSA,NC,L]
+RewriteRule ^(GET_BROADCAST_MSGS)$ msg_broadcastAPI.php?request=$1 [QSA,NC,L]
+RewriteRule ^(LISTING_ONESHOT)$ myListOneShot.php?request=$1 [QSA,NC,L]
+RewriteRule ^(AUDIO_FILE_UPLOAD_PAT_REFER)$ oneShotAudioFileUpload.php?request=$1 [QSA,NC,L]
+</IfModule>

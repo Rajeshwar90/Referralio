@@ -1,0 +1,71 @@
+INFO : ------------------------------------------
+INFO : Date =>2016-01-01 11:42:28
+INFO : Remote Address =>103.230.222.86
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updateHospitalUserMapping.php
+INFO : Type of Request =>POST
+INFO : after post
+INFO : received post325hospital_id19referring_doc_id2
+INFO : ------------------------------------------
+INFO : Date =>2016-01-01 12:23:19
+INFO : Remote Address =>103.230.222.86
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/hospital_user_registration_UI.php
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-01 12:27:27
+INFO : Remote Address =>103.230.222.86
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/del_hospital_docs.php
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-01 13:07:13
+INFO : Remote Address =>103.230.222.86
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile1121121121
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Mr.','dummy','21','dummy@medisense.me','s','nnnn','Medisense','India','Karnataka','Udupi','Mahalasa Doddangudde Road','1121121121',md5('11111'),'account_image.png','22','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMedisense - Your username is 1121121121 and password is 11111 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-01 13:11:39
+INFO : Remote Address =>103.230.222.86
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/del_hospital_docs.php
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-01 13:12:31
+INFO : Remote Address =>103.230.222.86
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9880130842
+INFO : POST data Array
+INFO :  not unique data *******************************
+INFO :  doc id present is *******************************2
+INFO :  count_query_unique_referout_any*******************************0
+INFO :  count_query_unique_referout*******************************0
+INFO :  count_query_unique_referoutINSERT INTO hospital_refer_out_doctor_stub(doctor_stub_id, hospital_id) VALUES ('2','18')
+INFO :  before handling temp doctors
+INFO : count handling temp doctors0
+INFO : ------------------------------------------
+INFO : Date =>2016-01-01 13:17:01
+INFO : Remote Address =>103.230.222.86
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/add_trans_admin.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received posthos_doc_Id==>50ref_doc_id==>2
+INFO : received name and mobile number
+INFO : login gcm_id
+INFO : refer in count0
+INFO : sql messageinsert into patient_stub (Patient_Name, Patient_Age, Patient_Gender, Patient_Location, Patient_mobile_number, Patient_issue_notes, Reg_by_doc, Patient_defined_notes, doc_ref_id,hospital_id_transaction,created_by) values('test','22','Male','bangalore','9880130842','test','50','test','2',18,'Admin')
+INFO : patient inserted
+INFO : patient inserted id =>591
+INFO : get count hospital_id =>1
+INFO : hospital_id =>18
+INFO : query_get_referral_map =>select * from referral_mapping where hospital_id='18' and referring_doctor_id='50'
+INFO : rows ****** =>1
+INFO : hospital_id******** =>33339
+INFO : insertion in referral_mapping_patient_stub done
+INFO : inside success
+INFO : ------------------------------------------
+INFO : Date =>2016-01-01 13:17:01
+INFO : Remote Address =>103.230.222.86
+Result+{"multicast_id":6596612253635943490,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"InvalidRegistration"}]} 

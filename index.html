@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	  <meta name="description" content="">
+      <meta name="keywords" content="">
+		 <title>REFERRALIO </title>
+     
+      <!-- Mobile Specific Metas================================================== -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <!-- Bootstrap  -->
+      <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+      <!-- Custom css -->
+  
+      <!-- Favicons================================================== -->
+      <link rel="shortcut icon" href="img/favicon.ico">
+	  <!-- Google Fonts -->
+	 
+       <link href='https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
+	  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	  <!-- Font awesome icons================================================== -->
+      <link href="css/animate.css" rel="stylesheet">
+	   <link href="css/font-awesome.min.css" rel="stylesheet">
+	   	   <link href="css/flexslider.css" rel="stylesheet">
+	  <link href="css/slideshow.css" rel="stylesheet">
+	      <link type="text/css" rel="stylesheet" href="css/style.css">
+
+	  <script type="text/Javascript">
+		 function call_login_hospital(){
+		   //alert("Logging in.........");
+		   var user=document.getElementById('hos_username').value;
+		   var pass=document.getElementById('hos_password').value;
+		   
+		   if(user=="" || pass==""){
+		     alert("Please enter the credentials to login");
+			 return false;
+		   }
+		   
+		   $.ajax({
+		     method:'POST',
+			 url: "/dual_referral_hospital_UI/hospital_panel_backend.php",
+			 data:{"user1":user,"pass1":pass},
+			 type: "json",
+			 success: function(msg){
+			   //alert(msg);
+			   
+			   var obj=jQuery.parseJSON(msg);
+			   if(obj.status=='Success'){
+			     
+			     window.location.href="/dual_referral_hospital_UI/referralio_home.php";
+			   }
+			   else
+			   {
+			     alert("Invalid Credentials");
+				 return false;
+			   }
+			 }
+		   });
+		 
+		 }
+</script>
+   </head>
+   <body data-spy="scroll" data-target=".navbar-fixed-top">
+   <!-- LOGIN -->
+     <div class="modal fade " id="login" tabindex="-1" role="dialog" aria-labelledby="modal2-label" >
+    <div class="modal-dialog">
+        <div class="modal-content">
+           <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times  "></i></button>
+                      <h3>Login</h3>
+      </div>
+            <div class="modal-body">
+                
+				
+                    
+                          <div class="form-group"> <!-- Your email input -->
+
+                        <input type="text" autocomplete="off" class="form-control validated" placeholder="Your Username *" id="hos_username" required="">                            
+                        <p class="help-block text-danger"></p>
+                      </div>
+                      <div class="form-group"> <!-- Your phone no. input -->
+                        <input type="password" autocomplete="off" class="form-control validated " placeholder="Your password *" id="hos_password" required="">
+                        <p class="help-block text-danger"></p>
+                      
+                    </div>
+					 <button type="submit" class="btn subscribe-submit validated" onClick="call_login_hospital()">Login</button> 
+               
+            </div><!-- .modal-body -->
+            <div class="modal-footer">
+                
+            </div><!-- .modal-footer -->
+        </div><!-- .modal-content -->
+    </div><!-- .modal-dialog -->
+</div> 
+
+
+  
+
+  <!-- privacy policy-->
+
+<div class="modal fade  bs-example-modal-lg" id="policy" tabindex="-1" role="dialog" aria-labelledby="modal2-label" >
+    <div class="modal-dialog  modal-lg">
+        <div class="modal-content">
+           <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times  "></i></button>
+                      <h3><center>Referralio privacy policy</center></h3>
+      </div>
+            <div class="modal-body">
+                
+			
+
+<p>Medisense Healthcare Solutions is committed to respecting the privacy rights of our 
+
+customers, visitors, and other users of our services provided via our website and/or call 
+
+centre. We are committed to fair information practices and the protection of privacy. This 
+
+Privacy Policy is only applicable to our site, and not to any other websites that you may 
+
+be able to access from our site, including our partners' sites, each of which may have 
+
+data collection, storage, and use practices and policies that may differ significantly from 
+
+this Privacy Policy. Your use of the site is governed by this Privacy Policy and the Terms </p>
+<ol>
+<li> <strong>Data Collected</strong>
+
+<p>During the course of your our services, we may collect following information
+
+<ul><li> Traffic Data: Following categories of information is tracked and captured 
+
+when you visit our Website:</li>
+<ul></li>
+<li> IP addresses</li>
+
+<li> domain servers</li>
+
+<li>  types of computers accessing the Website</li>
+
+<li> types of web browsers used to access the Website</li>
+
+<li> referring source which may have sent you to the Website; and</li>
+
+<li>  other information associated with the interaction of your browser 
+
+and the Website.</li>
+
+<li> Devices through which the site is accessed.</li></ul>
+
+<li>This information is used for statistical reasons and not stored with your 
+
+personal information.</li>
+
+<li> <strong>Personal Information:</strong> In order for you to use certain features of the site, 
+
+such as checking referral status, analytics, we require you to register, 
+
+which contains your personal information such as your e-mail address, 
+
+phone number, name, date of birth, etc.  </li>
+
+<li><strong>Medical Data:</strong> Referralio is not a system to share medical information of 
+
+patients. It is a tool to seek and provide clarification for better care of the 
+
+patient.</li>
+
+<li><strong> Cookie Data:</strong> Cookies are small files that a site or its service provider 
+
+transfers to your computers hard drive through your Web browser (if you 
+
+allow it) that enables the sites or service providers' systems to recognize 
+
+your browser and capture and remember certain information. We use 
+
+cookies to help us understand and save your preferences for future visits 
+
+and compile aggregate data about site traffic and site interaction so that 
+
+we can offer better site experiences and tools in the future. If you prefer, 
+
+you can choose to have your computer warn you each time a cookie is 
+
+being sent, or you can choose to turn off all cookies via your browser 
+
+settings. Like most websites, if you turn your cookies off, some of our 
+
+services may not function properly.  </li></ul>
+
+<li><strong>Use of Your Information</strong>
+
+Your information on referring doctors, partners and hospital doctors will not be 
+
+shared with any third parties. When you register your institution and the doctors, 
+
+they will be visible in the “Universal” tab of the Referralio app. This is a feature to 
+
+increase the business potential of your institution. However, the referring doctors 
+
+details will not be shown in universal list, unless referring doctors also register 
+
+with us as an institution or as part of another institution. </li>
+
+<li><strong> Confidentiality and Security</strong> 
+
+Except as otherwise provided in this Privacy Policy, we will keep your personal 
+
+information private and will not share it with third parties, unless we believe in 
+
+good faith that disclosure of your personal information or any other information 
+
+we collect about you is necessary to:
+<ul>
+<li> comply with a court order or other legal process. </li>
+
+<li>protect the rights, property or safety of Medisense or another party.</li>
+
+<li> enforce our Terms of Use or</li>
+
+<li> respond to claims that any posting or other content violates the rights of 
+
+third-parties.</li></ul></li>
+
+<li><strong> Healthcare Provider</strong> 
+
+Doctors and other healthcare providers, their employees, and their agents should 
+
+be particularly aware of their obligations of patient confidentiality. Medisense 
+
+Healthcare Soluions does not have, and will not accept, any obligations of 
+
+confidentiality with respect to any communications other than those expressly 
+
+stated in this Privacy Policy and Terms of Use.</li>
+
+<li> <strong>Public Information</strong> 
+
+Any information that you may reveal in “Universal tab” or other online discussion 
+
+or forum is intentionally open to other registered users and is not in any way 
+
+private. You should think carefully before disclosing any personally identifiable 
+
+information in any public forum. What you have written may be seen and/or 
+
+collected by third parties and may be used by others in ways we are unable to 
+
+control or predict. However to protect the privacy of your hospital doctors, system 
+
+hides the contact number and email ID.</li>
+
+<li> <strong>Updates and Changes to Privacy Policy</strong> 
+
+We reserve the right, at any time, to add to, change, update, or modify this 
+
+Privacy Policy so please review it frequently. If we do, then we will notify you 
+
+here, as well as by posting a notice on our site and/or by e-mailing you, along 
+
+with a description of any changes (material or otherwise) and, where appropriate, 
+
+a link to the modified policy so that you can review it. In all cases, use of 
+
+information we collect is subject to the Privacy Policy in effect at the time such 
+
+information is collected.<br>
+
+This policy was last modified on 01st August 2015.</li>
+
+<li> <strong>Contacting Us</strong>
+
+<p>If there are any questions regarding this privacy policy you may contact us using 
+
+the information below.</p>
+
+<p> <strong>Address:</strong>
+<address>Medisense Healthcare Solutions,<br>
+Ground Floor, Mohini Plaza, <br>
+
+Udupi - 576101 <br>
+
+Karnataka </address>
+
+<strong>Phone: </strong>0091-7026 646022 / 0091-9880130842 / 1800 3000 5206<br>
+
+<strong>Email:</strong> sales@medisense.me </p></li></ol>
+                    
+                         
+                      
+					 
+               
+            </div><!-- .modal-body -->
+            <div class="modal-footer">
+                
+            </div><!-- .modal-footer -->
+        </div><!-- .modal-content -->
+    </div><!-- .modal-dialog -->
+</div> 
+  
+
+<section id="header" class="nopadding">
+		<!-- HEADER -->
+		<header class="navbar navbar-fixed-top navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+						
+						<a href="https://referralio.com/" class="navbar-brand navbar-logo">
+						<img src="img/referralio.png" alt="Medisense" class="img-responsive">
+					</a> 
+				</div>
+				<nav id="navigation" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li ><a href="" data-target="#login" data-toggle="modal" >Login</a></li>
+						<li class="page-scroll"><a href="#contact">Contact Us</a></li>
+						
+					</ul>
+				</nav>
+			</div>
+		</header>
+		</section>
+		<!-- END HEADER -->
+		
+		<!-- Top SECTION -->
+		<section  id="home-slider" class="flexslider " >
+<div class="container">
+<div class="col-md-12">
+<div class="row">
+		<div class="col-sm-12 col-xs-12">
+
+		<ul class="slides">
+	<li class="home-slide" >
+	<div class="flex-caption">
+		<h1 class="bounceInLeft animated" data-wow-delay="0.5s" data-wow-duration="4s">
+Are you in an exec position <span class="highlight">owning up P & L </span><br>of a hospital ?			
+
+		</h1>
+		
+	
+		
+	</div>
+	</li>
+	<li class="home-slide flex-active-slide" >
+	<div class="flex-caption">
+		<h1 class=" bounceInLeft  animated" data-wow-delay="2s" data-wow-duration="4s">
+			Do you track referral attrition to know how to better<br> engage with the<span class="highlight"> right doctors </span>in your network ?
+		</h1>
+	
+		
+	</div>
+	</li>
+	<li class="home-slide" >
+	<div class="flex-caption ">
+		<h1 class=" bounceInLeft  animated">
+		Are you on <span class="highlight">"top of mind" </span>of your referring doctors,<br> when specialist treatment is needed ?
+		</h1>
+		
+	</div>
+	</li>
+	<li class="home-slide" >
+	<div class="flex-caption">
+		<h1 class="bounceInLeft  animated">
+		 Are you having difficulties in <span class="highlight">building and maintaining</span> <br>your referral network ?
+
+		</h1>
+		
+	</div>
+	</li>
+	<li class="home-slide" >
+	<div class="flex-caption ">
+		<h1 class="home-slide-content bounceInLeft  animated">
+	Do you track performance of your sales team, <br>if so,<span class="highlight"> do you think you can do better</span> ?
+		</h1>
+		
+	</div>
+
+	</li>
+	<li class="home-slide" >
+	<div class="flex-caption ">
+		<h1 class="bounceInLeft  animated">
+		Do you have difficulties in <span class="highlight">closing the <br>referral loop</span> ?
+		</h1>
+		
+	</div>
+		
+	</li>
+	
+</ul>
+
+</div>
+<div class="col-sm-12">
+<div class="store-buttons">
+						<a href="https://appsto.re/in/DBa3-.i" target="_blank" class="btn btn-appstore"><img src="img/btn-appstore.png" alt="App Store"></a>
+						<a href="https://play.google.com/store/apps/details?id=com.hospitalcheck.referralio&hl=en" target="_blank" class="btn btn-googleplay"><img src="img/btn-googleplay.png" alt="Google Play"></a>
+					</div>
+</div>
+
+</div>
+</div>
+
+<div class="row">
+                    	<div class="col-sm-12  wow fadeInUp " >
+                        	<img class="center-block mac" src="img/main.png" alt="">
+                     
+                        </div>
+                    </div>
+</div>
+
+
+</section>
+		<!-- END Top SECTION -->
+		<!-- download SECTION -->
+		
+		<!-- HOW-IT-WORKS SECTION -->
+		<section id="howitworks" class="row-section wrap-bg  ">
+		
+        
+        <!-- .container -->
+    	<div class="container ">
+            
+				
+            <div class="post-heading-center wow fadeIn " data-wow-delay=".1s">
+                <h1 class="center">REFERRALIO – How it works ?</h1>
+                <p>Referralio is a SMART PHONE based solution for doctors and institutions, to manage referral network. This brings together referring doctor, Hospital Doctor, patients, Hospital management and corporate clients on a single platform. 
+</p>
+            </div>
+            
+            <!-- .row -->
+            <div class="row">
+                
+                <div class="col-md-4 col-features">
+                    <div class="affa_feature_icon icon-right wow fadeInUp  " data-wow-delay="0.1s"> <!-- 1 -->
+                        <span class="number">1</span>
+                        <h4>Helps Hospitals / Institutions</h4>
+                        <p>Helps Hospitals / Institutions create and manage a “SMART” private referral System.
+</p>
+
+                    </div>
+                    
+                    <div class="affa_feature_icon icon-right  wow fadeInUp " data-wow-delay="0.3s"> <!-- 2 -->
+                         <span class="number">2</span>
+                        <h4>Define Doctors</h4>
+                        <p>With this mobile application, Hospital can define Hospital doctors and referring doctors. 
+</p>
+                    </div>
+                    
+                    <div class="affa_feature_icon icon-right wow fadeInUp " data-wow-delay="0.5s"> <!-- 3 -->
+                         <span class="number">3</span>
+                        <h4>Refer Patients</h4>
+                        <p>Once this is set, referring doctors can refer patients to corporate doctors through the app and the hospital doctor can instantly respond to the referring doctor, on care procedures, follow ups etc. 
+</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-features-img"   >
+                	
+			<div class="phone iphone iphone-black img-responsive">
+		
+                    <div class="iphone-holder phone-holder  wow fadeInDown " >
+                        <div class="iphone-holder-inner" id="refferalio">
+                            <div  class="slider flexslider">
+                                <ul class="slides img-responsive">
+                                    <li  >
+                                        <img src="img/slide1.jpg" alt="" class="img-responsive">
+                                    </li>
+                                    <li>
+                                        <img src="img/slide2.jpg" alt="" class="img-responsive">
+                                    </li>
+                                    <li>
+                                        <img src="img/slide3.jpg" alt="" class="img-responsive" >
+                                    </li>
+                                </ul><!--//slides-->
+                           </div><!--//flexslider-->   
+                        </div><!--//iphone-holder-inner-->                    
+                    </div><!--//iphone-holder-->                   
+                </div>
+                                
+                                
+                                
+                           
+                        </div>
+           
+                
+                <div class="col-md-4 col-features">
+                    <div class="affa_feature_icon wow fadeInUp  " data-wow-delay="0.7s"> <!-- 4 -->
+                        <span class="number">4</span>
+                        <h4>Requests & Respond </h4>
+                        <p>Hospital will also be in the know how of such requests and can respond to the doctors and patients accordingly.
+</p>
+                    </div>
+                    
+                    <div class="affa_feature_icon wow fadeInUp " data-wow-delay="0.9s"> <!-- 5 -->
+                         <span class="number">5</span>
+                        <h4>Referral Loop.</h4>
+                        <p>Completes referral loop. </p>
+                    </div>
+                    
+                    <div class="affa_feature_icon  wow fadeInUp " data-wow-delay="1s"> <!-- 6 -->
+                     <span class="number">6</span>
+                        <h4>Push Notifications</h4>
+                        <p>Hospital can communicate with their entire referral network with one single click through push notifications.  It could be about New research paper, CEOs message, new PET scan, Onboarding of specialist etc.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- .row end -->
+            
+        </div>
+        <!-- .container end -->
+        
+
+		</section>
+		<!-- END HOW-IT-WORKS SECTION -->
+		
+		<!-- ABOUT THE FEATURES -->
+		<section id="features" class="row-section wrap-bg ">
+		
+        
+        <!-- .container -->
+    	<div class="container">
+            
+          
+            
+            <!-- .row -->
+            <div class="row">
+                
+                <div class="col-sm-6  ">
+                    <div class="feature " > <!-- 1 -->
+                        
+                        <h3 class="wow fadeInDown" data-wow-delay=".5s">Problem that we are trying to Solve</h3>
+                      
+
+                    </div>
+                    
+                    <div class="featue-heading wow fadeInDown" data-wow-delay=".7s"> <!-- 2 -->
+                      
+                          <h4>Open Referral Loop </h4>
+                        <p>Referring doctors don’t hear back from Hospital doctors for continued care of patients. Hence referral loop doesn’t get closed. 
+As per a survey, un-responded rate is 70% at teaching Hospitals and 40% at corporate Hospital set ups. 
+ 
+</p>
+                    </div>
+                    
+                  <div class="featue-heading wow fadeInDown" data-wow-delay=".9s">  <!-- 2 -->
+                      
+                       <h4>Paper based </h4> 
+                        <p> 75% of Hospital doctors opined that responding to referring doctor is a must considering continued care of the patient. However they don’t find time to respond, since this process currently is paper based.  
+
+ 
+</p>
+                    </div>
+					  <div class="featue-heading wow fadeInDown" data-wow-delay="1.1s">  <!-- 2 -->
+                      
+                        
+                      <h4>Awareness </h4>
+<P>70% of referring doctors opined that they come to know about Hospital updates only through word of mouth. Hence there is a need for a communication platform to know about say, a new PET scan, onboarded superspecialty</P>						
+
+ 
+
+                    </div>
+                </div>
+                
+               
+                
+                <div class="col-sm-6">
+                 
+                     <div class="feature"> <!-- 1 -->
+                        
+                        <h3 class="wow fadeInDown" data-wow-delay=".5s">How are we attempting to solve this problem ?
+</h3>
+                      
+
+                    </div>
+					  <div class="featue-heading wow fadeInDown" data-wow-delay=".7s">  <!-- 2 -->
+                      
+                        
+                      <h4>Institutionalises Referral network </h4>
+<P>Hospitals can manage referred patients with superior care and follow up instructions for continued care.  </P>
+
+ 
+
+
+
+
+
+ 
+
+                    </div>
+					<div class="featue-heading wow fadeInDown" data-wow-delay=".9s">  <!-- 2 -->
+                      
+                        
+                      <h4>Streamlined WorkFlow with a personal touch  </h4>
+<P>Doctors can still interact through the app and SMS with each other, however Hospital would be part of this communication and provide superior care to patients.  </P>
+
+
+
+  
+
+
+
+
+
+ 
+
+                    </div>
+						<div class="featue-heading wow fadeInDown" data-wow-delay="1.1s">  <!-- 2 -->
+                      
+                        
+                      <h4>Its instant, efficient & paperless   </h4>
+<P>Since it is SMART PHONE based, referrals can be sent and response can be received instantly.    </P>
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+                    </div>
+					<div class="featue-heading wow fadeInDown" data-wow-delay="1.3s">  <!-- 2 -->
+                      
+                        
+                      <h4>Top of mind   </h4>
+<P>It enables “top of mind” for Hospitals with Referring doctors, builds a brand, fosters communication, by way of updates about new facilities, new treatment protocols, seminars instantly.  </P>
+
+
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+                    </div>
+                
+                  </div>
+              
+                <div class="col-sm-12 center wow zoomIn" data-wow-delay="0.3s" data-wow-duration="2s">  
+				<img src="img/flowdiagram.jpg" style="width:80%;"  >
+
+</div>				
+           
+            <!-- .row end -->
+            
+
+        <!-- .container end -->
+        </div>
+		</div>
+
+		</section>
+		<!-- END OF features -->
+		<section class="testimonial graybg" id="clients-slider">
+<div class="container">
+	<div class="row">
+		<div class="c12">
+			
+		</div>
+	</div>
+</div>
+<div  class="flex-viewport">
+<ul  class="slides">
+<li  class="flex-active-slide">
+				<div  class="slide-text wow rollIn  " data-wow-delay="0.1s" data-wow-duration="1s">
+					
+						
+						<img src="img/reff1.png" alt="">
+						<p>
+							 "We were introduced to Medisense Health by an existing partner. We thought referral concept may not have the adaptability by referring doctors since it is tech driven. But I must mention we could convert about 50% of referrals coming in through this system within 2 months. Now all online and offline referrals are tracked through Referralio. Good Job."<br> <h4>- CEO - Leading healthcare major in India</h4>
+						</p>
+					
+					
+				</div>
+				</li>
+<li  class="clone">
+				<div class="slide-text">
+					
+						
+						<img src="img/reff1.png" alt="">
+						<p>
+							 "I am amazed as how technology can change the lives of people. We had lots of questions before signing up, whether it would make any sense in Indian scenario. However we had brilliant results and we could cut down cost of communication with our partner community instantly. Analytics has helped us diminish referral attrition and we are in a better position to engage with our partners now."<br><h4> - Head Marketing - Leading healthcare conglomerate</h4>
+						</p>
+					
+				</div>
+				</li>
+				
+				<li >
+				<div class="slide-text">
+					
+						
+						<img src="img/reff1.png" alt="">
+						<p>
+							"Thought leadership of founding team and innovation in this space, was much needed in healthcare environment. This team could predict the business issues and nail it, before we could forsee the same. Good work and all the best."
+<br><h4>Business Development Head - Private Healthcare Chain</h4>
+						</p>
+					
+				</div>
+				</li>
+				<li >
+				<div class="slide-text">
+					
+						
+						<img src="img/reff1.png" alt="">
+						<p>
+							"With this solution, we are able to give a personalised service to the referring community and we could shape up the relationship between our doctors, our marketing team and partners. All on the same platform for a very cost effective solution, this tech project is a winner and has a great potential.  All the best. "
+<br><h4>Managing Director - Chain of Infertility Clinics</h4>
+						</p>
+					
+				</div>
+				</li>
+			</ul>
+			</div>
+			</section>
+		
+	
+
+<div class="clients white-bg hidden">
+        <ul class="client-logos">
+            <li>
+                <img src="img/1.png" alt="">
+            </li>
+            <li>
+                <img src="img/2.png" alt="">
+            </li>
+            <li>
+                <img src="img/3.png" alt="">
+            </li>
+            <li>
+                <img src="img/4.png" alt="">
+            </li>
+            <li>
+                <img src="img/5.png" alt="">
+            </li>
+            <li>
+                <img src="img/6.png" alt="">
+            </li>
+        </ul>
+    </div>		
+			<!-- ABOUT THE CONTACT -->
+		<section id="contact-page" class="maincolorbg ">
+<div class="container">
+	<div class="starter-template">
+		<h1>Contact</h1>
+		<div class="smallsep">
+		</div>
+		
+	</div>
+	<form id="contact" name="contact" method="post"  action="contact-form-handler.php">
+		<fieldset>
+			<div class="row">
+				<div class="col-md-4 wow fadeInDown animated" data-wow-delay="0.1s" data-wow-duration="2s" >
+					<label for="name" id="name">Name<span class="required">*</span></label>
+					<input type="text" name="first_name" id="name" size="30" value="" required/>
+				</div>
+				<div class="col-md-4 wow fadeInDown animated" data-wow-delay="0.3s" data-wow-duration="2s" >
+						<label for="email" id="email">Email<span class="required">*</span></label>
+					<input type="text" name="email" id="email" size="30" value="" required/>
+				</div>
+				<div class="col-md-4 wow fadeInDown animated" data-wow-delay="0.5s" data-wow-duration="2s" >
+						<label for="phone" id="phone">Phone</label>
+					<input name="phone" id="phone" size="30" value="" type="text">
+				</div>
+				
+			</div>
+			<div class="wow fadeIn animated" data-wow-delay="0.8s" data-wow-duration="1.5" >
+				<label for="Message" id="message">Message<span class="required">*</span></label>
+				<textarea name="message" class="form-control"  id="message" required></textarea>
+			</div>
+			<div class="wow fadeIn "  data-wow-delay="1s" data-wow-duration="2s" >
+				<input id="submit" type="submit" name="submit" value="Send">
+			</div>
+		</fieldset>
+	</form>
+	<div id="success">
+				
+		<p style="margin-top:20px;">
+			
+			 Your message was sent succssfully! I will be in touch as soon as I can.
+		</p>
+		
+	</div>
+	<div id="error">
+		<span>
+		<p>
+			 Something went wrong, try refreshing and submitting the form again.
+		</p>
+		</span>
+	</div>
+</div>
+</section>
+		
+		<section id="footer" class="footer nopadding">
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			
+			<div class="medsen">
+					<a href="http://medisense.me/" target="_blank"><img src="img/logo.png" class="logo" alt="Logo">
+					<p>Solutions that medically make sense</p></a>
+				</div>
+			
+				<p class="privacy">© Medisense Healthcare Solutions 2014 |	<a href="#" data-target="#policy" data-toggle="modal">Privacy Policy</a></p>
+		</div>
+	</div>
+</div>
+</section>
+		<div class="back-to-top" >
+		<a href="#top"><i class="fa fa-angle-up"></i></a>
+	</div>
+		
+	</body>
+
+	<!-- JAVASCRIPTS -->
+<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/wow.min.js"></script>
+		<script src="js/nicescroll.js"></script>
+		<script src="js/validate.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/flexslider.js"></script>
+	<script src="js/common.js"></script>
+	
+	  <script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('#refferalio .flexslider').flexslider({
+        animation: "fade",
+        touch: true,
+        directionNav: false
+    });
+	
+	
+  });
+  
+</script>
+
+
+	

@@ -1,0 +1,892 @@
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 00:20:01
+INFO : Remote Address =>1.39.63.26
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 00:20:01
+INFO : Remote Address =>1.39.63.26
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : Calling REFER_IN_RESPONSE_HOS for doctor
+INFO : login with8qb59jg8lo9a4in5login_id23
+INFO : _code......203get_status_message...Non-Authoritative Information_content_type....application/json
+INFO : response{"status":"Failed","msg":"Basic authentication failed"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 00:25:35
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 00:25:35
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 01:22:47
+INFO : Remote Address =>123.201.154.248
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 01:22:47
+INFO : Remote Address =>123.201.154.248
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 01:55:22
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 01:55:22
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 02:24:33
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 02:24:33
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 02:29:37
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 02:29:37
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 02:33:38
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 02:33:38
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 04:19:18
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 04:19:18
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 05:13:30
+INFO : Remote Address =>219.91.183.123
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 05:13:30
+INFO : Remote Address =>219.91.183.123
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 06:43:40
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 06:43:40
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 07:48:25
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 07:48:25
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 08:06:12
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 08:06:12
+INFO : Remote Address =>49.139.252.91
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 08:40:45
+INFO : Remote Address =>219.91.183.123
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 08:40:45
+INFO : Remote Address =>219.91.183.123
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 09:18:13
+INFO : Remote Address =>1.39.61.250
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 09:18:13
+INFO : Remote Address =>1.39.61.250
+INFO : PHP Scritp Name =>/dual_referral/REFER_IN_RESPONSE
+INFO : Type of Request =>POST
+INFO : Calling REFER_IN_RESPONSE_HOS for doctor
+INFO : login with8qb59jg8lo9a4in5login_id23
+INFO : _code......203get_status_message...Non-Authoritative Information_content_type....application/json
+INFO : response{"status":"Failed","msg":"Basic authentication failed"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 10:59:09
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 10:59:09
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:31:57
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/Patient_msg_API.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:31:57
+INFO : Remote Address =>5.9.111.70
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:31:57
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/Patient_msg_API.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:08
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/existing_patient_list.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:08
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/existing_patient_list.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:10
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/get_doc_hospital.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:10
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/get_doc_hospital.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:13
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/listing_doctor.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:13
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/listing_doctor.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:16
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/login_doctor.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:16
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/login_doctor.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:19
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/msg_broadcastAPI.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:19
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/msg_broadcastAPI.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:21
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/msg_mob_doc.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:21
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/msg_mob_doc.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:24
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/myListOneShot.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:24
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/myListOneShot.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:25
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/mylist_doctor.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:25
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/mylist_doctor.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:27
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/oneShotAudioFileUpload.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:27
+INFO : Remote Address =>5.9.111.70
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:27
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/oneShotAudioFileUpload.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:33
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/refer_RULES.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:33
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/refer_RULES.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:34
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/refer_in_response_hos.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:34
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/refer_in_response_hos.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:37
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/register_REST_GCM.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:37
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/register_REST_GCM.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:39
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/registration_doctor.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:39
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/registration_doctor.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:40
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/registration_patient.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:40
+INFO : Remote Address =>5.9.111.70
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:40
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/registration_patient.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:42
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/reset_password.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:42
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/reset_password.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:44
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/test_rest.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:32:44
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/test_rest.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:33:25
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/universal_doc_api_add_del.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:33:25
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/universal_doc_api_add_del.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:33:27
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/unregister_del_GCM.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:33:27
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/unregister_del_GCM.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:33:28
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/update_doc_profile.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:33:28
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/update_doc_profile.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:33:30
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/update_ref_for_existing.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:33:30
+INFO : Remote Address =>5.9.111.70
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 12:33:30
+INFO : Remote Address =>5.9.111.70
+INFO : PHP Scritp Name =>/dual_referral/update_ref_for_existing.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 13:05:48
+INFO : Remote Address =>49.249.136.164
+INFO : PHP Scritp Name =>/dual_referral/GET_BROADCAST_MSGS
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 13:05:48
+INFO : Remote Address =>49.249.136.164
+INFO : PHP Scritp Name =>/dual_referral/GET_BROADCAST_MSGS
+INFO : Type of Request =>POST
+INFO : Calling GET_BROADCAST_MSGS for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331hospital_id
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Messages available","Msg_list":[{"broadcast_id":"1","message_title":"ReferralIO","message_content":"","doctor_id":"0","hospital_id_author":"0","hospital_name":"","read_flag":"unread","datetime":"2015-12-29 21:08:34"}]}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 13:06:09
+INFO : Remote Address =>49.249.136.164
+INFO : PHP Scritp Name =>/dual_referral/GET_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 13:06:09
+INFO : Remote Address =>49.249.136.164
+INFO : PHP Scritp Name =>/dual_referral/GET_DOC
+INFO : Type of Request =>POST
+INFO : Calling get_doc for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331hospital_id19
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Doctors available","Doc_list":[{"refer_out_doc_id":"125","doctor_stub_id":"324","hospital_id":"19","refer_out_time":"2015-12-30 04:43:57","Doctor_serial_id":"324","Doctor_Title":"Dr.","Doctor_name":"Whitefield Columbia Asia","Doctor_dob":"48","Doctor_email":"nupur.t@columbiaasia.com","Doctor_specialization":"Medical Services","Doctor_qualification":"MBBS,MHA","Doctor_HospitalName":"Whitefield-Columbia Asia","Doctor_Country":"India","Doctor_State":"Karnataka","Doctor_City":"Bangalore","Doctor_Address":"Whitefield Bangalore","Doctor_mobile_number":"9620281969","Doctor_password":"ad4f7f9df2a5f86407e2eac841cce236","Doctor_photograph":"account_image.png","Doctor_yxp":"20","license_number":"111","visibility":"1","my_type":"I am a doctor","country_code":"+91","type_value":"","Doctor_login_enc_key":"","Doctor_unregistered":"False","reset_key":null}]}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 13:06:18
+INFO : Remote Address =>49.249.136.164
+INFO : PHP Scritp Name =>/dual_referral/REFFERING_OUT_STATS
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 13:06:18
+INFO : Remote Address =>49.249.136.164
+INFO : PHP Scritp Name =>/dual_referral/REFFERING_OUT_STATS
+INFO : Type of Request =>POST
+INFO : Calling REFFERING_OUT for doctor
+INFO : login with1dqar4ddkaxc3o6ilogin_id331doc_id324
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Refer OUT Patients available","ReferOUT_list":[{"Patient_thread_id":"617","Patient_Name":"Katti Mani","Patient_Age":"62","Patient_Gender":"Male","Patient_Location":"Marathahalli","Patient_mobile_number":"8686374719","Patient_issue_notes":"Cardiac issues","Reg_by_doc":"331","Patient_defined_notes":"Cardiac issues","doc_ref_id":"324","hospital_id_transaction":"19","refer_in_view_flag":"0","primary_status":"0","secondary_status":"","created_by":"Admin","audio_val":"","TImestamp":"2016-01-02 02:00:18","cnt":"0"},{"Patient_thread_id":"608","Patient_Name":"Mogalabi","Patient_Age":"38","Patient_Gender":"Female","Patient_Location":"Marathahalli","Patient_mobile_number":"8686374719","Patient_issue_notes":"Self fall down","Reg_by_doc":"331","Patient_defined_notes":"Self fall down","doc_ref_id":"324","hospital_id_transaction":"19","refer_in_view_flag":"0","primary_status":"0","secondary_status":"","created_by":"Admin","audio_val":"","TImestamp":"2016-01-02 01:37:08","cnt":"0"},{"Patient_thread_id":"604","Patient_Name":"Kavitha","Patient_Age":"39","Patient_Gender":"Female","Patient_Location":"Marathahalli","Patient_mobile_number":"8686374719","Patient_issue_notes":"Sever Back Pain","Reg_by_doc":"331","Patient_defined_notes":"Sever Back Pain","doc_ref_id":"324","hospital_id_transaction":"19","refer_in_view_flag":"0","primary_status":"0","secondary_status":"","created_by":"Admin","audio_val":"","TImestamp":"2016-01-02 01:25:10","cnt":"0"},{"Patient_thread_id":"583","Patient_Name":"dinesh","Patient_Age":"2","Patient_Gender":"Male","Patient_Location":"satya","Patient_mobile_number":"8686374719","Patient_issue_notes":"Dear Dr, Referring you this patient.Pls do the needful and let me know progress,through this app.Thanks","Reg_by_doc":"331","Patient_defined_notes":"Note","doc_ref_id":"324","hospital_id_transaction":"19","refer_in_view_flag":"0","primary_status":"0","secondary_status":"","created_by":"Mobile Application","audio_val":"","TImestamp":"2015-12-31 11:53:31","cnt":"0"}]}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 13:39:32
+INFO : Remote Address =>106.206.148.180
+INFO : PHP Scritp Name =>/dual_referral/REG_DOC_STUB
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 13:39:32
+INFO : Remote Address =>106.206.148.180
+INFO : PHP Scritp Name =>/dual_referral/REG_DOC_STUB
+INFO : Type of Request =>POST
+INFO : Calling registration for doctor
+INFO : before handling temp doctors
+INFO : count handling temp doctors1
+INFO : after handling temp doctors
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Success","msg":"Successfully doctor has been registered"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 13:40:27
+INFO : Remote Address =>106.206.148.180
+INFO : PHP Scritp Name =>/dual_referral/REG_DOC_STUB
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 13:40:27
+INFO : Remote Address =>106.206.148.180
+INFO : PHP Scritp Name =>/dual_referral/REG_DOC_STUB
+INFO : Type of Request =>POST
+INFO : Calling registration for doctor
+INFO : before handling temp doctors
+INFO : count handling temp doctors0
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"A user already registered with this mobile number"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 14:18:35
+INFO : Remote Address =>116.202.105.135
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 14:18:35
+INFO : Remote Address =>116.202.105.135
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login withkvyyhyrjsq0pxecqlogin_id275
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 14:29:52
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 14:29:52
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 15:06:45
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 15:06:45
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 15:44:10
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 15:44:10
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 16:51:05
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 16:51:05
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 16:55:48
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 16:55:48
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 16:56:46
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 16:56:46
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:00:32
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:00:32
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:30:34
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:30:34
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:42:48
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:42:48
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:43:03
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:43:03
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:43:34
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:43:34
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:45:37
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:45:37
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:51:51
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 17:51:51
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 18:24:40
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 18:24:40
+INFO : Remote Address =>123.201.241.145
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 18:30:24
+INFO : Remote Address =>89.163.148.58
+INFO : PHP Scritp Name =>/dual_referral/universal_doc_api_add_del.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 18:30:24
+INFO : Remote Address =>89.163.148.58
+INFO : PHP Scritp Name =>/dual_referral/universal_doc_api_add_del.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 18:30:27
+INFO : Remote Address =>89.163.148.58
+INFO : PHP Scritp Name =>/dual_referral/unregister_del_GCM.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 18:30:27
+INFO : Remote Address =>89.163.148.58
+INFO : PHP Scritp Name =>/dual_referral/unregister_del_GCM.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 18:30:31
+INFO : Remote Address =>89.163.148.58
+INFO : PHP Scritp Name =>/dual_referral/update_doc_profile.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 18:30:31
+INFO : Remote Address =>89.163.148.58
+INFO : PHP Scritp Name =>/dual_referral/update_doc_profile.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 18:30:35
+INFO : Remote Address =>89.163.148.58
+INFO : PHP Scritp Name =>/dual_referral/update_ref_for_existing.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 18:30:35
+INFO : Remote Address =>89.163.148.58
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 18:30:35
+INFO : Remote Address =>89.163.148.58
+INFO : PHP Scritp Name =>/dual_referral/update_ref_for_existing.php
+INFO : Type of Request =>GET
+INFO : _code......404get_status_message...Not Found_content_type....application/json
+INFO : response
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 18:55:02
+INFO : Remote Address =>219.91.171.225
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 18:55:02
+INFO : Remote Address =>219.91.171.225
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 19:25:27
+INFO : Remote Address =>219.91.171.225
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 19:25:27
+INFO : Remote Address =>219.91.171.225
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 20:02:24
+INFO : Remote Address =>219.91.171.225
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 20:02:24
+INFO : Remote Address =>219.91.171.225
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 21:32:39
+INFO : Remote Address =>219.91.171.225
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 21:32:39
+INFO : Remote Address =>219.91.171.225
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 22:37:21
+INFO : Remote Address =>219.91.171.225
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 22:37:21
+INFO : Remote Address =>219.91.171.225
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 23:20:25
+INFO : Remote Address =>219.91.171.225
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-02 23:20:25
+INFO : Remote Address =>219.91.171.225
+INFO : PHP Scritp Name =>/dual_referral/ADD_DEL_DOC
+INFO : Type of Request =>POST
+INFO : Calling ADD_DEL_DOC for doctor
+INFO : login with2xy7tvkv56l5h6l5login_id50
+INFO : _code......400get_status_message...Bad Request_content_type....application/json
+INFO : response{"status":"Failed","msg":"Either encrypted key or id or doc id is empty"}

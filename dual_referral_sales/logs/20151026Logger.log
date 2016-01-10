@@ -1,0 +1,14 @@
+INFO : ------------------------------------------
+INFO : Date =>2015-10-26 20:32:18
+INFO : Remote Address =>116.202.99.25
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2015-10-26 20:32:18
+INFO : Remote Address =>116.202.99.25
+INFO : PHP Scritp Name =>/dual_referral_sales/MSG_API
+INFO : Type of Request =>POST
+INFO : Calling MSG_API for sales
+INFO : login withyii33rd7realj7tclogin_id130pat_thrd_id238doc_idtest130
+INFO : _code......200get_status_message...OK_content_type....application/json
+INFO : response{"status":"Failure","msg":"Message is empty","msg_list":[{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:02"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:15"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:36"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:46"},{"message":"thx for referring. will let you know soon  ","doc_id":"130","Doctor_name":"Aditya","timestamp":"2015-10-22 08:19:56"},{"message":"thx ","doc_id":"56","Doctor_name":"Shashi","timestamp":"2015-10-22 08:23:20"},{"message":"surgery done  ","doc_id":"2","Doctor_name":"Raksha Pai","timestamp":"2015-10-22 08:26:20"},{"message":"tuc","doc_id":"2","Doctor_name":"Raksha Pai","timestamp":"2015-10-26 09:12:48"}]}

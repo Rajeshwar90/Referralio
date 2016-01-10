@@ -1,0 +1,250 @@
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 00:01:17
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9742196219
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','MOHAN KUMAR V','45','manjunatha.r@columbiaasia.com','GENERAL MEDICINE','MD','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9742196219',md5('96219'),'account_image.png','2','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9742196219 and password is 96219 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 00:02:52
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9739733833
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','ANOOP ALVA','39','manjunatha.r@columbiaasia.com','GASTROENTEROLOGY','MD','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9739733833',md5('33833'),'account_image.png','1','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9739733833 and password is 33833 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 00:04:34
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9886201855
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','ARUN K G','51','manjunatha.r@columbiaasia.com','NEPHROLOGY','DNB(NEPHRO)','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9886201855',md5('01855'),'account_image.png','4','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9886201855 and password is 01855 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 00:06:39
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9482572166
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','VENUGOPAL KRISHNA ','51','manjunatha.r@columbiaasia.com','NEUROLOGY','DM','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9482572166',md5('72166'),'account_image.png','1','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9482572166 and password is 72166 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 00:08:15
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9686665746
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','MAQSOOD AHMED','48','manjunatha.r@columbiaasia.com','NEURO SURGERY','MCH,MRCS(UK)','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9686665746',md5('65746'),'account_image.png','1','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9686665746 and password is 65746 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 00:09:52
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9980742288
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','MADHURA PHATAK','41','manjunatha.r@columbiaasia.com','GYNAECOLOGY','MS, MRCOG','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9980742288',md5('42288'),'account_image.png','1','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9980742288 and password is 42288 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 00:11:15
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9916101828
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','Veena','40','manjunatha.r@columbiaasia.com','GYNAECOLOGY','MS','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9916101828',md5('01828'),'account_image.png','1','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9916101828 and password is 01828 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 00:12:42
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9986615283
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','BHUVANESHWAR US','51','manjunatha.r@columbiaasia.com','PAEDIATRICS & NEONATOLOGIST','MD','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9986615283',md5('15283'),'account_image.png','6','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9986615283 and password is 15283 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 00:14:23
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9731931373
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','ANIL JUMAR Y C','42','manjunatha.r@columbiaasia.com','PAEDIATRICS & NEONATOLOGIST','MD','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9731931373',md5('31373'),'account_image.png','2','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9731931373 and password is 31373 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 00:15:59
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9845128181
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','AJAY HEGDE','45','manjunatha.r@columbiaasia.com','ORTHOPAEDICS/ JOINT REPLACEMENT/ARTHROSCOPY','MS','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9845128181',md5('28181'),'account_image.png','1','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9845128181 and password is 28181 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 00:17:26
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9986015402
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','DATHATHRI','46','manjunatha.r@columbiaasia.com','ENT','MS(ENT)','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9986015402',md5('15402'),'account_image.png','6','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9986015402 and password is 15402 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 00:18:38
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile8970045700
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','PRAVEEN KUMAR','41','manjunatha.r@columbiaasia.com','ENT','MS(ENT)','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','8970045700',md5('45700'),'account_image.png','1','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 8970045700 and password is 45700 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 00:20:21
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9901678081
+INFO : POST data Array
+INFO : not unique data *******************************
+INFO query: insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,my_type,country_code) values('Dr.','DINESH KUMAR T P','45','manjunatha.r@columbiaasia.com','UROLOGY','MCH(UROLOGY)','Mysore-Columbia Asia','India','Karnataka','Mysore','Mysore','9901678081',md5('78081'),'account_image.png','6','111','1','I am a doctor','+91')
+calling mobile msg 
+calling mobile msgMysore-Columbia Asia - Your username is 9901678081 and password is 78081 
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 09:02:39
+INFO : Remote Address =>106.197.57.33
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/hospital_user_registration_UI.php
+INFO : Type of Request =>POST
+INFO : insert query=>insert into doctor_stub (Doctor_Title,Doctor_name, Doctor_dob, Doctor_email, Doctor_specialization, Doctor_qualification, Doctor_HospitalName,Doctor_Country,Doctor_State,Doctor_City,Doctor_Address, Doctor_mobile_number, Doctor_password, Doctor_photograph,Doctor_yxp,license_number,visibility,type_value,country_code) values('Mr.','Manjunath','','manjunatha.r@columbiaasia.com','','','','','','','','9886654463',md5('54463'),'account_image.png','23','','0','hospital_user','')
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 09:22:51
+INFO : Remote Address =>172.245.224.226
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/del_hospital_docs.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 09:23:04
+INFO : Remote Address =>172.245.224.226
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/deleteHospitalUserMapping.php
+INFO : Type of Request =>GET
+INFO : after post
+INFO : received posthospital_idreferring_doc_id
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 09:23:06
+INFO : Remote Address =>172.245.224.226
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/delete_referring_docs.php
+INFO : Type of Request =>GET
+INFO : query_update------------>update referral_mapping set referring_doctor_id='' where hospital_id='' and referring_doctor_id=''
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 09:23:52
+INFO : Remote Address =>172.245.224.226
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/hospital_user_registration_UI.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 09:25:27
+INFO : Remote Address =>172.245.224.226
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 09:25:27
+INFO : Remote Address =>172.245.224.226
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_mobile_msg.php
+INFO : Type of Request =>GET
+INFO : doctor_req name
+INFO : refer in count0
+INFO : hospital name
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 09:25:31
+INFO : Remote Address =>172.245.224.226
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/send_personal_broadcast.php
+INFO : Type of Request =>GET
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 09:25:31
+INFO : Remote Address =>172.245.224.226
+Result+{"multicast_id":5590823684333986099,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"MissingRegistration"}]} 
+INFO : result
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 09:27:00
+INFO : Remote Address =>172.245.224.226
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updateHospitalUserMapping.php
+INFO : Type of Request =>GET
+INFO : after post
+INFO : received posthospital_idreferring_doc_id
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 09:27:05
+INFO : Remote Address =>172.245.224.226
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 09:27:05
+INFO : Remote Address =>172.245.224.226
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updaterefdoc.php
+INFO : Type of Request =>GET
+INFO : before post
+INFO : received post
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 17:39:02
+INFO : Remote Address =>103.230.222.86
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/del_hospital_docs.php
+INFO : Type of Request =>POST
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 17:48:15
+INFO : Remote Address =>103.230.222.86
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/doc_registration_UI.php
+INFO : Type of Request =>POST
+INFO : POST data mobile9880130842
+INFO : POST data Array
+INFO :  not unique data *******************************
+INFO :  doc id present is *******************************2
+INFO :  count_query_unique_referout_any*******************************0
+INFO :  count_query_unique_referout*******************************0
+INFO :  count_query_unique_referoutINSERT INTO hospital_refer_out_doctor_stub(doctor_stub_id, hospital_id) VALUES ('2','18')
+INFO :  before handling temp doctors
+INFO : count handling temp doctors0
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 17:51:38
+INFO : Remote Address =>103.230.222.86
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 17:51:38
+INFO : Remote Address =>103.230.222.86
+INFO : inside ios construct
+INFO : PHP Scritp Name =>/dual_referral_hospital_UI/updatepatient.php
+INFO : Type of Request =>POST
+INFO : before post
+INFO : received post
+INFO for query: select tmp.*,sd.Doctor_mobile_number as Ref_mob_number,sd.Doctor_name as Ref_Title,sd.Doctor_name as Ref_name,sd.Doctor_email as Ref_email from doctor_stub sd inner join (SELECT ps.patient_thread_id,ps.Patient_Name ,ps.reg_by_doc,ps.doc_ref_id,ds.Doctor_Title as Reg_Title,ds.Doctor_name as Reg_name,ds.Doctor_mobile_number as Reg_mobnumber,ds.Doctor_email as Reg_email FROM `patient_stub` ps inner join doctor_stub ds on ps.reg_by_doc=ds.Doctor_serial_id where ps.patient_thread_id= '625')as tmp on tmp.doc_ref_id=sd.Doctor_serial_id
+INFO : inside androidAPA91bEbzPUx_kXMaTSjN2TCD_COKEb96c-cAKsn5MzdNTZpulelqfo-M0W3KGZxkt_yvRvliDxeWen-1Qd-9p8L7BZI4wN2xstN5Dy6LWOAg5P1QhuJiRfzrdN9qim4WR2ayQ5BPbCZ
+INFO : Message*****Array
+INFO : ------------------------------------------
+INFO : Date =>2016-01-08 17:51:38
+INFO : Remote Address =>103.230.222.86
+Result+{"multicast_id":5832734776486161734,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1452255698115772%1927fc30f9fd7ecd"}]} 
+INFO : result*****
