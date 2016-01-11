@@ -225,15 +225,23 @@ else if ($pat_thread_id_new != "" && $doc_ref_id != 0) {
 						if (mysql_num_rows ( $res_hos_all ) > 0) {
 							
 							while ( $row_res_hos_all = mysql_fetch_assoc ( $res_hos_all ) ) {
+								$doc_mob_number=$row_res_hos_all['Doctor_mobile_number'];
 								$login_enc_key = $row_res_hos_all ['Doctor_login_enc_key'];
-								if ($login_enc_key != "") {
-									// send push
+								/* if ($login_enc_key != "") {
+								  // send push to the super users(hospital_user_all)
+								  //Actually here push should go but for the time being SMS is going as coded below
+									$mobile_number = $row_res_hos_all ['Doctor_mobile_number'];
+									$msg_SMS = $Patient_Name . "have been referred to Dr." . $doc_ref_id_name . " by Dr." . $doctor_name;
+									$this->send_msg ( $mobile_number, $msg_SMS );
+									
 								} else {
 									// send SMS
 									$mobile_number = $row_res_hos_all ['Doctor_mobile_number'];
 									$msg_SMS = $Patient_Name . "have been referred to Dr." . $doc_ref_id_name . " by Dr." . $doctor_name;
 									$this->send_msg ( $mobile_number, $msg_SMS );
-								}
+								} */
+								$msg_SMS = $Patient_Name . "have been referred to Dr." . $doc_ref_id_name . " by Dr." . $doctor_name;
+								$this->send_msg ( $doc_mob_number, $msg_SMS );
 							}
 						}
 						
@@ -280,7 +288,7 @@ else if ($pat_thread_id_new != "" && $doc_ref_id != 0) {
 							if ($hospital_user_available == 1) {
 								// sending push to the hospital user if any
 								// need to get the gcm id of the hospital user
-								$sql_gcm_hospital_user = mysql_query ( "select mobile_os_type,gcm_regid from gcm_users gs where gs.mob_number=(select Doctor_mobile_number from doctor_stub where Doctor_serial_id='$hospital_user_id')", $this->db );
+								$sql_gcm_hospital_user = mysql_query ( "select mob_number,mobile_os_type,gcm_regid from gcm_users gs where gs.mob_number=(select Doctor_mobile_number from doctor_stub where Doctor_serial_id='$hospital_user_id')", $this->db );
 								
 								$this->logger->write ( "INFO :", "mysql_num_rows inside sql_gcm_hospital_user" . mysql_num_rows ( $sql_gcm_hospital_user ) );
 								if (mysql_num_rows ( $sql_gcm_hospital_user ) > 0) {
@@ -288,7 +296,11 @@ else if ($pat_thread_id_new != "" && $doc_ref_id != 0) {
 									$result_sql_gcm_hospital_user = mysql_fetch_array ( $sql_gcm_hospital_user, MYSQL_ASSOC );
 									$gcm_id_hospital_user = $result_sql_gcm_hospital_user ['gcm_regid'];
 									$mobile_os_hospital_user = $result_sql_gcm_hospital_user ['mobile_os_type'];
+									
+									$mobile_no_hos_user=$result_sql_gcm_hospital_user['mob_number'];
+									
 									$this->logger->write ( "INFO :", "login gcm_id" . $gcm_id_hospital_user . "=>OS=>" . $mobile_os_hospital_user );
+									$this->logger->write ( "INFO :", "hospital user phone number" . $mobile_no_hos_user);
 									
 									if ($mobile_os_hospital_user == 'Android') {
 										$this->logger->write ( "INFO :", "inside android sales" . $gcm_id_hospital_user );
@@ -303,6 +315,13 @@ else if ($pat_thread_id_new != "" && $doc_ref_id != 0) {
 										$this->logger->write ( "INFO :", "Message*****" . $message );
 										$result1 = $this->gcm_sales->send_notification ( $registatoin_ids, $message );
 										$this->logger->write ( "INFO :", "result1*****" . $result1 );
+										
+										//for sms $msg
+										$msg = "DR." . $doctor_name . " has reffered a patient " . $Patient_Name . "to Dr." . $doc_ref_id_name;
+										
+										$this->logger->write ( "INFO :", "SMS SENDING****".$msg);
+										$this->send_msg ( $mobile_no_hos_user, $msg );
+										
 									} else if ($mobile_os_hospital_user == 'IOS') {
 										$this->logger->write ( "INFO :", "inside IOS" . $gcm_id_hospital_user );
 										$registatoin_ids = array (
@@ -322,7 +341,15 @@ else if ($pat_thread_id_new != "" && $doc_ref_id != 0) {
 										 * $message = array("msg" => "DR.".$doctor_name." have reffered a patient ".$Patient_Name."to Dr.".$doc_ref_id_name ,"flag_push"=> "Refer", "Refer_In_cnt" => $count_new_pat_client);
 										 * $result=$this->obj->sendIosPush($registatoin_ids,$message);
 										 */
+										
+										$this->logger->write ( "INFO :", "SMS SENDING****".$message);
+										$this->send_msg ( $mobile_no_hos_user, $message );
+										
 									}
+									
+									//to send mobile SMS in any case whether it is android or IOS to hospital user
+									/* $this->logger->write ( "INFO :", "SMS SENDING****");
+									$this->send_msg ( $mobile_no_hos_user, $message ); */
 								}
 								
 								// end of sending push if any hospital user is present for the referring doctor
@@ -389,7 +416,7 @@ else if ($pat_thread_id_new != "" && $doc_ref_id != 0) {
 
 								//sending push to the hospital user if any
 								//need to get the gcm id of the hospital user
-								$sql_gcm_hospital_user=mysql_query("select mobile_os_type,gcm_regid from gcm_users gs where gs.mob_number=(select Doctor_mobile_number from doctor_stub where Doctor_serial_id='$hospital_user_id')",$this->db);
+								$sql_gcm_hospital_user=mysql_query("select mob_number,mobile_os_type,gcm_regid from gcm_users gs where gs.mob_number=(select Doctor_mobile_number from doctor_stub where Doctor_serial_id='$hospital_user_id')",$this->db);
 									
 								$this->logger->write("INFO :","mysql_num_rows inside sql_gcm_hospital_user".mysql_num_rows($sql_gcm_hospital_user));
 								if(mysql_num_rows($sql_gcm_hospital_user)>0){
@@ -397,7 +424,11 @@ else if ($pat_thread_id_new != "" && $doc_ref_id != 0) {
 									$result_sql_gcm_hospital_user= mysql_fetch_array($sql_gcm_hospital_user,MYSQL_ASSOC);
 									$gcm_id_hospital_user=$result_sql_gcm_hospital_user['gcm_regid'];
 									$mobile_os_hospital_user=$result_sql_gcm_hospital_user['mobile_os_type'];
+									
+									$mobile_no_hos_user=$result_sql_gcm_hospital_user['mob_number'];
+									
 									$this->logger->write("INFO :","login gcm_id".$gcm_id_hospital_user."=>OS=>".$mobile_os_hospital_user);
+									$this->logger->write("INFO :","mobile hospital user".$mobile_no_hos_user);
 										
 									if($mobile_os_hospital_user == 'Android'){
 										$this->logger->write("INFO :","inside android sales".$gcm_id_hospital_user);
@@ -406,6 +437,13 @@ else if ($pat_thread_id_new != "" && $doc_ref_id != 0) {
 										$this->logger->write("INFO :","Message*****".$message);
 										$result1 = $this->gcm_sales->send_notification($registatoin_ids, $message);
 										$this->logger->write("INFO :","result1*****".$result1);
+										
+										//for sms $msg
+										$msg= "DR.".$doctor_name." has reffered a patient ".$Patient_Name."to Dr.".$doc_ref_id_name;
+										
+										$this->logger->write ( "INFO :", "SMS SENDING+++****".$msg);
+										$this->send_msg ( $mobile_no_hos_user, $msg );
+										
 									}else if($mobile_os_hospital_user == 'IOS'){
 										$this->logger->write("INFO :","inside IOS".$gcm_id_hospital_user);
 										$registatoin_ids = array($gcm_id_hospital_user);
@@ -413,11 +451,18 @@ else if ($pat_thread_id_new != "" && $doc_ref_id != 0) {
 										$extra = array("msg" => "DR.".$doctor_name." has reffered a patient ".$Patient_Name."to Dr.".$doc_ref_id_name ,"flag_push"=> "Refer", "Refer_In_cnt" => $count_new_pat_client);
 										$result = $this->obj->sendIosPush($registatoin_ids,$message,$extra);
 										$this->logger->write("INFO :","inside IOS result".$result);
+										
+										$this->logger->write ( "INFO :", "SMS SENDING+++****".$message);
+										$this->send_msg ( $mobile_no_hos_user, $message );
 										/* $this->logger->write("INFO :","inside IOS".$gcm_id_hospital_user);
 										 $registatoin_ids = array($gcm_id_hospital_user);
 										 $message = array("msg" => "DR.".$doctor_name." have reffered a patient ".$Patient_Name."to Dr.".$doc_ref_id_name ,"flag_push"=> "Refer", "Refer_In_cnt" => $count_new_pat_client);
 										 $result=$this->obj->sendIosPush($registatoin_ids,$message); */
 									}
+									
+									//to send mobile SMS in any case whether it is android or IOS to hospital user
+									/* $this->logger->write ( "INFO :", "SMS SENDING+++****");
+									$this->send_msg ( $mobile_no_hos_user, $message ); */
 										
 								}
 									
