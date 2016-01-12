@@ -199,11 +199,11 @@ class REGISTRATION_PATIENT extends REST {
 								$count_new_pat_client = $row_push_cnt_view ['cnt'];
 							} else {
 								// changes for all in the referral map entry
-								$error = array (
+								/* $error = array (
 										'status' => "Failure",
 										"msg" => "Some issue with hospital user mapping" 
 								);
-								$this->response ( $this->json ( $error ), 400 );
+								$this->response ( $this->json ( $error ), 400 ); */
 							}
 						} else {
 							// do nothing for the time being

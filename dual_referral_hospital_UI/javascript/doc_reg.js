@@ -588,14 +588,14 @@ function change_secondary(sel,id){
 }
 
 
-function add_referring_2_hospital_user(){
+/*function add_referring_2_hospital_user(){
 	
 	var hospital_id=document.getElementById('hospital_id').value;
 	var stub_id=document.getElementById('stub_id').value;
 	var refer_select=document.getElementById('refer_select').value;
 	alert("Development in progress...");
 	return false;
-}
+}*/
 
 
 function add_hospital_user(){
